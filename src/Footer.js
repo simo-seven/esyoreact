@@ -48,18 +48,25 @@ const Footer = () => {
       </div>
       <div className="container px-lg-5">
         <div className="d-flex justify-content-center pt-2 footersocials">
-          <a
+          <Link
             className="btn text-white"
-            href="https://www.instagram.com/esyo_eu/"
+            to="https://www.instagram.com/esyo_eu/"
+            target="_blank"
+            rel="noreferrer noopener"
           >
-            <i className="fab fa-2x fa-instagram"></i>
-          </a>
-          <a className="btn text-white" href="https://www.youtube.com/@esyo">
-            <i className="fab fa-2x fa-youtube"></i>
-          </a>
-          <a className="btn text-white" href="mailto:segreteria@esyo.eu">
+            <i className="fab fa-instagram fa-2x"></i>
+          </Link>
+          <Link
+            className="btn text-white"
+            to="https://www.youtube.com/@esyo"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i className="fab fa-youtube fa-2x"></i>
+          </Link>
+          <Link className="btn text-white" to="mailto:segreteria@esyo.eu">
             <i className="fa-solid fa-2x fa-envelope"></i>
-          </a>
+          </Link>
         </div>
         <div className="copyright">
           <div className="row">

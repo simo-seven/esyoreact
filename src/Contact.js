@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Contact = () => {
   return (
     <>
@@ -69,9 +71,7 @@ const Contact = () => {
                           required
                         />
                         <label className="form-check-label" for="gdprConsent">
-                          I agree to the
-                          <a href="/pages/privacypolicy.html">privacy-policy</a>
-                          and the terms of the GDPR. I agree with the
+                          I agree to the <Link to="/privacypolicy">privacy-policy</Link> and the terms of the GDPR. I agree with the
                           collection, storage and processing of my personal data
                           and with being contacted. Data is stored on ESYO
                           infrastructure for organizational and administrative
@@ -106,12 +106,9 @@ const Contact = () => {
                 <h3 className="margintop2vh text-white">
                   Office and Communication
                 </h3>
-                <a href="mailto:segreteria@esyo.eu">
-                  <small>
-                    <i className="fa fa-envelope beCareful"></i>
-                  </small>{" "}
-                  Alessio Glavina
-                </a>
+                <Link to="mailto:segreteria@esyo.eu">
+                  <i className="fa fa-envelope beCareful"></i> Alessio Glavina
+                </Link>
               </div>
             </div>
             <div
@@ -120,13 +117,10 @@ const Contact = () => {
             >
               <div className="d-flex flex-column text-center rounded">
                 <h3 className="margintop2vh text-white">Artistic Director</h3>
-                <a href="mailto:maestro@esyo.eu">
-                  <small>
-                    <i className="fa fa-envelope beCareful"></i>
-                  </small>{" "}
-                  M<sup>o</sup> {" "}
+                <Link to="mailto:maestro@esyo.eu">
+                  <i className="fa fa-envelope beCareful"></i> M<sup>o</sup>{" "}
                   Igor Coretti Kuret
-                </a>
+                </Link>
               </div>
             </div>
             <div
@@ -136,7 +130,7 @@ const Contact = () => {
               <div className="d-flex flex-column text-center rounded">
                 <h3 className="margintop2vh text-white">Social Media</h3>
                 <p>
-                  <i className="fa-solid fa-share-nodes beCareful"></i> {" "} Jan Coretti Kuret
+                  <i className="fa-solid fa-share-nodes beCareful"></i> Jan Coretti Kuret
                 </p>
               </div>
             </div>
@@ -147,9 +141,14 @@ const Contact = () => {
               <div className="d-flex flex-column text-center rounded">
                 <h3 className="margintop2vh text-white">Webmaster</h3>
                 <p>
-                  <a href="https://linktr.ee/simo_seven">
+                  <Link
+                    to="https://linktr.ee/simo_seven"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <i className="fa-solid fa-arrow-pointer"></i>
-                  </a> {" "} Simone Sette
+                  </Link>{" "}
+                  Simone Sette
                 </p>
               </div>
             </div>
@@ -167,15 +166,20 @@ const Contact = () => {
             <div className="col-lg-7">
               <div className="wow fadeInUp" data-wow-delay="0.3s">
                 <div className="social-icons">
-                  <a href="https://www.instagram.com/esyo_eu/" target="_blank">
+                  <Link
+                    to="https://www.instagram.com/esyo_eu/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <i className="fab fa-instagram fa-2x"></i>
-                  </a>
-                  <a href="https://www.youtube.com/@esyo" target="_blank">
+                  </Link>
+                  <Link
+                    to="https://www.youtube.com/@esyo"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <i className="fab fa-youtube fa-2x"></i>
-                  </a>
-                  {/* <a href="https://www.youtube.com/@esyo" target="_blank"
-                    ><i className="fab fa-facebook-f fa-2x"></i
-                  ></a>*/}
+                  </Link>
                 </div>
               </div>
             </div>
