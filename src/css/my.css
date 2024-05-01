@@ -280,6 +280,9 @@ div.form-floating textarea.textareaheight {
 p.alignend{
   text-align: end;
 }
+button.languagebutton{
+  border: 1px solid
+}
 
 /* Gallery Press & Media */
 .galleryMedia {
