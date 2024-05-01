@@ -98,11 +98,18 @@
   text-align: cemter;
   margin-top: 9vh;
 }
+
+div img.footerlogo {
+  width: 80%;
+}
+div.footersocials {
+  margin-bottom: 0.5rem;
+}
 .joinNow {
   margin-top: 3.5vh;
   font-size: 1.3rem;
 }
-.expired{
+.expired {
   background-color: rgb(126, 126, 126);
 }
 .beCareful {
@@ -179,7 +186,7 @@ video {
   justify-content: center;
 }
 
-.overLap{
+.overLap {
   z-index: 1;
 }
 /* orchestra page layout */
@@ -247,7 +254,6 @@ video {
 }
 /* Faculty End */
 
-
 /* Maestro page */
 .profile-image {
   max-width: 100%;
@@ -267,6 +273,10 @@ video {
   filter: grayscale(0%); /* Al passaggio del mouse, l'immagine torna a colori */
 }
 /* end maestro page */
+
+div.form-floating textarea.textareaheight {
+  height: 150px;
+}
 
 /* Gallery Press & Media */
 .galleryMedia {
