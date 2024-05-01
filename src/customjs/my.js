@@ -1,22 +1,20 @@
 function openMenu() {
-  var menu = document.getElementById("myMenu");
+  const menu = document.querySelector("#myMenu");
   menu.style.display = "block";
   menu.style.animation = "fadeIn 0.5s ease forwards";
 }
 
 function closeMenu() {
-  var menu = document.getElementById("myMenu");
+  const menu = document.querySelector("#myMenu");
   menu.style.animation = "fadeOut 0.5s ease forwards";
-  setTimeout(function () {
+  setTimeout(() => {
     menu.style.display = "none";
   }, 500);
 }
 
 function openSubMenu(submenuId) {
-  var submenus = document.getElementsByClassName("submenu");
-  for (var i = 0; i < submenus.length; i++) {
-    submenus[i].style.display = "none";
-  }
+  const submenus = document.querySelectorAll(".submenu");
+  submenus.forEach(submenu => submenu.style.display = "none");
   document.getElementById(submenuId).style.display = "block";
 }
 

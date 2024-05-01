@@ -277,6 +277,9 @@ video {
 div.form-floating textarea.textareaheight {
   height: 150px;
 }
+p.alignend{
+  text-align: end;
+}
 
 /* Gallery Press & Media */
 .galleryMedia {

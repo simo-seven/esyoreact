@@ -7,6 +7,7 @@ import Home from "./Home.js";
 import NotFound from "./NotFound.js";
 import Footer from "./Footer.js";
 import Contact from "./Contact.js";
+import Donations from "./Donations.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
+            <Route path="/donations" element={<Donations />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
