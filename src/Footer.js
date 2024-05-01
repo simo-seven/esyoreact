@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "./img/logos/LogoSmall.png";
 
 const Footer = () => {
   return (
@@ -41,7 +40,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-lg-4 hideOnMobile">
             <Link to="/">
-              <img src={logo} alt="Logo ESYO" className="footerlogo" />
+              <img src="./img/logos/LogoSmall.png" alt="Logo ESYO" className="footerlogo" />
             </Link>
           </div>
         </div>

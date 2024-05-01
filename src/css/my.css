@@ -160,7 +160,7 @@ select option {
   font-family: "Jost", sans-serif;
 }
 .intro-screen {
-  background-image: url(/src/img/testbkg2BW.jpg);
+  background-image: url(/public/img/testbkg2BW.jpg);
   width: 100%;
   bottom: 0;
   height: auto;
