@@ -16,6 +16,7 @@ import PressMedia from "./PressMedia.js";
 import ArtisticDirector from "./ArtisticDirector.js";
 import Faculty from "./Faculty.js";
 import OtherEvents from "./OtherEvents.js";
+import Auditions from "./Auditions.js";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route exact path="/" element={<Home />}></Route>
             <Route path="/donations" element={<Donations />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/auditions" element={<Auditions />}></Route>
             <Route path="/otherevents" element={<OtherEvents />}></Route>
             <Route path="/faculty" element={<Faculty />}></Route>
             <Route path="/organizer" element={<Organizer />}></Route>

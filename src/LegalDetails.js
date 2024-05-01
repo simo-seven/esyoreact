@@ -26,7 +26,7 @@ const LegalDetails = () => {
             </p>
           </div>
           <div className="py-3">
-            <a href="/files/Disclaimer.pdf" download="Dislaimer">
+            <a href="/files/Disclaimer.pdf" download="Disclaimer">
               <i className="fa fa-file-invoice me-3"></i>Disclaimer
             </a>
           </div>

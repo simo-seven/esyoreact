@@ -153,6 +153,16 @@ div.footersocials {
   margin-top: 4vh;
   margin-bottom: 4vh;
 }
+div.morespace {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+p.margintop5vh {
+  margin-top: 5vh;
+}
+.fontsize1point1rem {
+  font-size: 1.1rem;
+}
 h1.pageTitle {
   font-size: 5rem;
 }
@@ -277,11 +287,11 @@ video {
 div.form-floating textarea.textareaheight {
   height: 150px;
 }
-p.alignend{
+p.alignend {
   text-align: end;
 }
-button.languagebutton{
-  border: 1px solid
+button.languagebutton {
+  border: 1px solid;
 }
 
 /* Gallery Press & Media */

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import OrganizerDescription from "./OrganizerDescription";
-import data from "./data/sgme.json";
+import data from "./data/organizer.json";
 
 const Organizer = () => {
   const content = data;
