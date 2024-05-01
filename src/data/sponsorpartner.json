@@ -1,0 +1,27 @@
+[
+    {
+        "src": "/img/logos/bauhaus2xnegative.png",
+        "alt": "New European Bauhaus",
+        "id":"1"
+    },
+    {
+        "src": "/img/logos/kisp.png",
+        "alt": "Camera di Commercio Italo-Serba",
+        "id":"2"
+    },
+    {
+        "src": "/img/logos/bur.png",
+        "alt": " Convention & Visitors Bureau Trieste",
+        "id":"3"
+    },
+    {
+        "src": "/img/logos/jskd.png",
+        "alt": "Javni skald za kulturne dejavnosti",
+        "id":"4"
+    },
+    {
+        "src": "/img/logos/fames.png",
+        "alt": "FAMES Institute",
+        "id":"5"
+    }
+]

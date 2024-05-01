@@ -1,38 +1,3 @@
 [
-    {
-        "city": "Belgrade, Serbia",
-        "date": "02/01/2024",
-        "venue": "Kolarac Concert Hall",
-        "time": "8.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by L.V. Beethoven, V. Bellini, A. Borodin and A. Dvorak",
-        "id": "1"
-    },
-    {
-        "city": "Novi Sad, Serbia",
-        "date": "03/01/2024",
-        "venue": "City Concert Hall",
-        "time": "8.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by L.V. Beethoven, V. Bellini, A. Borodin and A. Dvorak",
-        "id": "2"
-    },
-    {
-        "city": "Zagreb, Croatia",
-        "date": "04/01/2024",
-        "venue": "Novinarski Dom Hall",
-        "time": "8.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by L.V. Beethoven, V. Bellini, A. Borodin and A. Dvorak",
-        "id": "3"
-    },
-    {
-        "city": "Trieste, Italy",
-        "date": "05/01/2024",
-        "venue": "Politeama Rossetti 'Generali' Hall",
-        "time": "8.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by L.V. Beethoven, V. Bellini, A. Borodin and A. Dvorak",
-        "id": "4"
-    }
+    
 ]

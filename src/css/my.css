@@ -169,9 +169,15 @@ h1.pageTitle {
 div.nobkg {
   background: none;
 }
+div.bkgtrans {
+  background-color: transparent;
+}
 div.nobordertransparent {
   border: none;
   background-color: transparent;
+}
+h1.margintopfiverem {
+  margin-top: 5rem;
 }
 select option {
   font-family: "Jost", sans-serif;

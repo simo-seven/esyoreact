@@ -1,0 +1,50 @@
+[
+    {
+        "country": "Belarus",
+        "name": "BELARUSSIAN MUSIC LYCEUM",
+        "city": "MINSK",
+        "id": "1"
+    },
+    {
+        "country": "Croatia",
+        "name": "Škola Zlatka Grgoševića",
+        "city": "SESVETE",
+        "id": "2"
+    },
+    {
+        "country": "Estonia",
+        "name": "TALLINA MUSIKAKOOL",
+        "city": "TALLIN",
+        "id": "3"
+    },
+    {
+        "country": "Republic of Moldova",
+        "name": "FINE ARTS SCHOOL 'Ciprian Porumbescu'",
+        "city": "CHISINAU",
+        "id": "4"
+    },
+    {
+        "country": "Poland",
+        "name": "ESYO Poland",
+        "city": "OPOLE",
+        "id": "5"
+    },
+    {
+        "country": "Romania",
+        "name": "ESYO Romania",
+        "city": "IAȘI",
+        "id": "6"
+    },
+    {
+        "country": "Serbia",
+        "name": "UNION OF MUSIC and BALLET SCHOOLS of SERBIA",
+        "city": "BELGRADE",
+        "id": "7"
+    },
+    {
+        "country": "Ukraine",
+        "name": "'M. Lysenko' SECONDARY SPECIALIZED MUSIC COLLEGE",
+        "city": "KYIV",
+        "id": "8"
+    }
+]
