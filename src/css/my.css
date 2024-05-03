@@ -198,6 +198,10 @@ div.testimonial-item div img.reviewer-image {
   filter: grayscale(100%);
   opacity: 0.3, #000;
 }
+.grayscalepumped {
+  filter: grayscale(100%);
+  opacity: 0.7, #000;
+}
 div.container-xxl div.height100vh {
   height: 100vh;
 }
