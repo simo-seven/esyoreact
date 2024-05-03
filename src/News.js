@@ -23,9 +23,6 @@ const News = ({ news }) => {
                       <p className="card-text text-white">
                         {news.body.split(" ").slice(0, 10).join(" ") + "..."}
                       </p>
-                      <Link to={news.link} className="btn btn-primary">
-                        {news.button}
-                      </Link>
                     </div>
                   </div>
                 </Link>

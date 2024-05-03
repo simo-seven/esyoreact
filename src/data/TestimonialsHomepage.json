@@ -1,0 +1,30 @@
+[
+    {
+        "quote": "I​ feel more comfortable​ ​pla​y​​ing with ESYO musicians than with some of better ranked professional orchestras!",
+        "name": "Uto Ughi",
+        "img": "/img/Testimonials/ughi.jpg",
+        "description": "Performing artist, violin virtuoso",
+        "id": "1"
+    },
+    {
+        "quote": "Young musicians are the connective tissue of humanity. It is they who carry the message of understanding, compassion and love and generate the vibrations which no barriers can stop and who, in their music-making, display a joy that can only come through good will and trust between people of various backgrounds.",
+        "name": "Lord Yehudi Menuhin",
+        "img": "/img/Testimonials/menuhin.jpg",
+        "description": "Violinist and conductor",
+        "id": "2"
+    },
+    {
+        "quote": "The youth of the European Spirit of Youth is a reality that needs to be supported, defended, and developed.",
+        "name": "Maestro Riccardo Muti",
+        "img": "/img/Testimonials/Muti.jpg",
+        "description": "Conductor",
+        "id": "3"
+    },
+    {
+        "quote": "ESYO, every summer, testifies through arias and symphonies that a different Europe, in its deepest meaning, is possible.",
+        "name": "La Repubblica",
+        "img": "/img/Testimonials/repubblica.jpg",
+        "description": "Italian Newspaper",
+        "id": "4"
+    }
+]

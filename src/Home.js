@@ -7,27 +7,33 @@ import dataNews from "./data/news.json";
 import News from "./News";
 import dataSponsors from "./data/sponsormain.json";
 import PartnersCarousel from "./PartnersCarousel";
+import HomeTestimonials from "./HomeTestimonials";
+import dataTestimonials from "./data/TestimonialsHomepage.json";
+import Video from "./Video";
 
 const Home = () => {
   const numbers = dataNumbers;
   const news = dataNews;
   const sponsors = dataSponsors;
+  const testimonials = dataTestimonials;
   return (
     <>
+      <Video />
       <Biography />
       <RollingNumbers numbers={numbers} />
       <Maestro />
-      <News news={news}/>
-      <div class="container-xxl py-5">
-        <div class="container py-5 px-lg-5">
-          <div class="container-fluid">
-            <div class="row">
+      <News news={news} />
+      <div className="container-xxl py-5">
+        <div className="container py-5 px-lg-5">
+          <div className="container-fluid">
+            <div className="row">
               <ComingSoon />
             </div>
           </div>
         </div>
       </div>
       <PartnersCarousel sponsors={sponsors} />
+      <HomeTestimonials testimonials={testimonials} />
     </>
   );
 };

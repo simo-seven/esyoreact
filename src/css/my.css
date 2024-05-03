@@ -186,6 +186,24 @@ div.paddingsxdxzero {
   padding-left: 0;
   padding-right: 0;
 }
+div img.width65height65px {
+  width: 65px;
+  height: 65px;
+}
+div.testimonial-item div img.reviewer-image {
+  width: 20%;
+  margin-right: 10px; /* Add margin for spacing */
+}
+.grayscale {
+  filter: grayscale(100%);
+  opacity: 0.3, #000;
+}
+div.container-xxl div.height100vh {
+  height: 100vh;
+}
+div.zindex1{
+  z-index: 1;
+}
 select option {
   font-family: "Jost", sans-serif;
 }

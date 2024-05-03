@@ -20,28 +20,58 @@ import Auditions from "./Auditions.js";
 import ConcertTours from "./ConcertTours.js";
 import Partners from "./Partners.js";
 import NewsDetails from "./NewsDetails.js";
+import Navbar from "./Navbar.js";
+import IntroScreen from "./Intro.js";
 
 function App() {
+  const introTitles = {
+    "/concertours": "Concert Tours",
+    "/donations": "Donations",
+    "/news/:id": "News",
+    "/partners": "Partners",
+    "/contact": "Contact",
+    "/auditions": "Auditions",
+    "/otherevents": "Other Events",
+    "/faculty": "Faculty",
+    "/organizer": "Organizer",
+    "/artisticdirector": "Artistic Director",
+    "/pressmedia": "Press and Media",
+    "/legaldetails": "Legal Details",
+    "/cookiepolicy": "Cookie Policy",
+    "/privacypolicy": "Privacy Policy"
+  };
   return (
     <Router>
       <div className="App">
+        <Navbar />
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
-            <Route path="/concertours" element={<ConcertTours />}></Route>
-            <Route path="/donations" element={<Donations />}></Route>
-            <Route path="/news/:id" element={<NewsDetails />}></Route>
-            <Route path="/partners" element={<Partners />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
-            <Route path="/auditions" element={<Auditions />}></Route>
-            <Route path="/otherevents" element={<OtherEvents />}></Route>
-            <Route path="/faculty" element={<Faculty />}></Route>
-            <Route path="/organizer" element={<Organizer />}></Route>
-            <Route path="/artisticdirector" element={<ArtisticDirector />}></Route>
-            <Route path="/pressmedia" element={<PressMedia />}></Route>
-            <Route path="/legaldetails" element={<LegalDetails />}></Route>
-            <Route path="/cookiepolicy" element={<CookiePolicy />}></Route>
-            <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
+            {Object.entries(introTitles).map(([path, title]) => (
+              <Route
+                key={path}
+                path={path}
+                element={
+                  <>
+                    <IntroScreen title={title} />
+                    {path === "/privacypolicy" && <PrivacyPolicy />}
+                    {path === "/cookiepolicy" && <CookiePolicy />}
+                    {path === "/legaldetails" && <LegalDetails />}
+                    {path === "/pressmedia" && <PressMedia />}
+                    {path === "/artisticdirector" && <ArtisticDirector />}
+                    {path === "/organizer" && <Organizer />}
+                    {path === "/faculty" && <Faculty />}
+                    {path === "/otherevents" && <OtherEvents />}
+                    {path === "/contact" && <Contact />}
+                    {path === "/partners" && <Partners />}
+                    {path === "/news/:id" && <NewsDetails />}
+                    {path === "/concertours" && <ConcertTours />}
+                    {path === "/donations" && <Donations />}
+                    {path === "/auditions" && <Auditions />}
+                  </>
+                }
+              />
+            ))}
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </div>
