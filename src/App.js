@@ -19,6 +19,7 @@ import OtherEvents from "./OtherEvents.js";
 import Auditions from "./Auditions.js";
 import ConcertTours from "./ConcertTours.js";
 import Partners from "./Partners.js";
+import NewsDetails from "./NewsDetails.js";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/" element={<Home />}></Route>
             <Route path="/concertours" element={<ConcertTours />}></Route>
             <Route path="/donations" element={<Donations />}></Route>
+            <Route path="/news/:id" element={<NewsDetails />}></Route>
             <Route path="/partners" element={<Partners />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="/auditions" element={<Auditions />}></Route>

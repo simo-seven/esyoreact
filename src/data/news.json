@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Auditions",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed iure numquam rerum consequuntur. Doloremque, neque architecto voluptates reiciendis hic tenetur magni, soluta consequatur corporis voluptatem ea porro atque nostrum.",
+        "img": "/img/testbkg4.jpeg",
+        "link": "/",
+        "button": "Learn More",
+        "id": "1"
+    },
+    {
+        "title": "Auditions",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed iure numquam rerum consequuntur. Doloremque, neque architecto voluptates reiciendis hic tenetur magni, soluta consequatur corporis voluptatem ea porro atque nostrum.",
+        "img": "/img/testbkg4.jpeg",
+        "link": "/",
+        "button": "Learn More",
+        "id": "2"
+    },
+    {
+        "title": "Auditions",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed iure numquam rerum consequuntur. Doloremque, neque architecto voluptates reiciendis hic tenetur magni, soluta consequatur corporis voluptatem ea porro atque nostrum.",
+        "img": "/img/testbkg4.jpeg",
+        "link": "/",
+        "button": "Learn More",
+        "id": "3"
+    }
+]

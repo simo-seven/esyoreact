@@ -179,6 +179,13 @@ div.nobordertransparent {
 h1.margintopfiverem {
   margin-top: 5rem;
 }
+div.bckblack {
+  background-color: #000;
+}
+div.paddingsxdxzero {
+  padding-left: 0;
+  padding-right: 0;
+}
 select option {
   font-family: "Jost", sans-serif;
 }
