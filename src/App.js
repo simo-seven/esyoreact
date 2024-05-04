@@ -38,12 +38,38 @@ function App() {
     "/pressmedia": "Press and Media",
     "/legaldetails": "Legal Details",
     "/cookiepolicy": "Cookie Policy",
-    "/privacypolicy": "Privacy Policy"
+    "/privacypolicy": "Privacy Policy",
   };
+  const items = [
+    { title: "Home", url: "/" },
+    {
+      title: "About",
+      hasSubmenu: true,
+      submenu: [
+        { title: "Orchestra", url: "/orchestra" },
+        { title: "Artistic Director", url: "/artisticDirector" },
+        { title: "Faculty", url: "/faculty" },
+        { title: "Organizer", url: "/organizer" },
+        { title: "Partners", url: "/partners" },
+      ],
+    },
+    {
+      title: "Season",
+      hasSubmenu: true,
+      submenu: [
+        { title: "Auditions", url: "/auditions" },
+        { title: "Concert Tours", url: "/concertours" },
+        { title: "Other Events", url: "/otherevents" },
+      ],
+    },
+    { title: "Donations", url: "donations" },
+    { title: "Contact", url: "contact" },
+  ];
+
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Navbar items={items} />
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
