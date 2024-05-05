@@ -109,12 +109,17 @@ const PrivacyPolicy = () => {
           Association’s promotional activities on paper and/or in digital form
           on the internet and/or social media needs the data subject’s consent.
         </p>
-        <h5 className="text-white margintop2vh">9. RIGHTS OF THE DATA SUBJECTS</h5>
+        <h5 className="text-white margintop2vh">
+          9. RIGHTS OF THE DATA SUBJECTS
+        </h5>
         <p>
           The data subjects may enforce their rights, as stated by Articles
           15-22 of the Regulation (EU) 2016/279, by contacting the Data
           Controller via email at{" "}
-          <Link to="mailto:segreteria@esyo.eu">segreteria@esyo.eu</Link>. <br />
+          <Link to="mailto:segreteria@esyo.eu" className="beCareful">
+            segreteria@esyo.eu
+          </Link>
+          . <br />
           At any given moment, the data subjects shall have the right to:
         </p>
         <ol>
@@ -147,7 +152,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             obtain:
-            <ul>
+            <ul className="dots">
               <li>
                 the update, the rectification or, if the subject has an interest
                 in requesting it, the integration of the data;

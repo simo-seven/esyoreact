@@ -1,4 +1,4 @@
-import DonationsTestimonial from "./DonationsTestimonial";
+import DonationsTestimonial from "./components/DonationsTestimonial";
 import data from "./data/testimonials.json";
 
 const Donations = () => {
@@ -39,7 +39,7 @@ const Donations = () => {
       <div className="container-xxl py-3">
         <div className="container py-3 px-lg-3">
           <div className="wow fadeInUp" data-wow-delay="0.1s">
-            <h1 className="text-center mb-5 text-white">
+            <h1 className="text-center mb-5 text-white text-4xl">
               Become an ESYO donor
             </h1>
           </div>

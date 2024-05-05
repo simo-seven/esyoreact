@@ -2,7 +2,7 @@ const MainSponsors = ({ data, title }) => {
   return (
     <>
       <div className="wow fadeInUp" data-wow-delay="0.1s">
-        <h1 className="text-center mb-5 text-white text-capitalize">
+        <h1 className="text-center mb-5 text-white text-capitalize text-4xl">
           {title}
         </h1>
       </div>

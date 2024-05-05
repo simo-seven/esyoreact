@@ -1,6 +1,6 @@
-import AuditionsCard from "./AuditionsCard";
-import AuditionsDownloadButtons from "./AuditionsDownloadButtons";
-import AuditionsForm from "./AuditionsForm";
+import AuditionsCard from "./components/AuditionsCard";
+import AuditionsDownloadButtons from "./components/AuditionsDownloadButtons";
+import AuditionsForm from "./components/AuditionsForm";
 import dataPlaces from "./data/auditions.json";
 import dataButtons from "./data/auditionsDownloadButtons.json";
 
@@ -18,7 +18,7 @@ const Auditions = () => {
             2024 auditions will be held for the following positions:
           </p>
 
-          <ul>
+          <ul className="dots">
             <li>18 Violins</li>
             <li>6 Violas</li>
             <li>6 Cellos</li>
@@ -57,8 +57,8 @@ const Auditions = () => {
                 <div className="service-icon flex-shrink-0">
                   <i className="fa fa-calendar fa-2x beCareful"></i>
                 </div>
-                <h3 className="margintop2vh text-white">Auditions Deadline</h3>
-                <h4 className="beCareful">
+                <h3 className="margintop2vh text-white text-3xl">Auditions Deadline</h3>
+                <h4 className="beCareful text-2xl">
                   May 31<sup>st</sup>, 2024
                 </h4>
               </div>
@@ -83,7 +83,7 @@ const Auditions = () => {
       </div>
       <div className="container py-5 px-lg-5">
         <div className="wow fadeInUp" data-wow-delay="0.1s">
-          <h1 className="text-center mb-5 text-white">Audition Form</h1>
+          <h1 className="text-center mb-5 text-white text-4xl">Audition Form</h1>
         </div>
 
         <AuditionsForm />

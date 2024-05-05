@@ -26,12 +26,12 @@ const CookiePolicy = () => {
           strictly necessary for the operation of this website. For all other
           types of cookies we need your permission. Find out more about who we
           are, how you can contact us and how we process personal data in our{" "}
-          <Link to="/privacypolicy">Privacy Policy</Link>
+          <Link to="/privacypolicy" className="beCareful">Privacy Policy</Link>
         </p>
       </div>
       <div className="container py-5 px-lg-5">
         <div className="text-center">
-          <h2 className="text-white">Types of Cookies</h2>
+          <h2 className="text-white text-4xl">Types of Cookies</h2>
         </div>
         <h4 className="margintop2vh text-white">Technical Cookies</h4>
         <p className="text-justify">
@@ -58,11 +58,11 @@ const CookiePolicy = () => {
           Manager and Google Analytics for statistical analyses, to improve the
           Site, to simplify its use and to monitor its correct functioning.
           Further information on privacy and its use can be found on Google's
-          website at{" "}
-          <Link
+          website at <Link
             to="https://policies.google.com/privacy"
             target="_blank"
             rel="noreferrer noopener"
+            className="beCareful"
           >
             this link
           </Link>

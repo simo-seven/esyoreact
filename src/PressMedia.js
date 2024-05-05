@@ -13,6 +13,7 @@ const PressMedia = () => {
             width="630"
             height="352"
             frameborder="0"
+            title="Minja e la “sua” orchestra - La videointervista di OPEN"
           >
             <p>
               Minja e la “sua” orchestra under 21: «Con la musica classica si

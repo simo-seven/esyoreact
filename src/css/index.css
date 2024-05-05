@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.nav-li {
+  display: flex;
+  width: 100%;
+  line-height: 1;
+  list-style: none;
+  outline: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-li:hover {
+  opacity: 1;
+  color: #f68642;
+}
+
+.nav-link {
+  height: 100%;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem; /* Adjust this according to your design */
+  color: #f68642;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+  color: #f68642;
+}
+
+.imgResize {
+  width: 10%;
+}
+
+.orange{
+  color: #f68642;
+}

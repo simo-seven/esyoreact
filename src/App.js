@@ -5,7 +5,7 @@ import "./css/style.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home.js";
 import NotFound from "./NotFound.js";
-import Footer from "./Footer.js";
+import Footer from "./components/Footer.js";
 import Contact from "./Contact.js";
 import Donations from "./Donations.js";
 import Organizer from "./Organizer.js";
@@ -19,9 +19,12 @@ import OtherEvents from "./OtherEvents.js";
 import Auditions from "./Auditions.js";
 import ConcertTours from "./ConcertTours.js";
 import Partners from "./Partners.js";
-import NewsDetails from "./NewsDetails.js";
-import Navbar from "./Navbar.js";
-import IntroScreen from "./Intro.js";
+import NewsDetails from "./components/NewsDetails.js";
+import IntroScreen from "./components/Intro.js";
+import Header from "./components/Header";
+import MenuOverlay from "./components/MenuOverlay";
+import { useState } from "react";
+import data from "./data/navItems.json";
 
 function App() {
   const introTitles = {
@@ -40,36 +43,35 @@ function App() {
     "/cookiepolicy": "Cookie Policy",
     "/privacypolicy": "Privacy Policy",
   };
-  const items = [
-    { title: "Home", url: "/" },
-    {
-      title: "About",
-      hasSubmenu: true,
-      submenu: [
-        { title: "Orchestra", url: "/orchestra" },
-        { title: "Artistic Director", url: "/artisticDirector" },
-        { title: "Faculty", url: "/faculty" },
-        { title: "Organizer", url: "/organizer" },
-        { title: "Partners", url: "/partners" },
-      ],
-    },
-    {
-      title: "Season",
-      hasSubmenu: true,
-      submenu: [
-        { title: "Auditions", url: "/auditions" },
-        { title: "Concert Tours", url: "/concertours" },
-        { title: "Other Events", url: "/otherevents" },
-      ],
-    },
-    { title: "Donations", url: "donations" },
-    { title: "Contact", url: "contact" },
-  ];
+
+  // Changing between menu and submenus
+  const [elements, setElements] = useState(data);
+
+  const changeElements = (id) => {
+    const selectedItem = elements.find((item) => item.id === id); // Finds the element with the matching id
+    const submenuItems = selectedItem.submenu || []; // Get the submenu items
+    setElements(submenuItems); //updates the elements array only with the submenu items
+  };
+
+  const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
     <Router>
       <div className="App">
-        <Navbar items={items} />
+        <Header
+          navbarOpen={navbarOpen}
+          setNavbarOpen={setNavbarOpen}
+          setElements={setElements}
+          data={data}
+        />
+        <MenuOverlay
+          navbarOpen={navbarOpen}
+          setNavbarOpen={setNavbarOpen}
+          elements={elements}
+          changeElements={changeElements}
+          setElements={setElements}
+          data={data}
+        />
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />}></Route>

@@ -15,12 +15,12 @@
         "value": "2500",
         "text": "Young talented musicians selected over the years",
         "delay": "0.1s",
-        "id": "1"
+        "id": "3"
     },
     {
         "value": "50",
         "text": "Outstanding professionals couching young musicians",
         "delay": "0.5s",
-        "id": "1"
+        "id": "4"
     }
 ]

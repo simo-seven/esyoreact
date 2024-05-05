@@ -9,10 +9,10 @@ const RollingNumbers = ({ numbers }) => {
               data-wow-delay={number.delay}
               key={number.id}
             >
-              <h1 className="beCareful mb-2" data-toggle="counter-up">
+              <h1 className="beCareful mb-2 text-5xl" data-toggle="counter-up">
                 {number.value}
               </h1>
-              <p className="text-white mb-0">{number.text}</p>
+              <p className="text-white mt-3">{number.text}</p>
             </div>
           ))}
         </div>

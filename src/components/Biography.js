@@ -5,7 +5,7 @@ const Biography = () => {
     <div className="container-xxl py-5 bckblack">
       <div className="container py-5 px-lg-5">
         <div className="row g-5 align-items-center">
-          <h1 className="mb-3 text-white">The ESYO Orchestra</h1>
+          <h1 className="mb-3 text-white text-5xl">The ESYO Orchestra</h1>
           <p className="text-white">
             The European Spirit of Youth Orchestra (ESYO) is a symphonic
             ensemble that, through its sound, captures the European spirit of

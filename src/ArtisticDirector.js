@@ -6,7 +6,7 @@ const ArtisticDirector = () => {
           <p className="section-title text-secondary justify-content-center">
             principal conductor
           </p>
-          <h1 className="text-center mb-5 text-white">
+          <h1 className="text-center mb-5 text-white text-4xl">
             M<sup>o</sup> Igor Coretti Kuret
           </h1>
         </div>
@@ -15,23 +15,21 @@ const ArtisticDirector = () => {
           <div className="col-md-6 centerOnMobile">
             <img
               src="./img/portret.jpeg"
-              alt="Igor Coretti-Kuret mentre dirige"
+              alt="Igor Coretti-Kuret"
               className="profile-image grayscale-to-color"
             />
           </div>
           <div className="col-md-6 text-justify">
             <p>
               <em className="lead">
-                <span className="beCareful">What is music?</span>
-                It is a question that has always haunted the minds of musicians,
+                <span className="beCareful">What is music?</span> It is a
+                question that has always haunted the minds of musicians,
                 scientists, sociologists, philosophers, all of us and which to
                 date has not had an answer. For me, music is spiritual energy,
                 which helps to relate to people and the universe.
-                <br />
-                <span className="beCareful">
+                <br /> <span className="beCareful">
                   The orchestra is a school of democracy.
-                </span>
-                All its components are important, but none are irreplaceable. To
+                </span> All its components are important, but none are irreplaceable. To
                 play together with others you must first learn to listen. In
                 every orchestra, as in life, the condition for being able to
                 &quot;dialogue&quot; is to listen to others and relate to the
@@ -49,11 +47,9 @@ const ArtisticDirector = () => {
                 For this reason, I believe it is very important and useful to
                 play in an orchestra, even more so if it is a symphonic and
                 international one, starting this practice, possibly, already in
-                adolescence. <br />
-                <span className="beCareful">
+                adolescence. <br /> <span className="beCareful">
                   The idea of creating an international youth symphony orchestra
-                </span>
-                it matured following personal musical experiences, lived during
+                </span> it matured following personal musical experiences, lived during
                 the (musical) growth path. The childhood memory of my
                 &quot;first time&quot; in the orchestra is still alive in me.
                 What an emotion! Just as the memory of when, already graduated
@@ -66,8 +62,7 @@ const ArtisticDirector = () => {
                 <br />
                 <span className="beCareful">
                   The experiences of studying working abroad
-                </span>
-                , in a multicultural and international environment, they then
+                </span>, in a multicultural and international environment, they then
                 convinced me how necessary it was to propose them again in a
                 project to be offered to young musicians as an opportunity for
                 personal growth and a complementary and professionalizing
@@ -78,8 +73,7 @@ const ArtisticDirector = () => {
                 involving musicians, musical and governmental institutions from
                 several European countries.
                 <br />
-                <span className="beCareful">Music is good for everyone.</span>
-                Experiencing it and playing it together with others is still a
+                <span className="beCareful">Music is good for everyone.</span> Experiencing it and playing it together with others is still a
                 privilege for a few, but one that I hope will soon become
                 practiced by many, thanks also to experiences like the ESYO that
                 young musicians will not be able to forget.

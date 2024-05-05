@@ -1,7 +1,7 @@
-import DesktopConcerts from "./DesktopConcerts";
-import MobileConcerts from "./MobileConcerts";
-import Repertoire from "./Repertoire";
-import ComingSoon from "./ComingSoon";
+import DesktopConcerts from "./components/DesktopConcerts";
+import MobileConcerts from "./components/MobileConcerts";
+import Repertoire from "./components/Repertoire";
+import ComingSoon from "./components/ComingSoon";
 import data from "./data/concerts.json";
 import repertoire from "./data/repertoire.json";
 

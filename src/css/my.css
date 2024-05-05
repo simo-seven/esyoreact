@@ -100,7 +100,7 @@
 }
 
 div img.footerlogo {
-  width: 80%;
+  width: 60%;
 }
 div.footersocials {
   margin-bottom: 0.5rem;
@@ -205,7 +205,7 @@ div.testimonial-item div img.reviewer-image {
 div.container-xxl div.height100vh {
   height: 100vh;
 }
-div.zindex1{
+div.zindex1 {
   z-index: 1;
 }
 select option {
@@ -469,6 +469,9 @@ button.languagebutton {
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
   text-align: right;
+}
+ul.dots ol.dots{
+  list-style: initial;
 }
 
 @keyframes fadeIn {

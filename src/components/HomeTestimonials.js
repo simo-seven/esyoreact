@@ -13,7 +13,7 @@ const HomeTestimonials = ({ testimonials }) => {
     responsive: {
       0: {
         items: 2, // Show 1 item on all screen sizes
-      },
+      },  
     },
   };
 
@@ -23,7 +23,7 @@ const HomeTestimonials = ({ testimonials }) => {
         <p className="section-title text-secondary justify-content-center">
           Testimonial
         </p>
-        <h1 className="text-center mb-5 text-white">What they say about us</h1>
+        <h1 className="text-center mb-5 text-white text-5xl">What they say about us</h1>
         <OwlCarousel className="testimonial-carousel" {...options}>
           {testimonials.map((testimonial) => (
             <div

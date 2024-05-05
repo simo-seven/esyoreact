@@ -1,15 +1,15 @@
-import Biography from "./Biography";
-import Maestro from "./Maestro";
-import RollingNumbers from "./RollingNumbers";
-import ComingSoon from "./ComingSoon";
+import Biography from "./components/Biography";
+import Maestro from "./components/Maestro";
+import RollingNumbers from "./components/RollingNumbers";
+import ComingSoon from "./components/ComingSoon";
 import dataNumbers from "./data/rollingNumbers.json";
 import dataNews from "./data/news.json";
-import News from "./News";
+import News from "./components/News";
 import dataSponsors from "./data/sponsormain.json";
-import PartnersCarousel from "./PartnersCarousel";
-import HomeTestimonials from "./HomeTestimonials";
+import PartnersCarousel from "./components/PartnersCarousel";
+import HomeTestimonials from "./components/HomeTestimonials";
 import dataTestimonials from "./data/TestimonialsHomepage.json";
-import Video from "./Video";
+import Video from "./components/Video";
 
 const Home = () => {
   const numbers = dataNumbers;
@@ -27,7 +27,7 @@ const Home = () => {
         <div className="container py-5 px-lg-5">
           <div className="container-fluid">
             <div className="row">
-              <ComingSoon />
+              <ComingSoon className="w-full" />
             </div>
           </div>
         </div>

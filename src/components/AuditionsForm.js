@@ -26,7 +26,7 @@ const AuditionsForm = () => {
                     placeholder="Your Name"
                     required
                   />
-                  <label for="name">First Name</label>
+                  <label htmlFor="name">First Name</label>
                 </div>
               </div>
               <div className="col-md-6">
@@ -38,7 +38,7 @@ const AuditionsForm = () => {
                     placeholder="Your Surname"
                     required
                   />
-                  <label for="surname">Last Name</label>
+                  <label htmlFor="surname">Last Name</label>
                 </div>
               </div>
               <div className="col-md-12">
@@ -50,7 +50,7 @@ const AuditionsForm = () => {
                     placeholder="Your Email"
                     required
                   />
-                  <label for="email">Your Email</label>
+                  <label htmlFor="email">Your Email</label>
                 </div>
               </div>
               <div className="col-md-6">
@@ -62,7 +62,7 @@ const AuditionsForm = () => {
                     placeholder="Telephone"
                     required
                   />
-                  <label for="phone">Your Phone Number</label>
+                  <label htmlFor="phone">Your Phone Number</label>
                 </div>
               </div>
               <div className="col-md-6">
@@ -74,7 +74,7 @@ const AuditionsForm = () => {
                     placeholder="Birth Day"
                     required
                   />
-                  <label for="birthday">Your Birth Day (dd/mm/yy)</label>
+                  <label htmlFor="birthday">Your Birth Day (dd/mm/yy)</label>
                 </div>
               </div>
               <div className="col-md-6">
@@ -86,7 +86,7 @@ const AuditionsForm = () => {
                     placeholder="Country of Origin"
                     required
                   />
-                  <label for="country">Country of Origin</label>
+                  <label htmlFor="country">Country of Origin</label>
                 </div>
               </div>
               <div className="col-md-6">
@@ -98,7 +98,7 @@ const AuditionsForm = () => {
                     placeholder="Passport or ID Number"
                     required
                   />
-                  <label for="DocumentNumber">Passport or ID Number</label>
+                  <label htmlFor="DocumentNumber">Passport or ID Number</label>
                 </div>
               </div>
               <div className="col-md-12">
@@ -122,7 +122,7 @@ const AuditionsForm = () => {
                     </option>
                     <option value="Harp">Harp</option>
                   </select>
-                  <label for="Instrument">Your Instrument</label>
+                  <label htmlFor="Instrument">Your Instrument</label>
                 </div>
               </div>
               <div className="col-md-12">
@@ -137,7 +137,7 @@ const AuditionsForm = () => {
                     </option>
                     <option value="Online">Online</option>
                   </select>
-                  <label for="auditionplace">Audition Place</label>
+                  <label htmlFor="auditionplace">Audition Place</label>
                 </div>
               </div>
               <div className="col-md-12">
@@ -149,7 +149,7 @@ const AuditionsForm = () => {
                     name="videoURL"
                     placeholder="Video URL"
                   />
-                  <label for="videoURL">Video Url</label>
+                  <label htmlFor="videoURL">Video Url</label>
                 </div>
               </div>
               <div className="col-md-12">
@@ -161,7 +161,7 @@ const AuditionsForm = () => {
                     name="legalTutor"
                     required
                   />
-                  <label className="form-check-label" for="gdprConsent">
+                  <label className="form-check-label" htmlFor="gdprConsent">
                     I hereby declare as legal tutor of the applicant that I have
                     knowledge about this application request.
                   </label>
@@ -175,7 +175,7 @@ const AuditionsForm = () => {
                     name="esyoRegulations"
                     required
                   />
-                  <label className="form-check-label" for="gdprConsent">
+                  <label className="form-check-label" htmlFor="gdprConsent">
                     I agree with all the terms and conditions listed in the ESYO
                     2024 Regulation.
                   </label>
@@ -189,7 +189,7 @@ const AuditionsForm = () => {
                     name="gdprConsent"
                     required
                   />
-                  <label className="form-check-label" for="gdprConsent">
+                  <label className="form-check-label" htmlFor="gdprConsent">
                     I agree to the{" "}
                     <Link to="privacypolicy">privacy-policy</Link> and the terms
                     of the GDPR. I agree with the collection, storage and

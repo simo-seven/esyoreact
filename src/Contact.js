@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <div className="wow fadeInUp" data-wow-delay="0.1s">
-            <h1 className="text-center mb-5 text-white" id="fillout">
+            <h1 className="text-center mb-5 text-white text-4xl">
               Contact Form
             </h1>
           </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                           placeholder="Your Name"
                           required
                         />
-                        <label for="name">Your Name and Surname</label>
+                        <label htmlFor="name">Your Name and Surname</label>
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -48,7 +48,7 @@ const Contact = () => {
                           placeholder="Your Email"
                           required
                         />
-                        <label for="email">Your Email</label>
+                        <label htmlFor="email">Your Email</label>
                       </div>
                     </div>
                     <div className="col-12">
@@ -59,7 +59,7 @@ const Contact = () => {
                           name="message"
                           required
                         ></textarea>
-                        <label for="message">Message</label>
+                        <label htmlFor="message">Message</label>
                       </div>
                     </div>
                     <div className="col-md-12">
@@ -70,7 +70,7 @@ const Contact = () => {
                           name="gdprConsent"
                           required
                         />
-                        <label className="form-check-label" for="gdprConsent">
+                        <label className="form-check-label" htmlFor="gdprConsent">
                           I agree to the <Link to="/privacypolicy">privacy-policy</Link> and the terms of the GDPR. I agree with the
                           collection, storage and processing of my personal data
                           and with being contacted. Data is stored on ESYO
@@ -103,7 +103,7 @@ const Contact = () => {
               data-wow-delay="0.1s"
             >
               <div className="d-flex flex-column text-center rounded">
-                <h3 className="margintop2vh text-white">
+                <h3 className="margintop2vh text-white text-2xl">
                   Office and Communication
                 </h3>
                 <Link to="mailto:segreteria@esyo.eu">
@@ -116,7 +116,7 @@ const Contact = () => {
               data-wow-delay="0.1s"
             >
               <div className="d-flex flex-column text-center rounded">
-                <h3 className="margintop2vh text-white">Artistic Director</h3>
+                <h3 className="margintop2vh text-white text-2xl">Artistic Director</h3>
                 <Link to="mailto:maestro@esyo.eu">
                   <i className="fa fa-envelope beCareful"></i> M<sup>o</sup>{" "}
                   Igor Coretti Kuret
@@ -128,7 +128,7 @@ const Contact = () => {
               data-wow-delay="0.1s"
             >
               <div className="d-flex flex-column text-center rounded">
-                <h3 className="margintop2vh text-white">Social Media</h3>
+                <h3 className="margintop2vh text-white text-2xl">Social Media</h3>
                 <p>
                   <i className="fa-solid fa-share-nodes beCareful"></i> Jan Coretti Kuret
                 </p>
@@ -139,14 +139,14 @@ const Contact = () => {
               data-wow-delay="0.1s"
             >
               <div className="d-flex flex-column text-center rounded">
-                <h3 className="margintop2vh text-white">Webmaster</h3>
+                <h3 className="margintop2vh text-white text-2xl">Webmaster</h3>
                 <p>
                   <Link
                     to="https://linktr.ee/simo_seven"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    <i className="fa-solid fa-arrow-pointer"></i>
+                    <i className="fa-solid fa-arrow-pointer beCareful"></i>
                   </Link>{" "}
                   Simone Sette
                 </p>
@@ -158,7 +158,7 @@ const Contact = () => {
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <div className="wow fadeInUp" data-wow-delay="0.1s">
-            <h1 className="text-center mb-5 text-white" id="fillout">
+            <h1 className="text-center mb-5 text-white text-4xl" id="fillout">
               Connect with us
             </h1>
           </div>

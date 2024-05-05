@@ -14,7 +14,7 @@ const AuditionsCard = ({ auditions }) => {
           key={audition.id}
         >
           <div className="feature-item bg-light rounded text-center p-4">
-            <h4 className="mb-3 margintop2vh">{audition.location}</h4>
+            <h4 className="mb-3 margintop2vh text-2xl">{audition.location}</h4>
             <h5>{formatDate(audition.date)}</h5>
             {new Date(audition.date) > new Date() ? ( // Check if date is in the future
               <div className="notExpired">

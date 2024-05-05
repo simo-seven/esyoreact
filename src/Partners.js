@@ -1,5 +1,5 @@
-import SponsorCard from "./SponsorCard";
-import SponsorSchools from "./SponsorSchools";
+import SponsorCard from "./components/SponsorCard";
+import SponsorSchools from "./components/SponsorSchools";
 import dataMain from "./data/sponsormain.json";
 import dataPartner from "./data/sponsorpartner.json";
 import dataSchool from "./data/sponsorschools.json";

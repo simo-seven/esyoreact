@@ -8,10 +8,10 @@ const Maestro = () => {
       <div className="container py-5 px-lg-5">
         <div className="row g-5 align-items-center">
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <p className="section-title text-secondary text-white">
+            <p className="section-title text-secondary">
               Artistic Director
             </p>
-            <h1 className="mb-5 text-white">
+            <h1 className="mb-5 text-white text-5xl">
               M<sup>o</sup> Igor Coretti Kuret
             </h1>
             <p className="mb-4 text-white">
@@ -33,6 +33,7 @@ const Maestro = () => {
               className="img-fluid wow zoomIn profile-image grayscale-to-color"
               data-wow-delay="0.5s"
               src="/img/portret.jpeg"
+              alt="Maestro Igor Coretti Kuret"
             />
           </div>
         </div>
