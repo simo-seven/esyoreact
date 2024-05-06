@@ -118,11 +118,9 @@ const PrivacyPolicy = () => {
           Controller via email at{" "}
           <Link to="mailto:segreteria@esyo.eu" className="beCareful">
             segreteria@esyo.eu
-          </Link>
-          . <br />
-          At any given moment, the data subjects shall have the right to:
+          </Link>. At any given moment, the data subjects shall have the right to:
         </p>
-        <ol>
+        <ol className="list-decimal list-inside pl-4">
           <li>
             obtain confirmation as to whether or not personal data concerning
             them are being processed, even when the data are not stored yet, and
@@ -130,7 +128,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             access the following information:
-            <ul>
+            <ul className="list-disc list-inside pl-4">
               <li>the source of the personal data;</li>
               <li>the purposes and modalities of the data processing;</li>
               <li>
@@ -152,7 +150,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             obtain:
-            <ul className="dots">
+            <ul className="list-disc list-inside pl-4">
               <li>
                 the update, the rectification or, if the subject has an interest
                 in requesting it, the integration of the data;
@@ -173,7 +171,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             object, either completely or partially, to:
-            <ul>
+            <ul className="list-disc list-inside pl-4">
               <li>
                 the processing of their personal data, for legitimate reasons,
                 although concerning the purposes of the collection;
@@ -194,7 +192,7 @@ const PrivacyPolicy = () => {
             object).
           </li>
         </ol>
-        <p>
+        <p className="mt-4">
           Without prejudice to any other administrative and judiciary appeal,
           were the data subjects to believe that the data processing
           transgresses the provisions of the Regulation (EU) 2016/679, the data

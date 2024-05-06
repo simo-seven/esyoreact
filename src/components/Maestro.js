@@ -28,7 +28,7 @@ const Maestro = () => {
               Read More
             </ScrollToTopLink>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 hidden md:block">
             <img
               className="img-fluid wow zoomIn profile-image grayscale-to-color"
               data-wow-delay="0.5s"

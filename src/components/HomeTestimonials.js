@@ -12,8 +12,11 @@ const HomeTestimonials = ({ testimonials }) => {
     autoplay: true,
     responsive: {
       0: {
-        items: 2, // Show 1 item on all screen sizes
-      },  
+        items: 1, // Show 1 item on mobile
+      },
+      768: {
+        items: 2, // Show 2 items on desktop
+      }
     },
   };
 

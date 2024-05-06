@@ -1,16 +1,16 @@
 const ArtisticDirector = () => {
   return (
-    <div class="container-xxl py-5">
-      <div class="container py-5 px-lg-5">
-        <div class="animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-          <p class="text-secondary text-center">principal conductor</p>
-          <h1 class="text-center mb-5 text-white text-4xl">
+    <div className="container-xxl py-5">
+      <div className="container py-5 px-lg-5">
+        <div className="animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+          <p className="text-secondary text-center">principal conductor</p>
+          <h1 className="text-center mb-5 text-white text-4xl">
             M<sup>o</sup> Igor Coretti Kuret
           </h1>
         </div>
 
-        <div class="flex flex-col md:flex-row items-center mt-4">
-          <div class="md:w-1/2 mx-auto">
+        <div className="flex flex-col md:flex-row items-center mt-4">
+          <div className="md:w-1/2 mx-auto">
             <img
               src="./img/portret.jpeg"
               alt="Igor Coretti-Kuret"

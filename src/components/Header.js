@@ -14,9 +14,10 @@ const Header = ({ navbarOpen, setNavbarOpen, setElements, data }) => {
             }, 300);
           }}
         >
-          <img src={logo} alt="Logo" className="imgResize" />
+          <img src={logo} alt="Logo" className="lg:w-1/12 md:w-1/12" />
         </Link>
       </div>
+
       <button
         className="flex top-0 right-0 z-20 relative w-20 h-20 focus:outline-none"
         onClick={() => {
