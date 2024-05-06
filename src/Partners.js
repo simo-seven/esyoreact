@@ -8,6 +8,7 @@ const Partners = () => {
   const mainsupporters = dataMain;
   const partners = dataPartner;
   const schools = dataSchool;
+
   return (
     <div className="container-xxl py-5">
       <div className="container py-5 px-5 lg:px-10">

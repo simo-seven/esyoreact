@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../LogoSmall.png";
 
 const Header = ({ navbarOpen, setNavbarOpen, setElements, data }) => {
   return (
@@ -13,7 +14,7 @@ const Header = ({ navbarOpen, setNavbarOpen, setElements, data }) => {
             }, 300);
           }}
         >
-          <img src="./img/logos/LogoSmall.png" alt="Logo" className="imgResize" />
+          <img src={logo} alt="Logo" className="imgResize" />
         </Link>
       </div>
       <button

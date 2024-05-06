@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import ScrollToTopLink from "../ScrollToTopLink";
 
 const Maestro = () => {
   return (
@@ -21,12 +21,12 @@ const Maestro = () => {
               ESYO, the European Spirit of Youth Orchestra, of which he now is
               Chief Conductor and Artistic Director.
             </p>
-            <Link
+            <ScrollToTopLink
               to="/artisticdirector"
               className="btn btn-secondary py-sm-3 px-sm-5 rounded-pill mt-3 joinNow"
             >
               Read More
-            </Link>
+            </ScrollToTopLink>
           </div>
           <div className="col-lg-6">
             <img

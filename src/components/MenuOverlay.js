@@ -22,7 +22,7 @@ const MenuOverlay = ({
           <li className="nav-li" key={element.id}>
             <Link
               to={element.to}
-              className="nav-link"
+              className="nav-link beCareful"
               onClick={() => {
                 if (element.hasSubmenu) {
                   changeElements(element.id);

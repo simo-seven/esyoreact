@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import ScrollToTopLink from "../ScrollToTopLink";
 
 const PartnersCarousel = ({ sponsors }) => {
   return (
@@ -36,12 +36,12 @@ const PartnersCarousel = ({ sponsors }) => {
       <div className="container py-5 px-lg-5">
         <div className="row justify-content-center">
           <div className="col-lg-7 text-center">
-            <Link
+            <ScrollToTopLink
               to="/partners"
               className="btn btn-secondary py-sm-3 px-sm-5 rounded-pill mt-3 joinNow"
             >
               Become our partner!
-            </Link>
+            </ScrollToTopLink>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import ScrollToTopLink from "../ScrollToTopLink";
 
 const Biography = () => {
   return (
@@ -15,12 +15,12 @@ const Biography = () => {
             cultures, and traditions.
           </p>
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <Link
+            <ScrollToTopLink
               to="/orchestra"
               className="btn btn-secondary py-sm-3 px-sm-5 rounded-pill mt-3 joinNow"
             >
               Our History
-            </Link>
+            </ScrollToTopLink>
             {/* href="/about/orchestra.html"
                 className="btn btn-secondary py-sm-3 px-sm-5 rounded-pill mt-3 joinNow"
                 style="margin-top: 0 !important"

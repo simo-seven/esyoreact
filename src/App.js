@@ -57,6 +57,13 @@ function App() {
     setElements(submenuItems); //updates the elements array only with the submenu items
   };
 
+  //converts the date
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    const options = { day: "numeric", month: "long", year: "numeric" }; // Formatting options
+    return new Intl.DateTimeFormat("en-US", options).format(date); // Format the date
+  }
+
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
@@ -96,10 +103,10 @@ function App() {
                     {path === "/otherevents" && <OtherEvents />}
                     {path === "/contact" && <Contact />}
                     {path === "/partners" && <Partners />}
-                    {path === "/news/:id" && <NewsDetails />}
+                    {path === "/news/:id" && <NewsDetails formatDate={formatDate} />}
                     {path === "/concertours" && <ConcertTours />}
                     {path === "/donations" && <Donations />}
-                    {path === "/auditions" && <Auditions />}
+                    {path === "/auditions" && <Auditions formatDate={formatDate} />}
                     {path === "/orchestra" && <Orchestra />}
                     {path === "/publicontributions" && <PublicContributions />}
                   </>

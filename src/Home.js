@@ -11,7 +11,7 @@ import HomeTestimonials from "./components/HomeTestimonials";
 import dataTestimonials from "./data/TestimonialsHomepage.json";
 import Video from "./components/Video";
 
-const Home = () => {
+const Home = ({formatDate}) => {
   const numbers = dataNumbers;
   const news = dataNews;
   const sponsors = dataSponsors;

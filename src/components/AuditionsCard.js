@@ -1,9 +1,4 @@
-const AuditionsCard = ({ auditions }) => {
-  function formatDate(dateString) {
-    const date = new Date(dateString);
-    const options = { day: "numeric", month: "long", year: "numeric" }; // Formatting options
-    return new Intl.DateTimeFormat("en-US", options).format(date); // Format the date
-  }
+const AuditionsCard = ({ auditions, formatDate }) => {
 
   return (
     <div className="row g-4">

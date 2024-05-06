@@ -6,7 +6,7 @@ import AuditionsForm from "./components/AuditionsForm";
 import dataPlaces from "./data/auditions.json";
 import dataButtons from "./data/auditionsDownloadButtons.json";
 
-const Auditions = () => {
+const Auditions = ({ formatDate }) => {
   const auditions = dataPlaces;
   const buttons = dataButtons;
   return (
@@ -87,7 +87,7 @@ const Auditions = () => {
             </p>
           </div>
 
-          <AuditionsCard auditions={auditions} />
+          <AuditionsCard auditions={auditions} formatDate={formatDate} />
         </div>
         <p className="mt-10">
           Are you ready? Just fill out the following form and you are done.{" "}
