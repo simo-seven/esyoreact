@@ -1,5 +1,4 @@
-// import { Link } from "react-router-dom";
-import ScrollToTopLink from "../ScrollToTopLink";
+import ScrollToTopLink from "./ScrollToTopLink";
 
 const Footer = () => {
   return (
@@ -32,11 +31,11 @@ const Footer = () => {
             <ScrollToTopLink className="btn btn-link" to="/cookiepolicy">
               Cookie Policy
             </ScrollToTopLink>
-            <ScrollToTopLink className="btn btn-link" to="/pressmedia">
-              Press & Media
-            </ScrollToTopLink>
             <ScrollToTopLink className="btn btn-link" to="/privacypolicy">
               Privacy Policy
+            </ScrollToTopLink>
+            <ScrollToTopLink className="btn btn-link" to="/pressmedia">
+              Press & Media
             </ScrollToTopLink>
           </div>
           <div className="col-md-6 col-lg-4 hideOnMobile">

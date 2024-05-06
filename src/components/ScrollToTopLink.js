@@ -1,9 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 class ScrollToTopLink extends React.Component {
   handleClick = () => {
-    window.scrollTo(0, 0);
+    // Scroll to the top of the page
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Smooth scrolling animation
+    });
   };
 
   render() {
