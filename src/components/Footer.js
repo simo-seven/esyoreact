@@ -22,8 +22,8 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-lg-4">
             <p className="section-title text-white h5 mb-4">Information</p>
-            <Link className="btn btn-link" to="/contact">
-              Contact Us
+            <Link className="btn btn-link" to="/publicontributions">
+              Public Contributions
             </Link>
             <Link className="btn btn-link" to="/legaldetails">
               Legal details

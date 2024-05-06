@@ -25,6 +25,8 @@ import Header from "./components/Header";
 import MenuOverlay from "./components/MenuOverlay";
 import { useState } from "react";
 import data from "./data/navItems.json";
+import Orchestra from "./Orchestra.js";
+import PublicContributions from "./PublicContributions.js";
 
 function App() {
   const introTitles = {
@@ -34,6 +36,7 @@ function App() {
     "/partners": "Partners",
     "/contact": "Contact",
     "/auditions": "Auditions",
+    "/orchestra": "Orchestra",
     "/otherevents": "Other Events",
     "/faculty": "Faculty",
     "/organizer": "Organizer",
@@ -42,6 +45,7 @@ function App() {
     "/legaldetails": "Legal Details",
     "/cookiepolicy": "Cookie Policy",
     "/privacypolicy": "Privacy Policy",
+    "/publicontributions": "Public Contributions",
   };
 
   // Changing between menu and submenus
@@ -96,6 +100,8 @@ function App() {
                     {path === "/concertours" && <ConcertTours />}
                     {path === "/donations" && <Donations />}
                     {path === "/auditions" && <Auditions />}
+                    {path === "/orchestra" && <Orchestra />}
+                    {path === "/publicontributions" && <PublicContributions />}
                   </>
                 }
               />
