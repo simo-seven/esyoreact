@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import ScrollToTopLink from "../ScrollToTopLink";
 
 const Footer = () => {
   return (
@@ -10,10 +11,10 @@ const Footer = () => {
         <div className="row g-5">
           <div className="col-md-6 col-lg-4 font1rem">
             <p className="section-title text-white h5 mb-4">ORGANIZER</p>
-            <Link to="/organizer" className="text-white">
+            <ScrollToTopLink to="/organizer" className="text-white">
               Cultural association SGME <br />
               Scuola per Giovani Musicisti Europei APS
-            </Link>
+            </ScrollToTopLink>
             <p className="section-title text-white h5 mb-4">Address</p>
             <p>
               <i className="fa fa-map-marker-alt me-3"></i>Via San Giacomo in
@@ -22,50 +23,50 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-lg-4">
             <p className="section-title text-white h5 mb-4">Information</p>
-            <Link className="btn btn-link" to="/publicontributions">
+            <ScrollToTopLink className="btn btn-link" to="/publicontributions">
               Public Contributions
-            </Link>
-            <Link className="btn btn-link" to="/legaldetails">
+            </ScrollToTopLink>
+            <ScrollToTopLink className="btn btn-link" to="/legaldetails">
               Legal details
-            </Link>
-            <Link className="btn btn-link" to="/cookiepolicy">
+            </ScrollToTopLink>
+            <ScrollToTopLink className="btn btn-link" to="/cookiepolicy">
               Cookie Policy
-            </Link>
-            <Link className="btn btn-link" to="/pressmedia">
+            </ScrollToTopLink>
+            <ScrollToTopLink className="btn btn-link" to="/pressmedia">
               Press & Media
-            </Link>
-            <Link className="btn btn-link" to="/privacypolicy">
+            </ScrollToTopLink>
+            <ScrollToTopLink className="btn btn-link" to="/privacypolicy">
               Privacy Policy
-            </Link>
+            </ScrollToTopLink>
           </div>
           <div className="col-md-6 col-lg-4 hideOnMobile">
-            <Link to="/">
+            <ScrollToTopLink to="/">
               <img src="./img/logos/LogoSmall.png" alt="Logo ESYO" className="footerlogo" />
-            </Link>
+            </ScrollToTopLink>
           </div>
         </div>
       </div>
       <div className="container px-lg-5">
         <div className="d-flex justify-content-center pt-2 footersocials">
-          <Link
+          <ScrollToTopLink
             className="btn text-white"
             to="https://www.instagram.com/esyo_eu/"
             target="_blank"
             rel="noreferrer noopener"
           >
             <i className="fab fa-instagram fa-2x"></i>
-          </Link>
-          <Link
+          </ScrollToTopLink>
+          <ScrollToTopLink
             className="btn text-white"
             to="https://www.youtube.com/@esyo"
             target="_blank"
             rel="noreferrer noopener"
           >
             <i className="fab fa-youtube fa-2x"></i>
-          </Link>
-          <Link className="btn text-white" to="mailto:segreteria@esyo.eu">
+          </ScrollToTopLink>
+          <ScrollToTopLink className="btn text-white" to="mailto:segreteria@esyo.eu">
             <i className="fa-solid fa-2x fa-envelope"></i>
-          </Link>
+          </ScrollToTopLink>
         </div>
         <div className="copyright">
           <div className="row">
