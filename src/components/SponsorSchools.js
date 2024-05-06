@@ -1,4 +1,4 @@
-const SponsorSchools = ({ schools, title }) => {
+const SponsorSchools = ({ data, title }) => {
   return (
     <>
       <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -7,7 +7,7 @@ const SponsorSchools = ({ schools, title }) => {
         </h1>
       </div>
       <ul className="list-disc list-inside">
-        {schools.map((school) => (
+        {data.map((school) => (
           <li key={school.id}>
             <span className="beCareful">{school.country}</span> {school.name},
             in {school.city}

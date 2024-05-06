@@ -21,7 +21,7 @@ const PartnersCarousel = ({ sponsors }) => {
       <div className="slider">
         <div className="slide-track">
           {/* <!-- LE FOTO DEVONO ESSERE 500px x 200px, altrimenti sono sgranate --> */}
-          {sponsors.map((sponsor) => (
+          {[...sponsors.main, ...sponsors.partners].map((sponsor) => (
             <div className="slide" key={sponsor.id}>
               <img
                 src={sponsor.src}
