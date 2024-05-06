@@ -18,13 +18,16 @@ const Organizer = () => {
 
   return (
     <div className="container-xxl py-5">
-      <div className="container py-5 px-lg-5">
-        <div className="wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container py-5 px-5 lg:px-10">
+        <div
+          className="animate__animated animate__fadeInUp"
+          data-wow-delay="0.1s"
+        >
           <h1 className="text-center mb-5 text-white text-4xl">
             Scuola per Giovani Musicisti Europei SGME
           </h1>
         </div>
-        <div className="align-items-end">
+        <div className="flex items-end">
           <div
             className="btn-group py-4"
             role="group"

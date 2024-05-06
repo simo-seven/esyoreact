@@ -5,7 +5,7 @@ const AuditionsForm = () => {
     <div className="row justify-content-center">
       <div className="col-lg-7">
         <div className="wow fadeInUp" data-wow-delay="0.3s">
-          <p>
+          <p className="mb-2">
             All fields are <span className="beCareful">required</span>!
           </p>
           <form

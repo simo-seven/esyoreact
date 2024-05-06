@@ -6,8 +6,7 @@ const SponsorSchools = ({ schools, title }) => {
           {title}
         </h1>
       </div>
-      <ul className="dots">
-        <p className="mt-2 mb-2"> INDENT THE li ELEMENTS!!!! You'll need this also in the auditions, privacypolicy page</p>
+      <ul className="list-disc list-inside">
         {schools.map((school) => (
           <li key={school.id}>
             <span className="beCareful">{school.country}</span> {school.name},

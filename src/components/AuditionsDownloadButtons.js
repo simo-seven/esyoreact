@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
+
 const AuditionsDownloadButtons = ({ buttons }) => {
   return (
     <div className="container-xxl">
@@ -15,7 +18,7 @@ const AuditionsDownloadButtons = ({ buttons }) => {
                   download={button.name}
                   className="btn btn-secondary py-sm-3 px-sm-5 rounded-pill mt-3 joinNow fontsize1point1rem"
                 >
-                  <i className="fa fa-file-invoice me-3"></i>
+                  <FontAwesomeIcon icon={faFileInvoice} className="me-3" />
                   {button.name}
                 </a>
               </div>

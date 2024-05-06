@@ -1,24 +1,27 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import AuditionsCard from "./components/AuditionsCard";
 import AuditionsDownloadButtons from "./components/AuditionsDownloadButtons";
 import AuditionsForm from "./components/AuditionsForm";
 import dataPlaces from "./data/auditions.json";
 import dataButtons from "./data/auditionsDownloadButtons.json";
 
-
 const Auditions = () => {
   const auditions = dataPlaces;
   const buttons = dataButtons;
   return (
     <div className="container-xxl py-5">
-      <div className="container py-5 px-lg-5">
-        <div className="wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container py-5 px-5 lg:px-10">
+        <div
+          className="animate__animated animate__fadeInUp"
+          data-wow-delay="0.1s"
+        >
           <p>
-            <span className="beCareful">Welcome</span> to the Auditions page!
-            <br />
-            2024 auditions will be held for the following positions:
+            <span className="beCareful text-2xl">Welcome</span> to the Auditions
+            page! 2024 auditions will be held for the following positions:
           </p>
 
-          <ul className="dots">
+          <ul className="list-disc list-inside">
             <li>18 Violins</li>
             <li>6 Violas</li>
             <li>6 Cellos</li>
@@ -55,9 +58,14 @@ const Auditions = () => {
             >
               <div className="d-flex flex-column text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-calendar fa-2x beCareful"></i>
+                  <FontAwesomeIcon
+                    icon={faCalendar}
+                    className="beCareful fa-4x"
+                  />{" "}
                 </div>
-                <h3 className="margintop2vh text-white text-3xl">Auditions Deadline</h3>
+                <h3 className="margintop2vh text-white text-3xl">
+                  Auditions Deadline
+                </h3>
                 <h4 className="beCareful text-2xl">
                   May 31<sup>st</sup>, 2024
                 </h4>
@@ -69,23 +77,32 @@ const Auditions = () => {
 
           <div className="morespace">
             <p className="text-justify">
-              <span className="beCareful">Live Auditions</span> will be held in the following Countries and Cities. <span className="beCareful">
-                If you don't see your city don't panic, you can always send us a link to one of your videos in the form below
-              </span> (select the option "Online" in the "Audition Place" field).
+              <span className="beCareful">Live Auditions</span> will be held in
+              the following Countries and Cities.{" "}
+              <span className="beCareful">
+                If you don't see your city don't panic, you can always send us a
+                link to one of your videos in the form below
+              </span>{" "}
+              (select the option "Online" in the "Audition Place" field).
             </p>
           </div>
 
           <AuditionsCard auditions={auditions} />
         </div>
-        <p className="margintop5vh">
-          Are you ready? Just fill out the following form and you are done. <span className="beCareful">Good luck for your audition!</span>
+        <p className="mt-10">
+          Are you ready? Just fill out the following form and you are done.{" "}
+          <span className="beCareful">Good luck for your audition!</span>
         </p>
       </div>
-      <div className="container py-5 px-lg-5">
-        <div className="wow fadeInUp" data-wow-delay="0.1s">
-          <h1 className="text-center mb-5 text-white text-4xl">Audition Form</h1>
+      <div className="container py-5 px-5 lg:px-10">
+        <div
+          className="animate__animated animate__fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <h1 className="text-center mb-5 text-white text-4xl">
+            Audition Form
+          </h1>
         </div>
-
         <AuditionsForm />
       </div>
     </div>
