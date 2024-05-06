@@ -38,7 +38,7 @@ const Footer = () => {
               Press & Media
             </ScrollToTopLink>
           </div>
-          <div className="col-md-6 col-lg-4 hideOnMobile">
+          <div className="col-md-6 col-lg-4 hidden md:block">
             <ScrollToTopLink to="/">
               <img src="./img/logos/LogoSmall.png" alt="Logo ESYO" className="footerlogo" />
             </ScrollToTopLink>

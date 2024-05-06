@@ -14,7 +14,8 @@ const Header = ({ navbarOpen, setNavbarOpen, setElements, data }) => {
             }, 300);
           }}
         >
-          <img src={logo} alt="Logo" className="lg:w-1/12 md:w-1/12" />
+          <img src={logo} alt="Logo" className="lg:w-1/12 hideOnMobile" />
+          <img src={logo} alt="Logo" className="onlyMobile" style={{ width: '30%' }} />
         </Link>
       </div>
 

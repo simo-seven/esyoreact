@@ -5,7 +5,7 @@ const Donations = () => {
   const testimonials = data;
   return (
     <>
-      <div className="container-xxl py-3">
+      <div className="container-xxl py-3 hidden md:block">
         <div className="container py-3 px-lg-3">
           <div className="wow fadeInUp" data-wow-delay="0.1s">
             <p className="section-title text-secondary justify-content-center">
@@ -15,7 +15,7 @@ const Donations = () => {
         </div>
       </div>
 
-      <div className="container-xxl py-2 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-xxl py-2 wow fadeInUp hidden md:block" data-wow-delay="0.1s">
         <div className="container py-2 px-lg-2">
           <div className="row">
             <div className="col-lg-6">
@@ -38,7 +38,7 @@ const Donations = () => {
 
       <div className="container-xxl py-3">
         <div className="container py-3 px-lg-3">
-          <div className="wow fadeInUp" data-wow-delay="0.1s">
+          <div className="wow fadeInUp hidden md:block" data-wow-delay="0.1s">
             <h1 className="text-center mb-5 text-white text-4xl">
               Become an ESYO donor
             </h1>

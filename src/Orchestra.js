@@ -54,9 +54,9 @@ const Orchestra = () => {
           </div>
         </div>
       </div>
-      <div className="container-xxl">
+      <div className="container-xxl hidden md:block">
         <div className="container px-lg-5">
-          <div className="flex justify-center items-center text-center my-8">
+          <div className="flex justify-center items-center text-center my-8 p-20">
             <div className="gallery">
               <img src="/img/rossetti/_DSF0138.jpg" alt="Orchestra" />
               <img src="/img/rossetti/_DSF1063.jpg" alt="Orchestra" />
@@ -66,7 +66,7 @@ const Orchestra = () => {
           </div>
         </div>
       </div>
-      <div className="container-xxl">
+      <div className="container-xxl hidden md:block">
         <div className="container py-4 px-5 lg:px-10">
           <div
             className="animate__animated animate__fadeInUp"
@@ -96,7 +96,7 @@ const Orchestra = () => {
         </div>
       </div>
       
-      <div className="container-xxl py-4">
+      <div className="container-xxl py-4 hidden md:block">
         <div className="container py-4 px-5 lg:px-10">
           <div
             className="animate__animated animate__fadeInUp"

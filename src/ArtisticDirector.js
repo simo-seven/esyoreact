@@ -3,7 +3,7 @@ const ArtisticDirector = () => {
     <div className="container-xxl py-5">
       <div className="container py-5 px-lg-5">
         <div className="animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-          <p className="text-secondary text-center">principal conductor</p>
+          <p className="text-secondary text-center text-uppercase">principal conductor</p>
           <h1 className="text-center mb-5 text-white text-4xl">
             M<sup>o</sup> Igor Coretti Kuret
           </h1>
@@ -17,7 +17,7 @@ const ArtisticDirector = () => {
               className="profile-image grayscale-to-color"
             />
           </div>
-          <div className="col-md-6 text-justify">
+          <div className="col-md-6 text-justify hidden md:block">
             <p>
               <em className="lead">
                 <span className="beCareful">What is music?</span> It is a
@@ -44,7 +44,7 @@ const ArtisticDirector = () => {
             </p>
           </div>
         </div>
-        <div className="col text-justify">
+        <div className="col text-justify hidden md:block">
           <p>
             <em>
               <br />{" "}
