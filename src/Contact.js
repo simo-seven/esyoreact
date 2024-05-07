@@ -20,10 +20,10 @@ const Contact = () => {
                 </p>
                 <form
                   name="contact"
-                  method="POST"
-                  data-netlify="true"
-                  data-netlify-recaptcha="true"
+                  action="/contact"
+                  method="post"
                 >
+                  <input type="hidden" name="form-name" value="contact"/>
                   <div className="row g-3">
                     <div className="col-md-6">
                       <div className="form-floating">
@@ -77,7 +77,6 @@ const Contact = () => {
                         </label>
                       </div>
                     </div>
-                    <div data-netlify-recaptcha="true"></div>
                     <div className="col-12">
                       <button
                         className="btn btn-secondary w-100 py-3"

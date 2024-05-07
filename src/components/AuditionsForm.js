@@ -10,7 +10,7 @@ const AuditionsForm = () => {
           </p>
           <form
             name="audition"
-            method="POST"
+            method="post"
             data-netlify="true"
             data-netlify-recaptcha="true"
           >
