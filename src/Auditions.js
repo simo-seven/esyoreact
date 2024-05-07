@@ -21,7 +21,7 @@ const Auditions = ({ formatDate }) => {
             page! 2024 auditions will be held for the following positions:
           </p>
 
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside ml-5">
             <li>18 Violins</li>
             <li>6 Violas</li>
             <li>6 Cellos</li>

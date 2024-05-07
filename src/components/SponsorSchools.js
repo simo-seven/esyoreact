@@ -6,7 +6,7 @@ const SponsorSchools = ({ data, title }) => {
           {title}
         </h1>
       </div>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc list-inside ml-5">
         {data.map((school) => (
           <li key={school.id}>
             <span className="beCareful">{school.country}</span> {school.name},

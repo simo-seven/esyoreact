@@ -22,7 +22,7 @@ const Home = ({formatDate}) => {
       <Biography />
       <RollingNumbers numbers={numbers} />
       <Maestro />
-      <News news={news} />
+      {/* <News news={news} /> */}
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <div className="container-fluid">
