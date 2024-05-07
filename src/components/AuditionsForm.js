@@ -9,7 +9,6 @@ const AuditionsForm = () => {
             All fields are <span className="beCareful">required</span>!
           </p>
           <form
-            netlify
             name="audition"
             method="POST"
             data-netlify="true"

@@ -19,7 +19,6 @@ const Contact = () => {
                   get back to you as soon as possible.
                 </p>
                 <form
-                  netlify
                   name="contact"
                   method="POST"
                   data-netlify="true"
