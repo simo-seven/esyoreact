@@ -95,8 +95,13 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container-xxl py-5">
-        <div className="container py-5 px-lg-5">
+      <div className="container-xxl py-5 mb-0">
+        <div className="container py-5 px-lg-5 pt-0">
+        <div className="wow fadeInUp" data-wow-delay="0.1s">
+            <h1 className="text-center mb-5 text-white text-4xl" id="fillout">
+              People
+            </h1>
+          </div>
           <div className="row g-4 justify-content-center">
             <div
               className="col-lg-5 col-md-6 mx-2 wow fadeInUp"
@@ -155,8 +160,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container-xxl py-5">
-        <div className="container py-5 px-lg-5">
+      <div className="container-xxl py-5 mt-0 pt-0">
+        <div className="container py-5 px-lg-5 mt-0">
           <div className="wow fadeInUp" data-wow-delay="0.1s">
             <h1 className="text-center mb-5 text-white text-4xl" id="fillout">
               Connect with us
