@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/publicontributions.html"
-  to = "/publicontributions"
-  status = 200
-  force = true
