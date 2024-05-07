@@ -1,4 +1,5 @@
 import ScrollToTopLink from "./ScrollToTopLink";
+import logo from "../LogoSmall.png"
 
 const Footer = () => {
   return (
@@ -40,7 +41,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-lg-4 hidden md:block">
             <ScrollToTopLink to="/">
-              <img src="./img/logos/LogoSmall.png" alt="Logo ESYO" className="footerlogo" />
+              <img src={logo} alt="Logo ESYO" className="footerlogo" />
             </ScrollToTopLink>
           </div>
         </div>

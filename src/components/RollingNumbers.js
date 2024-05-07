@@ -18,7 +18,7 @@ const RollingNumbers = ({ numbers }) => {
               data-wow-delay={number.delay}
               key={number.id}
             >
-              <h1 className="beCareful mb-2 text-5xl" data-toggle="counter-up">
+              <h1 className="beCareful mb-2 text-4xl" data-toggle="counter-up">
                 {inView ? (
                   <CountUp start={0} end={number.value} duration={2} />
                 ) : (

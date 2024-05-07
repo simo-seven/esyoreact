@@ -48,9 +48,9 @@ function App() {
     "/publicontributions": "Public Contributions",
   };
 
-  // Changing between menu and submenus
+  // Logic behind the navigation
+  const [navbarOpen, setNavbarOpen] = useState(false);
   const [elements, setElements] = useState(data);
-
   const changeElements = (id) => {
     const selectedItem = elements.find((item) => item.id === id); // Finds the element with the matching id
     const submenuItems = selectedItem.submenu || []; // Get the submenu items
@@ -62,9 +62,14 @@ function App() {
     const date = new Date(dateString);
     const options = { day: "numeric", month: "long", year: "numeric" }; // Formatting options
     return new Intl.DateTimeFormat("en-US", options).format(date); // Format the date
-  }
+  };
 
-  const [navbarOpen, setNavbarOpen] = useState(false);
+  //string manipulation for \n in json file
+  const renderBody = (body) => {
+    return body.split(/\n+/).map((line, index) => (
+      <p key={index}>{line}</p>
+    ));
+  };
 
   return (
     <Router>
@@ -103,12 +108,21 @@ function App() {
                     {path === "/otherevents" && <OtherEvents />}
                     {path === "/contact" && <Contact />}
                     {path === "/partners" && <Partners />}
-                    {path === "/news/:id" && <NewsDetails formatDate={formatDate} />}
+                    {path === "/news/:id" && (
+                      <NewsDetails
+                        formatDate={formatDate}
+                        renderBody={renderBody}
+                      />
+                    )}
                     {path === "/concertours" && <ConcertTours />}
                     {path === "/donations" && <Donations />}
-                    {path === "/auditions" && <Auditions formatDate={formatDate} />}
+                    {path === "/auditions" && (
+                      <Auditions formatDate={formatDate} />
+                    )}
                     {path === "/orchestra" && <Orchestra />}
-                    {path === "/publicontributions" && <PublicContributions />}
+                    {path === "/publicontributions" && (
+                      <PublicContributions renderBody={renderBody} />
+                    )}
                   </>
                 }
               />

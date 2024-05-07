@@ -163,8 +163,18 @@ p.margintop5vh {
 .fontsize1point1rem {
   font-size: 1.1rem;
 }
-h1.pageTitle {
-  font-size: 5rem;
+@media screen and (min-width: 1024px) {
+  h1.pageTitle {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  h1.pageTitle {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 3rem;
+  }
 }
 div.nobkg {
   background: none;
