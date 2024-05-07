@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/publicontributions.html"
+  to = "/publicontributions"
+  status = 301
+  force = true
