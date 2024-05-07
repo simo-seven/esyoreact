@@ -21,7 +21,6 @@ const Contact = () => {
                 <form
                   netlify
                   name="contact"
-                  action="/pages/formsuccess.html"
                   method="POST"
                   data-netlify="true"
                   data-netlify-recaptcha="true"

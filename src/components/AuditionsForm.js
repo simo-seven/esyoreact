@@ -11,7 +11,6 @@ const AuditionsForm = () => {
           <form
             netlify
             name="audition"
-            action="/pages/auditionformsuccess.html"
             method="POST"
             data-netlify="true"
             data-netlify-recaptcha="true"
