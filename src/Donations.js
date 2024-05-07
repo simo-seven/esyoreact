@@ -36,7 +36,7 @@ const Donations = () => {
         </div>
       </div>
 
-      <div className="container-xxl py-3">
+      <div className="container-xxl py-3 mb-5">
         <div className="container py-3 px-lg-3">
           <div className="wow fadeInUp hidden md:block" data-wow-delay="0.1s">
             <h1 className="text-center mb-5 text-white text-4xl">
@@ -53,6 +53,11 @@ const Donations = () => {
               together with other young European musicians, to participate in
               the planned concert tours and to develop their musical and
               artistic skills.
+            </p>
+            <p className="text-center beCareful mt-5 mb-5">
+              By donating, you are helping to make a real difference in the
+              lives of these young musicians. <br />
+              Thank you for your support!
             </p>
             <p className="text-justify">
               For our young musicians ESYO is a life-changing experience. Your
@@ -79,7 +84,7 @@ const Donations = () => {
               concerts.
             </p>
           </div>
-          <div className="container">
+          <div className="container mt-5 mb-5">
             <div className="hideOnMobile">
               <p className="text-center text-uppercase text-white">
                 <span className="beCareful">3000&#x20AC;</span> full scholarship
@@ -125,14 +130,6 @@ const Donations = () => {
               All received donations are helping to cover the costs of tuition,
               travel, and accommodation of young musicians who would otherwise
               not be able to participate in the ESYO.
-            </p>
-          </div>
-
-          <div className="py-3">
-            <p className="text-center beCareful">
-              By donating, you are helping to make a real difference in the
-              lives of these young musicians. <br />
-              Thank you for your support!
             </p>
           </div>
         </div>

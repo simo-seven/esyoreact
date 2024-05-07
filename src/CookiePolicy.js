@@ -26,7 +26,7 @@ const CookiePolicy = () => {
           strictly necessary for the operation of this website. For all other
           types of cookies we need your permission. Find out more about who we
           are, how you can contact us and how we process personal data in our{" "}
-          <Link to="/privacypolicy" className="beCareful">Privacy Policy</Link>
+          <Link to="/privacypolicy" className="beCareful">Privacy Policy</Link>.
         </p>
       </div>
       <div className="container py-5 px-lg-5">

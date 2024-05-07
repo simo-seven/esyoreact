@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ComingSoon = () => {
   return (
-    <div className="col-md-12">
+    <div className="col-md-12 mt-5 mb-5">
       <div className="text-center">
         <h1 className="text-white mb-3 text-4xl">Coming Soon!!!</h1>
         <p>

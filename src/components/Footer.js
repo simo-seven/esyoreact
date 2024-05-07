@@ -4,7 +4,7 @@ import logo from "../LogoSmall.png"
 const Footer = () => {
   return (
     <div
-      className="container-fluid bg-primary text-light footer wow fadeIn"
+      className="container-fluid bg-primary text-light footer wow fadeIn mt-0"
       data-wow-delay="0.1s"
     >
       <div className="container py-5 px-lg-5">
