@@ -15,7 +15,7 @@ const PublicContributions = ({ renderBody }) => {
       <div className="container py-5 px-5 lg:px-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-1">
-            <p className="text-justify">
+            <p className="lg:text-justify">
               On this administrative transparency page you will find all public
               contributions received in recent years. To view the desired year,
               simply select it in the box below. For administrative reasons the
@@ -44,7 +44,7 @@ const PublicContributions = ({ renderBody }) => {
               <h3 className="text-2xl beCareful">
                 Public contributions received
               </h3>
-              <div className="mt-1 mb-10 text-justify">
+              <div className="mt-1 mb-10 lg:text-justify">
                 {renderBody(getIdBody(year))}
               </div>
             </div>
