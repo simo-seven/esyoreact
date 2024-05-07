@@ -46,34 +46,11 @@
     <title>European Spirith of Youth Orchestra</title>
   </head>
   <body>
-
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <div class="row g-3">
-        <div class="col-md-6">
-          <div class="form-floating">
-            <input type="text" name="name" required />
-            <label htmlFor="name">Your Name and Surname</label>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-floating">
-            <input type="email" name="email" required />
-            <label htmlFor="email">Your Email</label>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="form-floating">
-            <textarea name="message" required></textarea>
-            <label htmlFor="message">Message</label>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="form-check mb-3">
-            <input type="checkbox" name="gdprConsent" required />
-          </div>
-        </div>
-        <div data-netlify-recaptcha="true"></div>
-      </div>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="checkbox" name="gdprConsent" />
     </form>
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
