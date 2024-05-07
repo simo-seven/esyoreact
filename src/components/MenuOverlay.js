@@ -34,7 +34,7 @@ const MenuOverlay = ({
                 }
               }}
             >
-              <h1 className="orange lg:text-4xl">
+              <h1 className="orange text-4xl">
                 {element.hasSubmenu ? (
                   <>
                     {element.name} <FontAwesomeIcon icon={faAngleDoubleRight} />
