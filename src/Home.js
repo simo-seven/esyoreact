@@ -3,7 +3,7 @@ import Maestro from "./components/Maestro";
 import RollingNumbers from "./components/RollingNumbers";
 import ComingSoon from "./components/ComingSoon";
 import dataNumbers from "./data/rollingNumbers.json";
-import dataNews from "./data/news.json";
+// import dataNews from "./data/news.json";
 // import News from "./components/News";
 import dataSponsors from "./data/partners.json";
 import PartnersCarousel from "./components/PartnersCarousel";
@@ -13,7 +13,7 @@ import Video from "./components/Video";
 
 const Home = ({formatDate}) => {
   const numbers = dataNumbers;
-  const news = dataNews;
+  // const news = dataNews;
   const sponsors = dataSponsors;
   const testimonials = dataTestimonials;
   return (
