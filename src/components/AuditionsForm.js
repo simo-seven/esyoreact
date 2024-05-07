@@ -8,12 +8,8 @@ const AuditionsForm = () => {
           <p className="mb-2">
             All fields are <span className="beCareful">required</span>!
           </p>
-          <form
-            name="audition"
-            method="post"
-            data-netlify="true"
-            data-netlify-recaptcha="true"
-          >
+          <form name="audition" action="/" method="post">
+            <input type="hidden" name="form-name" value="audition" />
             <div className="row g-3">
               <div className="col-md-6">
                 <div className="form-floating">
@@ -197,7 +193,6 @@ const AuditionsForm = () => {
                   </label>
                 </div>
               </div>
-              <div data-netlify-recaptcha="true"></div>
               <div className="col-12">
                 <button className="btn btn-secondary w-100 py-3" type="submit">
                   Apply Now!

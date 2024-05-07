@@ -53,6 +53,41 @@
       <input type="checkbox" name="gdprConsent" />
     </form>
 
+    <form name="audition" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="surname" />
+      <input type="email" name="email" />
+      <input type="text" name="phone" />
+      <input type="date" name="birthday" />
+      <input type="text" name="country" />
+      <input type="text" name="DocumentNumber" />
+      <select name="instrument[]">
+        <option value="Violin">Violin</option>
+        <option value="Viola">Viola</option>
+        <option value="Cello">Cello</option>
+        <option value="Doublebass">Double Bass</option>
+        <option value="FlutePiccolo">Flute/Piccolo</option>
+        <option value="Oboe/EnglishHorn">Oboe/English Horn</option>
+        <option value="ClarinetBassClarinet">Clarinet</option>
+        <option value="AltoSaxophone">Alto-saxophone</option>
+        <option value="Bassoon">Bassoon</option>
+        <option value="FrenchHorn">French Horn</option>
+        <option value="Trumpet">Trumpet</option>
+        <option value="Trombone">Trombone</option>
+        <option value="Tuba">Tuba</option>
+        <option value="TimpaniPercussions">Timpani/Percussions</option>
+        <option value="Harp">Harp</option>
+      </select>
+      <select name="auditionplace[]">
+        <option value="Trieste">Trieste, Italy (8th June, 2024)</option>
+        <option value="Online">Online</option>
+      </select>
+      <input type="text" name="videoURL" />
+      <input type="checkbox" name="legalTutor" />
+      <input type="checkbox" name="esyoRegulations" />
+      <input type="checkbox" name="gdprConsent" />
+    </form>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
