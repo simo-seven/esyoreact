@@ -4,7 +4,7 @@ import RollingNumbers from "./components/RollingNumbers";
 import ComingSoon from "./components/ComingSoon";
 import dataNumbers from "./data/rollingNumbers.json";
 import dataNews from "./data/news.json";
-import News from "./components/News";
+// import News from "./components/News";
 import dataSponsors from "./data/partners.json";
 import PartnersCarousel from "./components/PartnersCarousel";
 import HomeTestimonials from "./components/HomeTestimonials";
