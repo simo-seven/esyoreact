@@ -15,12 +15,12 @@ const Header = ({ navbarOpen, setNavbarOpen, setElements, data }) => {
           }}
         >
           <img src={logo} alt="Logo" className="lg:w-1/12 hideOnMobile" />
-          <img src={logo} alt="Logo" className="onlyMobile" style={{ width: '30%' }} />
+          <img src={logo} alt="Logo" className="onlyMobile" style={{ width: '30%'}} />
         </Link>
       </div>
 
       <button
-        className="flex top-0 right-0 z-20 relative w-20 h-20 focus:outline-none"
+        className="flex top-0 right-6 z-20 relative w-20 h-20 focus:outline-none"
         onClick={() => {
           setNavbarOpen(!navbarOpen);
           setTimeout(() => {
