@@ -7,8 +7,7 @@ const Partners = () => {
 
   return (
     <div className="container-xxl py-5">
-      <div className="container py-5 px-5 lg:px-10">
-        {" "}
+      <div className="container py-5 px-lg-5">
         <SponsorCard data={partners.main} title="main supporters" />
         <SponsorCard data={partners.partners} title="partners" />
         <SponsorSchools

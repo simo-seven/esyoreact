@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
-          <div className="wow fadeInUp" data-wow-delay="0.1s">
+          <div className="wow fadeInUp hidden md:block" data-wow-delay="0.1s">
             <h1 className="text-center mb-5 text-white text-4xl">
               Contact Form
             </h1>
@@ -157,7 +157,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container-xxl py-5 mt-0 pt-0">
+      <div className="container-xxl py-5 mt-0 pt-0 hidden md:block">
         <div className="container py-5 px-lg-5 mt-0">
           <div className="wow fadeInUp" data-wow-delay="0.1s">
             <h1 className="text-center mb-5 text-white text-4xl" id="fillout">

@@ -2,7 +2,7 @@ const Orchestra = () => {
   return (
     <div className="container-xxl py-5">
       <div className="container-xxl">
-        <div className="container py-4 px-5 lg:px-10">
+      <div className="container py-5 px-lg-5">
           <div
             className="animate__animated animate__fadeInUp"
             data-wow-delay="0.1s"
