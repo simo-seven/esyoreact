@@ -13,7 +13,7 @@ const Organizer = () => {
   };
   const handleItalianClick = () => {
     setLanguage("it");
-    setFilePath("/files/Disclaimer.pdf");
+    setFilePath("/files/SchedaSocioSGME.pdf");
   };
 
   return (
