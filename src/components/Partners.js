@@ -1,6 +1,6 @@
-import SponsorCard from "./components/SponsorCard";
-import SponsorSchools from "./components/SponsorSchools";
-import dataMain from "./data/partners.json";
+import SponsorCard from "./SponsorCard";
+import SponsorSchools from "./SponsorSchools";
+import dataMain from "../data/partners.json";
 
 const Partners = () => {
   const partners = dataMain;

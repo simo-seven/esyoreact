@@ -3,30 +3,32 @@ import "./css/my.css";
 import "./css/style.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Home.js";
-import NotFound from "./NotFound.js";
+import { useState } from "react";
+
+import Home from "./components/Home.js";
+import NotFound from "./components/NotFound.js";
 import Footer from "./components/Footer.js";
-import Contact from "./Contact.js";
-import Donations from "./Donations.js";
-import Organizer from "./Organizer.js";
-import PrivacyPolicy from "./PrivacyPolicy.js";
-import LegalDetails from "./LegalDetails.js";
-import CookiePolicy from "./CookiePolicy.js";
-import PressMedia from "./PressMedia.js";
-import ArtisticDirector from "./ArtisticDirector.js";
-import Faculty from "./Faculty.js";
-import OtherEvents from "./OtherEvents.js";
-import Auditions from "./Auditions.js";
-import ConcertTours from "./ConcertTours.js";
-import Partners from "./Partners.js";
+import Contact from "./components/Contact.js";
+import Donations from "./components/Donations.js";
+import Organizer from "./components/Organizer.js";
+import PrivacyPolicy from "./components/PrivacyPolicy.js";
+import LegalDetails from "./components/LegalDetails.js";
+import CookiePolicy from "./components/CookiePolicy.js";
+import PressMedia from "./components/PressMedia.js";
+import ArtisticDirector from "./components/ArtisticDirector.js";
+import Faculty from "./components/Faculty.js";
+import OtherEvents from "./components/OtherEvents.js";
+import Auditions from "./components/auditions/Auditions.js";
+import ConcertTours from "./components/ConcertTours.js";
+import Partners from "./components/Partners.js";
 import NewsDetails from "./components/NewsDetails.js";
 import IntroScreen from "./components/Intro.js";
 import Header from "./components/Header";
 import MenuOverlay from "./components/MenuOverlay";
-import { useState } from "react";
+import Orchestra from "./components/Orchestra.js";
+import PublicContributions from "./components/PublicContributions.js";
+
 import data from "./data/navItems.json";
-import Orchestra from "./Orchestra.js";
-import PublicContributions from "./PublicContributions.js";
 
 function App() {
   const introTitles = {

@@ -1,5 +1,5 @@
-import DonationsTestimonial from "./components/DonationsTestimonial";
-import data from "./data/testimonials.json";
+import DonationsTestimonial from "./DonationsTestimonial";
+import data from "../data/testimonials/donationsPage.json";
 
 const Donations = () => {
   const testimonials = data;

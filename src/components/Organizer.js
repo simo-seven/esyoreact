@@ -1,6 +1,6 @@
 import { useState } from "react";
-import OrganizerDescription from "./components/OrganizerDescription";
-import data from "./data/organizer.json";
+import OrganizerDescription from "./OrganizerDescription";
+import data from "../data/organizer.json";
 
 const Organizer = () => {
   const content = data;

@@ -1,15 +1,15 @@
-import Biography from "./components/Biography";
-import Maestro from "./components/Maestro";
-import RollingNumbers from "./components/RollingNumbers";
-import ComingSoon from "./components/ComingSoon";
-import dataNumbers from "./data/rollingNumbers.json";
+import Biography from "./Biography";
+import Maestro from "./Maestro";
+import RollingNumbers from "./RollingNumbers";
+import ComingSoon from "./ComingSoon";
+import dataNumbers from "../data/rollingNumbers.json";
 // import dataNews from "./data/news.json";
 // import News from "./components/News";
-import dataSponsors from "./data/partners.json";
-import PartnersCarousel from "./components/PartnersCarousel";
-import HomeTestimonials from "./components/HomeTestimonials";
-import dataTestimonials from "./data/TestimonialsHomepage.json";
-import Video from "./components/Video";
+import dataSponsors from "../data/partners.json";
+import PartnersCarousel from "./PartnersCarousel";
+import HomeTestimonials from "./HomeTestimonials";
+import dataTestimonials from "../data/testimonials/homePage.json";
+import Video from "./Video";
 
 const Home = ({formatDate}) => {
   const numbers = dataNumbers;

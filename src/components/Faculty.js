@@ -1,6 +1,6 @@
-import FacultyMember from "./components/FacultyMember";
-import data from "./data/faculty.json";
-import ComingSoon from "./components/ComingSoon";
+import FacultyMember from "./FacultyMember";
+import data from "../data/faculty.json";
+import ComingSoon from "./ComingSoon";
 import { useState } from "react";
 
 const Faculty = () => {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "./data/publicContributions.json";
+import data from "../data/publicContributions.json";
 
 const PublicContributions = ({ renderBody }) => {
   const contributions = data;
