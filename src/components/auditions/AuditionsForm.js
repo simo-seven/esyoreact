@@ -2,9 +2,13 @@ import { Link } from "react-router-dom";
 
 const AuditionsForm = ({ title }) => {
   return (
-    <div className="mt-5">
+    <>
+      <p className="mt-10">
+          Are you ready? Just fill out the following form and you are done.{" "}
+          <span className="beCareful">Good luck for your audition!</span>
+        </p>
       <div
-        className="animate__animated animate__fadeInUp"
+        className="animate__animated animate__fadeInUp mt-5"
         data-wow-delay="0.1s"
       >
         <h1 className="text-center mb-5 text-white text-4xl">{title}</h1>
@@ -222,7 +226,7 @@ const AuditionsForm = ({ title }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

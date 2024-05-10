@@ -7,28 +7,30 @@ import { useState } from "react";
 
 import Home from "./components/Home.js";
 import NotFound from "./components/NotFound.js";
-import Footer from "./components/Footer.js";
-import Contact from "./components/Contact.js";
-import Donations from "./components/Donations.js";
-import Organizer from "./components/Organizer.js";
+import Footer from "./components/headers_footer/Footer.js";
+import Contact from "./components/contact/Contact.js";
+import Donations from "./components/donations/Donations.js";
+import Organizer from "./components/organizer/Organizer.js";
 import PrivacyPolicy from "./components/PrivacyPolicy.js";
 import LegalDetails from "./components/LegalDetails.js";
 import CookiePolicy from "./components/CookiePolicy.js";
 import PressMedia from "./components/PressMedia.js";
-import ArtisticDirector from "./components/ArtisticDirector.js";
-import Faculty from "./components/Faculty.js";
+import ArtisticDirector from "./components/conductor/ArtisticDirector.js";
+import Faculty from "./components/faculty/Faculty.js";
 import OtherEvents from "./components/OtherEvents.js";
 import Auditions from "./components/auditions/Auditions.js";
-import ConcertTours from "./components/ConcertTours.js";
-import Partners from "./components/Partners.js";
-import NewsDetails from "./components/NewsDetails.js";
-import IntroScreen from "./components/Intro.js";
-import Header from "./components/Header";
-import MenuOverlay from "./components/MenuOverlay";
-import Orchestra from "./components/Orchestra.js";
-import PublicContributions from "./components/PublicContributions.js";
+import ConcertTours from "./components/tours/ConcertTours.js";
+import Partners from "./components/partners/Partners.js";
+import NewsDetails from "./components/news/NewsDetails.js";
+import IntroScreen from "./components/headers_footer/Intro.js";
+import Header from "./components/navigation/Header.js";
+import MenuOverlay from "./components/navigation/MenuOverlay.js";
+import Orchestra from "./components/orchestra/Orchestra.js";
+import PublicContributions from "./components/contributions/PublicContributions.js";
 
 import data from "./data/navItems.json";
+import dataOrchestraBio from "./data/orchestraBio.json";
+import dataConductorBio from "./data/conductorBio.json";
 
 function App() {
   const introTitles = {
@@ -68,9 +70,7 @@ function App() {
 
   //string manipulation for \n in json file
   const renderBody = (body) => {
-    return body.split(/\n+/).map((line, index) => (
-      <p key={index}>{line}</p>
-    ));
+    return body.split(/\n+/).map((line, index) => <p key={index}>{line}</p>);
   };
 
   return (
@@ -104,7 +104,12 @@ function App() {
                     {path === "/cookiepolicy" && <CookiePolicy />}
                     {path === "/legaldetails" && <LegalDetails />}
                     {path === "/pressmedia" && <PressMedia />}
-                    {path === "/artisticdirector" && <ArtisticDirector />}
+                    {path === "/artisticdirector" && (
+                      <ArtisticDirector
+                        renderBody={renderBody}
+                        bio={dataConductorBio}
+                      />
+                    )}
                     {path === "/organizer" && <Organizer />}
                     {path === "/faculty" && <Faculty />}
                     {path === "/otherevents" && <OtherEvents />}
@@ -121,7 +126,12 @@ function App() {
                     {path === "/auditions" && (
                       <Auditions formatDate={formatDate} />
                     )}
-                    {path === "/orchestra" && <Orchestra />}
+                    {path === "/orchestra" && (
+                      <Orchestra
+                        renderBody={renderBody}
+                        bio={dataOrchestraBio}
+                      />
+                    )}
                     {path === "/publicontributions" && (
                       <PublicContributions renderBody={renderBody} />
                     )}
