@@ -10,6 +10,7 @@ const Person = ({ people }) => {
         <div
           className="col-lg-5 col-md-6 mx-2 wow fadeInUp"
           data-wow-delay="0.1s"
+          key={person.id}
         >
           <div className="d-flex flex-column text-center rounded">
             <h3 className="margintop2vh text-white text-2xl">

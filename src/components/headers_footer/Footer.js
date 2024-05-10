@@ -1,9 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faYoutube,
-  faEnvelope,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope as faEnvelopeSolid } from "@fortawesome/free-solid-svg-icons";
 import ScrollToTopLink from "../ScrollToTopLink";
 import logo from "../../LogoSmall.png";
