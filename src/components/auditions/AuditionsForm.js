@@ -4,9 +4,9 @@ const AuditionsForm = ({ title }) => {
   return (
     <>
       <p className="mt-10">
-          Are you ready? Just fill out the following form and you are done.{" "}
-          <span className="beCareful">Good luck for your audition!</span>
-        </p>
+        Are you ready? Just fill out the following form and you are done.{" "}
+        <span className="beCareful">Good luck for your audition!</span>
+      </p>
       <div
         className="animate__animated animate__fadeInUp mt-5"
         data-wow-delay="0.1s"
@@ -213,6 +213,7 @@ const AuditionsForm = ({ title }) => {
                     </label>
                   </div>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
                 <div className="col-12">
                   <button
                     className="btn btn-secondary w-100 py-3"
