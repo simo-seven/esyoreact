@@ -19,7 +19,7 @@ const AuditionsForm = ({ title }) => {
             <p className="mb-2">
               All fields are <span className="beCareful">required</span>!
             </p>
-            <form name="audition" action="/" method="post">
+            <form name="audition" action="/" method="post" data-netlify-recaptcha="true">
               <input type="hidden" name="form-name" value="audition" />
               <div className="row g-3">
                 <div className="col-md-6">
