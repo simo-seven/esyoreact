@@ -19,7 +19,7 @@ const AuditionsForm = ({ title }) => {
             <p className="mb-2">
               All fields are <span className="beCareful">required</span>!
             </p>
-            <form name="audition" action="/" method="post" data-netlify-recaptcha="true">
+            <form name="audition" action="/" method="post">
               <input type="hidden" name="form-name" value="audition" />
               <div className="row g-3">
                 <div className="col-md-6">
@@ -213,7 +213,6 @@ const AuditionsForm = ({ title }) => {
                     </label>
                   </div>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
                 <div className="col-12">
                   <button
                     className="btn btn-secondary w-100 py-3"
