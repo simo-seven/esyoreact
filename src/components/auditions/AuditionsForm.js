@@ -23,7 +23,6 @@ const AuditionsForm = ({ title }) => {
               name="audition"
               action="/"
               method="post"
-              data-netlify-recaptcha="true"
             >
               <input type="hidden" name="form-name" value="audition" />
               <div className="row g-3">
@@ -219,7 +218,6 @@ const AuditionsForm = ({ title }) => {
                   </div>
                 </div>
                 <div className="col-12">
-                  <div data-netlify-recaptcha="true"></div>
                   <button
                     className="btn btn-secondary w-100 py-3"
                     type="submit"
