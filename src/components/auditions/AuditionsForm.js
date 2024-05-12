@@ -21,7 +21,7 @@ const AuditionsForm = ({ title }) => {
             </p>
             <form
               name="audition"
-              action="/success/"
+              action="/success"
               method="post"
             >
               <input type="hidden" name="form-name" value="audition" />

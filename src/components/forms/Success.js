@@ -16,9 +16,9 @@ const Success = () => {
           <h1 className="text-white text-3xl">
             All good!
           </h1>
-          <div className="row justify-content-center">
+          <div className="row justify-content-center mt-10">
             <div className="col-lg-7">
-              <p>
+              <p className="mb-5">
                 Thanks for submitting the form and for your interest in the <br /> European
                 Spirit of Youth Orchestra.
               </p>
