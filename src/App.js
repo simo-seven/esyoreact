@@ -27,11 +27,11 @@ import Header from "./components/navigation/Header.js";
 import MenuOverlay from "./components/navigation/MenuOverlay.js";
 import Orchestra from "./components/orchestra/Orchestra.js";
 import PublicContributions from "./components/contributions/PublicContributions.js";
+import AuditionSuccess from "./components/forms/AuditionSuccess.js";
 
 import data from "./data/navItems.json";
 import dataOrchestraBio from "./data/orchestraBio.json";
 import dataConductorBio from "./data/conductorBio.json";
-import AuditionSuccess from "./components/forms/AuditionSuccess.js";
 
 function App() {
   const introTitles = {
