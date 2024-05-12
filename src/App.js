@@ -31,6 +31,7 @@ import PublicContributions from "./components/contributions/PublicContributions.
 import data from "./data/navItems.json";
 import dataOrchestraBio from "./data/orchestraBio.json";
 import dataConductorBio from "./data/conductorBio.json";
+import AuditionSuccess from "./components/forms/AuditionSuccess.js";
 
 function App() {
   const introTitles = {
@@ -140,6 +141,7 @@ function App() {
               />
             ))}
             <Route path="*" element={<NotFound />}></Route>
+            <Route path="/adsuccess" element={<AuditionSuccess />}></Route>
           </Routes>
         </div>
         <Footer />
