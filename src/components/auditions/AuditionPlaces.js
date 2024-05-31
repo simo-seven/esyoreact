@@ -1,4 +1,4 @@
-const AuditionsCard = ({ auditions, formatDate }) => {
+const AuditionPlaces = ({ places, formatDate }) => {
   return (
     <>
       <div className="morespace">
@@ -13,7 +13,7 @@ const AuditionsCard = ({ auditions, formatDate }) => {
         </p>
       </div>
       <div className="row g-4">
-        {auditions.map((audition) => (
+        {places.map((audition) => (
           <div
             className="col-lg-4 wow fadeInUp"
             data-wow-delay="0.1s"
@@ -42,4 +42,4 @@ const AuditionsCard = ({ auditions, formatDate }) => {
   );
 };
 
-export default AuditionsCard;
+export default AuditionPlaces;

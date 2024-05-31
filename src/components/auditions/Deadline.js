@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 
-const Deadline = ({date, formatDate}) => {
+const Deadline = ({deadline, formatDate}) => {
   return (
     <div className="row g-4 justify-content-center auditionDeadline">
       <div
@@ -16,7 +16,7 @@ const Deadline = ({date, formatDate}) => {
             Auditions Deadline
           </h3>
           <h4 className="beCareful text-2xl">
-            {formatDate(date)}
+            {formatDate(deadline)}
           </h4>
         </div>
       </div>
