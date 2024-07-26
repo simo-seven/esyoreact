@@ -35,7 +35,7 @@ import dataConductorBio from "./data/conductorBio.json";
 
 function App() {
   const introTitles = {
-    "/concertours": "Concert Tours",
+    "/concertours": "2024 Summer Tour",
     "/donations": "Donations",
     "/news/:id": "News",
     "/partners": "Partners",
