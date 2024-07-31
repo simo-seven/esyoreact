@@ -15,7 +15,7 @@ const News = ({ news }) => {
             {news.map((news) => (
               <div className="col-md-4" key={news.id}>
                 <ScrollToTopLink to={`/news/${news.id}`}>
-                  <div className="card bg-grey cursor-pointer">
+                  <div className="card zoom bg-grey cursor-pointer">
                     <img
                       src={news.img}
                       className="card-img-top"

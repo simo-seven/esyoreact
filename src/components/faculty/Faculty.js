@@ -11,6 +11,7 @@ const Faculty = () => {
   const woodwinds = () => setFamily("woodwinds");
   const brass = () => setFamily("brass");
   const percussion = () => setFamily("percussion");
+  const harp = () => setFamily ("harp");
 
   return (
     <div className="container-xxl py-5">
@@ -23,7 +24,7 @@ const Faculty = () => {
               <>
                 <div className="col-12 d-flex justify-content-center">
                   <div
-                    className="btn-group btn-group-toggle"
+                    className="btn-group btn-group-toggle mb-5"
                     data-toggle="buttons"
                   >
                     <button
@@ -38,7 +39,7 @@ const Faculty = () => {
                       type="button"
                       onClick={() => woodwinds()}
                     >
-                      Woodwind
+                      Winds
                     </button>
                     <button
                       className="btn btn-secondary"
@@ -46,6 +47,13 @@ const Faculty = () => {
                       onClick={() => brass()}
                     >
                       Brass
+                    </button>
+                    <button
+                      className="btn btn-secondary"
+                      type="button"
+                      onClick={() => harp()}
+                    >
+                      Harp
                     </button>
                     <button
                       className="btn btn-secondary"

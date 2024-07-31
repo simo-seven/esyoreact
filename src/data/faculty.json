@@ -1,1 +1,90 @@
-[]
+[
+    {
+        "name":"Vito Imperato",
+        "family": "strings",
+        "role":"1st Violin Coach",
+        "cv": "Born in Catania, Vito Imperato graduated from the local music institute under Maestro Giacomo Caruso before continuing advanced studies with Piero Marabete in Palermo, Angelo Stefanato and Arrigo Pelliccia in Rome, and at the Accademia Chigiana in Siena and the Conservatoire de Musique in Geneva with Henryk Szeryng. He also refined his chamber music skills with Marie Chantal De Buchy. In 1984, he won positions with the Orchestra del Teatro La Fenice in Venice and the Teatro dell'Opera in Rome, and the following year with the Orchestra Sinfonica Siciliana, where he also served as Concertino. Having secured international auditions as a \"spalla\" (principal second violin), he has performed with various prestigious ensembles including the Mediterranean Symphony Orchestra, I Cameristi della Scala, and the Tonhalle Symphony Orchestra in Zurich. He has soloed with numerous orchestras and collaborated with eminent musicians such as Rocco Filippini and Igor Oistrakh. Currently, he holds the role of \"spalla\" with the Orchestra dell’Ente Autonomo Regionale Vincenzo Bellini in Catania and teaches at the Istituto Musicale “Vincenzo Bellini”. In 2013, he was awarded the Premio “Domenico Danzuso” for distinguished contributions to music. He plays a Matteo Goffriller violin from 1732.",
+        "photo": "imperato.png",
+        "id": "1"
+    },
+    {
+        "name":"Jelena Dimitrijević",
+        "family": "strings",
+        "role":"2nd Violin Coach",
+        "cv": "Jelena Dimitrijević was born in 1982 in Belgrade, Serbia. She studied violin in the class of Prof. Jasna Maksimovic at the Academy of Music in Belgrade, where she also completed her master's degree. Jelena was a member of the Gustav Mahler Youth Orchestra, the Jeneusses Musicales World Orchestra and the Norwegian Youth Orchestra. Since 2007 she has been a member of the Belgrade Philharmonic Orchestra. As a chamber and orchestral musician, she has worked with leading conductors and artists such as Zubin Mehta, Ivan Fisher, Charles Dutoit, Valery Gergiev, Aleksandar Vedernikov, Mikhail Jurovsky, Andris Poga and Andrey Boreyko. She is a member of the European Philharmonic Orchestra of Switzerland, with whom she performs and tours with Martha Argerich. As leader of the second violins of the No Border Orchestra, she has performed at the most important festivals in Europe and Asia (Wiener Festwochen, Kunstenfestiavldesartes in Brussels, Festival d'Automne in Paris, Brisbane Festival, Gwangju, Macao, Barbican, London, Hamburg, Berlin, Lisbon). Since 2016 she is a member of the ensemble Metamorphosis. Jelena joined the ESYO Faculty in 2023 and will be coaching the second violins during the 2024 season.",
+        "photo": "dimitrijevic.jpg",
+        "id": "2"
+    },
+    {
+        "name":"Elia Vigolo",
+        "family": "strings",
+        "role":"Viola Coach",
+        "cv": "Elia Vigolo began studying violin at nine in Trieste, earning his diploma under Professor Selvaggio. He also obtained a viola diploma and studied cello, harp, and composition. At twenty, he joined the Regional Tuscan Orchestra in Florence and performed at the Verdi and Petruzzelli Theatres in Trieste and Bari. Specializing under professors like Gulli, Rossi, Cappone, and Materassi, VIGOLO has performed over 2000 concerts, with 300 as a soloist, covering more than 600 pieces. His performances have taken him to prestigious venues across Italy and internationally, including Gran Teatro la Fenice in Venice and venues in Rome, Florence, Ljubljana, Zagreb, Moscow, New York, and Tokyo. He has worked with notable conductors such as Arena, Montgomery, Gelmetti, and Oren. VIGOLO served as Concertmaster with various orchestras, including the Padua Chamber Orchestra and the Filarmonica Marchigiana, and as First Viola at Gran Teatro la Fenice. Currently, he performs in a duo with harpist Tatiana Donis and collaborates with several Italian orchestras.",
+        "photo": "vigolo.jpg",
+        "id": "3"
+    },
+    {
+        "name":"Dorina Laro",
+        "family": "strings",
+        "role":"Cello Coach",
+        "cv": "Prof. Dorina Laro was born in Tirana, into a family with an important musical tradition. She studied at the artistic high school in Tirana and then to the national academy in the class of Prof. Astrit Selita, where she graduated with full marks in 1999. Thanks to a post-graduate scholarship from the German Academic Exchange (DAAD) she continued her studies at the Folkwang Hochschule, (Essen) with Profs Christof Richter and Andreas Reiner. Dorina Laro has performed in Germany, Greece, Sweden, Spain, Italy, Hungary, Belgium, Russia, France, and recorded for the Albanian Radio and Television, the Swedish National Radio, Vatican Radio and the Bayrischer Rundfunk. Since 2002 she has been teaching at the Faculty of Music in Tirana and since 2012 she is an Associate Professor. As a soloist he has played with the orchestras of the National Opera Theater, the Orchestra of the Academy of Tirana, the Albanian Radio Television Orchestra with the conductors A. Lepuri, P. Afezolli, D.Sulejmani, M.Mantanuss and Zampieri with whom she toured in South Korea in 2019, where she played with the Philharmonic Orchestra of Seoul. Since 2006 you have collaborated with the cellos section of the European Spirit of Youth Orchestra (ESYO)",
+        "photo": "laro.png",
+        "id": "4"
+    },
+    {
+        "name":"Petrus Petrusevski",
+        "family": "strings",
+        "role":"Double Bass Coach",
+        "cv": "Born in Skopje, Macedonia, Petrus Petrusevski graduated in 2008 from the Faculty of Music Arts in Skopje with highest honors (cum laude) under Prof. Velko Todevski. He earned his Master's degree in 2009 and Doctorate in 2017 from the same institution. He has performed extensively, including solo performances and recitals at major festivals, notably with the Macedonian Philharmonic and their chamber ensemble, as well as the FMU orchestra. His accolades include numerous first prizes at national and international competitions, with the Laureate award at the 28th National Competition in Skopje in 2007 being particularly notable. His orchestral experience includes playing with top European youth orchestras like the Lucerne Festival Academy under Pierre Boulez and the Gustav Mahler Orchestra under Philippe Jordan. He has collaborated with conductors such as Misha Katz, Liana Isakadze, Heinrich Schiff, Igor Coretti, and Riccardo Muti. He has participated in seminars led by eminent double bass professors including Wolfgang Guetler, Miloslav Jelinek, Miloslav Gajdoš, Jiří Valenta, Thierry Barbé, and Catalin Rotaru. Professionally, he served as an assistant professor at FMU Skopje University of St. Kiril and Metod (2011-2016), led the double bass section in the Fames orchestra for film music (2007-2016), and has been leading the double bass section at HNK Ivan pl. Zajc in Rijeka, Croatia since 2016.",
+        "photo": "petrusevski.jpg",
+        "id": "5"
+    },
+    {
+        "name":"Tommaso Bisiak",
+        "family": "woodwinds",
+        "role":"Winds Coach",
+        "cv": "He graduated with highest honors from the “G. Tartini” Conservatory in Trieste, where he also completed a specialized two-year interpretative program in the class of Giorgio di Giorgi, again with highest honors. He furthered his studies in Vienna with Hansgeorg Schmeiser and attended masterclasses by some of Europe’s leading flutists (Benoit Fromanger, Philippe Boucly, Vicens Prats, Georges Alirol, Anais Benoit, Natalie Rozat, Jan Ostry, among others). Supported by the Ananian Philanthropic Foundation, he studied in Paris with Pierre-Yves Artaud at the École Normale de Musique de Paris “Alfred Cortot,” where he obtained the Diplôme Supérieur d'Exécution and d'Enseignement with unanimous jury approval. He collaborates with the Orchestre de Flutes Français and Bandorkestra.55, has played on the last two albums of Al Castellana, and has served as the wind section tutor for the Wonderful Youth Orchestra conducted by Igor Coretti-Kuret. He holds a degree in Philosophy with highest honors from the University of Trieste, with a thesis titled “The Sound (Klang) in Hegel’s Philosophy of Nature.”",
+        "photo": "bisiak.png",
+        "id": "6"
+    },
+    {
+        "name":"Davide Fanchin",
+        "family": "brass",
+        "role":"French Horn Coach",
+        "cv": "Davide Fanchin, born in 1988, is an acclaimed Italian horn player. He serves as Co-Principal Horn with the Yucatán Symphony Orchestra and is a sought-after musician, frequently performing with various orchestras across Mexico, Latin America, and Italy. His notable performances include engagements with the Orchestra di Padova e del Veneto, Orchestra Filarmonica Italiana, Orquesta Filarmonica della Fenice, and the Iberacademy Orchestra, among others. As a soloist, Davide has showcased his talents in concerts featuring works by W.A. Mozart, R. Strauss, C.H. Hübler, and contemporary composer L. Osmon. He also plays and arranges for the Puro Corno horn quartet, which performs widely throughout Mexico and Latin America. An active educator, Davide is the Horn instructor at the Universidad de las Artes de Yucatán (UNAY). He is proud to note that the vast majority of his students secure employment after studying under his guidance. Additionally, Davide is annually invited to teach at prestigious institutions like IBERACADEMY in Colombia and Esperanza Azteca (El Sistema) in Mexico. Davide is a co-founder of the Merida International Brass Festival, the leading brass festival in Latin America. In 2019, alongside a group of associates, Davide established Dzalbay Cantina, Mérida's first and most popular jazz club.",
+        "photo": "fanchin.jpg",
+        "id": "7"
+    },
+    {
+        "name":"Giancarlo Parodi",
+        "family": "brass",
+        "role":"Trumpets Coach",
+        "cv": "Giancarlo Parodi studied music at the Conservatory of Alessandria under Prof. Renato Cadoppi (former principal trumpet of the RAI Orchestra of Turin) and graduated in trumpet in 1981. He furthered his studies with Luciano Cadoppi (principal trumpet of Teatro alla Scala). In the 1983/84 academic year, he studied at Northwestern University in Chicago, perfecting his skills with Vincent Cichowicz (former trumpet of the Chicago Symphony Orchestra) and Arnold Jacobs (former tuba of the CSO). He also attended lessons with Bud Herseth, Frank Crisafulli, and Dale Clevenger. During his time in the USA, Parodi performed in various chamber ensembles. He has collaborated with major Italian orchestras and has been passionately teaching since 1985. Many of his students have become members of renowned Italian orchestras, including Marco Pierobon, Roberto Rossi, Davide Simoncini, and others. Parodi regularly holds advanced courses at various Italian conservatories and has taught master classes at international courses. He has been a trumpet/trombone instructor at the Conservatories of Adria, Bologna, and Frosinone, and currently teaches at the Conservatory of Bolzano.",
+        "photo": "parodi.jpg",
+        "id": "8"
+    },
+    {
+        "name":"Rocco Rescigno",
+        "family": "brass",
+        "role":"Trombones Coach",
+        "cv": "Rocco Rescigno, born in Udine, Italy, received his first lessons in organ, saxophone, and trombone at the local music school in Passons (Udine). In September 2008, he began his Bachelor’s studies in trombone at the Conservatorio di Musica J. Tomadini in Udine with Prof. Domenico Lazzaroni, graduating in 2011. In 2009 and 2010, he was a member of the Central European Initiative Youth Orchestra under Igor Coretti-Kuret. From 2011, he continued his trombone studies at the Berlin University of the Arts with Prof. Stefan Schulz. In 2015, he became a member of the Karajan Academy of the Berliner Philharmoniker. During this time, he also collaborated with the Berliner Philharmoniker Brass Ensemble, the Scharoun Ensemble, the Berlin State Opera, Komische Oper, Deutsche Oper, and DSO Berlin. In 2016, he was accepted into the Gustav Mahler Youth Orchestra, performing in live broadcast concerts in London (Proms), Amsterdam (Mahler Festival), and Berlin (Young Euro Classic). In 2017, he secured the position of Solo Principal Trombone at the Duisburger Philharmoniker - Deutsche Oper am Rhein. In 2020, Rescigno began his pedagogical role at the Folkwang University of the Arts in Essen. He currently collaborates with the Münchner Philharmoniker, the Berliner Philharmoniker, and the Sinfonieorchester des Bayerischen Rundfunks.",
+        "photo": "rescigno.jpg",
+        "id": "9"
+    },
+    {
+        "name":"Manuel Estop",
+        "family": "percussion",
+        "role":"Percussion Coach",
+        "cv": "Manuel Estop is a distinguished percussionist and educator. He commenced his studies at the Conservatorio “Tomás Luis de Victoria” in Ávila and, at age 17, continued at the Conservatorio Superior de Música de Canarias (CSMC) in Tenerife under Paco Díaz, graduating with honors in 2014. From 2016 to 2018, Estop was a percussion teacher at CSMC in Gran Canaria and is currently a percussion teacher at the Conservatorio Profesional de Música de Ponferrada. He has participated in masterclasses with prominent percussionists such as Keiko Abe and Emmanuel Sejourné and has collaborated with renowned artists like Igor Lesnik and the Maraca2 group. Estop was a member of the Joven Banda Sinfónica de Castilla y León (JOBASCyL), achieving Second Prize at the International Wind Band Festival in Berlin (2010). His accolades include a Second Prize at a national competition in Spain (2015) and notable achievements with Arkeima Percussion Quartet and Barcodes.",
+        "photo": "remacha.jpg",
+        "id": "10"
+    },
+    {
+        "name":"Tatiana Donis",
+        "family": "harp",
+        "role":"Harp Coach",
+        "cv": "Tatiana Donis graduated with distinction from the G. Tartini Conservatory of Trieste, Italy, in 1992 and further specialized with Professor Asja Varosja Agasievna at the Rimsky Korsakov Conservatory in St. Petersburg, performing as the top student at the course's closing concert. In 1996, she earned a degree in Political Science from the University of Trieste. She has performed with a variety of orchestras including the Chamber Orchestra of Friuli Venezia Giulia, I Cameristi Triestini, the Orchestra dell'Opera Giocosa del Friuli Venezia Giulia, and international ensembles such as the Pihalnega Orkestra of Maribor, Mihail Jora Philharmonic Orchestra of Bacau, and the Symphony Orchestra of Graz. Donis began teaching at the Glasbena Matica School of Music in Trieste in 1998 and joined the Philharmonic Orchestra of the Giuseppe Verdi Theatre of Trieste in 2000. She has performed with notable conductors and in theatres across Europe. In 2001, she participated in TirolFestSpiele in Erl, Austria, returning in subsequent years for performances of major works. She founded the \"Girotondo d'Arpe\" ensemble in 2003, overseeing its musical training and composing arrangements published by Edizioni Pizzicato and Ut Orpheus. Donis completed a Second Level Experimental Academy course at J. Tomadini Conservatory of Udine in 2006, with a thesis on Carlo Salzedo, and obtained the Suzuki Degree for Harp in Turin in 2013. She frequently performs in duo with violinist Elia Vigolo, with a repertoire spanning classical and Irish Celtic music.",
+        "photo": "donis.jpeg",
+        "id": "11"
+    }
+]

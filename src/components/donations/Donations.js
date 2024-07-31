@@ -68,11 +68,11 @@ const Donations = () => {
           </div>
           <div className="py-3">
             <p className="text-center">
-              Associazione culturale SGME APS <br />
-              Bank: CIVIBANK - Agenzia Trieste 4 <br />
-              Address: I - 34122 Trieste, Via XXX Ottobre 16 <br />
-              IBAN: IT43H0548402200CC0040396662 <br />
-              SWIFT: CIVIIT2CXXX
+              Associazione Culturale SGME APS <br />
+              Bank: ZKB Credito Cooperativo di Trieste e Gorizia S.C. <br />
+              Address: Via Giosuè Carducci, 4, 34133 Trieste TS, Italia <br />
+              IBAN: IT11K0892802200010000053126 <br />
+              BIC: CCRTIT2TVOO
             </p>
           </div>
           <div className="py-3">

@@ -300,7 +300,7 @@ video {
   margin: 1rem;
 }
 
-.card:hover {
+.zoom:hover {
   transform: scale(1.05);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -308,8 +308,8 @@ video {
 /* Faculty Start */
 .card-img {
   border-radius: 50%; /* per rendere l'immagine rotonda */
-  width: 300px; /* regolare la dimensione dell'immagine */
-  height: 300px;
+  width: 250px; /* regolare la dimensione dell'immagine */
+  height: 250px;
   object-fit: cover; /* per mantenere l'immagine centrata e coprire l'intera area */
   margin: auto; /* per centrare l'immagine orizzontalmente */
   display: block; /* per garantire il corretto funzionamento del margin:auto */
@@ -524,14 +524,14 @@ ul.dots ol.dots{
 }
 
 /* Visualizza il div solo quando la larghezza dello schermo è inferiore a 768px */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .onlyMobile {
     display: block; /* o 'flex', 'inline-block', ecc., a seconda delle tue necessità */
   }
 }
 
 /* Media query for mobile view adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .menu-header.logo a {
     width: 100%; /* Adjust the size of the logo for mobile */
     left: auto; /* Adjust the spacing from the left for mobile */
