@@ -1,10 +1,19 @@
 import DonationsTestimonial from "./Testimonial";
 import data from "../../data/testimonials/donationsPage.json";
+import { Helmet } from "react-helmet-async";
 
 const Donations = () => {
   const testimonials = data;
   return (
     <>
+    <Helmet>
+    <title>Donations - European Spirit of Youth Orchestra</title>
+        <meta
+          name="description"
+          content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
+          />
+        <link rel="canonical" href="/donations" />
+    </Helmet>
       <div className="container-xxl py-3 hidden md:block">
         <div className="container py-3 px-lg-3">
           <div className="wow fadeInUp" data-wow-delay="0.1s">

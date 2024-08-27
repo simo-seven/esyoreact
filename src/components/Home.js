@@ -16,6 +16,7 @@ import MobileConcerts from "./tours/MobileConcerts";
 import DesktopConcerts from "./tours/DesktopConcerts";
 
 import data from "../data/concerts/venues.json";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const concerts = data;
@@ -23,6 +24,12 @@ const Home = () => {
 
   return (
     <>
+      <Helmet>
+        <title>European Spirit of Youth Orchestra</title>
+        <meta name="description" content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."/>
+        <link rel="canonical" href="/" />
+      </Helmet>
+
       <Video />
       <Biography title="The ESYO Orchestra" bio={dataBio} />
       <RollingNumbers numbers={dataNumbers} />

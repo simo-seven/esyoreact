@@ -4,7 +4,7 @@ const PressMedia = () => {
       <div className="container py-5 px-lg-5">
         <div className="wow fadeInUp" data-wow-delay="0.1s">
           <p className="section-title text-secondary justify-content-center">
-            The European Spirith of Youth Orchestra
+            The European Spirit of Youth Orchestra
           </p>
         </div>
         <div className="text-center">
