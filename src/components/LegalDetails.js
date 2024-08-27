@@ -9,8 +9,37 @@ const LegalDetails = () => {
         <meta
           name="description"
           content="Legal details for the European Spirit of Youth Orchestra (ESYO): organizer info, address, key personnel, and links to social media profiles."
-          />
+        />
         <link rel="canonical" href="/legaldetails" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Legal Details - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Legal details for the European Spirit of Youth Orchestra (ESYO): organizer info, address, key personnel, and links to social media profiles."
+        />
+        <meta property="og:url" content="https://esyo.eu/legaldetails" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Legal Details - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Legal details for the European Spirit of Youth Orchestra (ESYO): organizer info, address, key personnel, and links to social media profiles."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
 
       <div className="container-xxl py-5">

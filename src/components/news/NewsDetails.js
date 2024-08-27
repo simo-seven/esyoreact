@@ -15,7 +15,37 @@ const NewsDetails = ({ formatDate, renderBody }) => {
           content="Stay updated with the latest news and events from the European Spirit of Youth Orchestra. Explore our recent performances, announcements, and more."
         />
         <link rel="canonical" href={`/news/${id}`} />
+
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="News - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Stay updated with the latest news and events from the European Spirit of Youth Orchestra. Explore our recent performances, announcements, and more."
+        />
+        <meta property="og:url" content={`https://esyo.eu/news/${id}`} />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="News - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Stay updated with the latest news and events from the European Spirit of Youth Orchestra. Explore our recent performances, announcements, and more."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
+
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <div className="grid grid-cols-1">

@@ -11,7 +11,37 @@ const ArtisticDirector = ({ bio, renderBody }) => {
           content="Meet Igor Coretti Kuret, Principal Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
         />
         <link rel="canonical" href="/artisticdirector" />
+
+        <meta property="og:type" content="profile" />
+        <meta
+          property="og:title"
+          content="Artistic Director - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Meet Igor Coretti Kuret, Principal Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
+        />
+        <meta property="og:url" content="https://esyo.eu/artisticdirector" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Artistic Director - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Meet Igor Coretti Kuret, Principal Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
+
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <div

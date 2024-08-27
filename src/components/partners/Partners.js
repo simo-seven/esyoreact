@@ -15,7 +15,37 @@ const Partners = () => {
           content="Discover the partners and supporters of the European Spirit of Youth Orchestra. Join us in celebrating those who help bring our musical vision to life."
         />
         <link rel="canonical" href="/partners" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Partners - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Discover the partners and supporters of the European Spirit of Youth Orchestra. Join us in celebrating those who help bring our musical vision to life."
+        />
+        <meta property="og:url" content="https://esyo.eu/partners" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Partners - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover the partners and supporters of the European Spirit of Youth Orchestra. Join us in celebrating those who help bring our musical vision to life."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
+
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <SponsorCard data={partners.main} title="main supporters" />

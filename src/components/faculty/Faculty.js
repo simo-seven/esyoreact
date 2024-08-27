@@ -23,7 +23,37 @@ const Faculty = () => {
           content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
         />
         <link rel="canonical" href="/faculty" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Faculty - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
+        />
+        <meta property="og:url" content="https://esyo.eu/faculty" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Faculty - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
+
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <div className="row">

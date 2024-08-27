@@ -18,7 +18,37 @@ const ConcertTours = () => {
           content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
         />
         <link rel="canonical" href="/concertours" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Concert Tours - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
+        />
+        <meta property="og:url" content="https://esyo.eu/concertours" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Concert Tours - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
+
       {concerts?.length === 0 ? (
         <>
           <div className="container-xxl py-5">

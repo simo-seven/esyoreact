@@ -6,14 +6,44 @@ const Donations = () => {
   const testimonials = data;
   return (
     <>
-    <Helmet>
-    <title>Donations - European Spirit of Youth Orchestra</title>
+      <Helmet>
+        <title>Donations - European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
-          />
+        />
         <link rel="canonical" href="/donations" />
-    </Helmet>
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Donations - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
+        />
+        <meta property="og:url" content="https://esyo.eu/donations" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Donations - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+      </Helmet>
+
       <div className="container-xxl py-3 hidden md:block">
         <div className="container py-3 px-lg-3">
           <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -24,7 +54,10 @@ const Donations = () => {
         </div>
       </div>
 
-      <div className="container-xxl py-2 wow fadeInUp hidden md:block" data-wow-delay="0.1s">
+      <div
+        className="container-xxl py-2 wow fadeInUp hidden md:block"
+        data-wow-delay="0.1s"
+      >
         <div className="container py-2 px-lg-2">
           <div className="row">
             <div className="col-lg-6">

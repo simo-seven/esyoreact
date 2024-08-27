@@ -26,7 +26,37 @@ const Organizer = () => {
           content="Learn about Scuola per Giovani Musicisti Europei (SGME), promoting cultural dialogue and supporting young musicians through the ESYO Project."
         />
         <link rel="canonical" href="/organizer" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Organizer - European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="Learn about Scuola per Giovani Musicisti Europei (SGME), promoting cultural dialogue and supporting young musicians through the ESYO Project."
+        />
+        <meta property="og:url" content="https://esyo.eu/organizer" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Organizer - European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn about Scuola per Giovani Musicisti Europei (SGME), promoting cultural dialogue and supporting young musicians through the ESYO Project."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
+
       <div className="container-xxl py-5 mb:p-0">
         <div className="container py-5 px-lg-5">
           <div
