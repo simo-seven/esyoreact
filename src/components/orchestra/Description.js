@@ -3,7 +3,7 @@ const Description = ({ filteredBio, renderBody }) => {
       <>
         {filteredBio.map((paragraph, index) => (
           <div
-            className={`container py-4 px-5 ${
+            className={`container py-5 px-lg-5 ${
               paragraph.title !== "" ? "hidden md:block" : ""
             }`}
             key={paragraph.id}

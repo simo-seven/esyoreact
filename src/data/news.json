@@ -1,23 +1,16 @@
 [
   {
-    "title": "Auditions",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit.\nNemo sed iure numquam rerum consequuntur. Doloremque, neque architecto voluptates reiciendis hic tenetur magni, soluta consequatur corporis voluptatem ea porro atque nostrum.",
-    "img": "/img/news/testbkg.jpeg",
-    "publishedDate": "2024-04-17",
-    "id": "1"
-  },
-  {
-    "title": "Photo Exhibition 'SYMPHONIA, the sound of Europe'",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sed iure numquam rerum consequuntur. Doloremque, neque architecto voluptates reiciendis hic tenetur magni, soluta consequatur corporis voluptatem ea porro atque nostrum.",
-    "img": "/img/news/testbkg3.jpeg",
-    "publishedDate": "2024-03-16",
-    "id": "2"
-  },
-  {
-    "title": "Call for Online Auditions 2024",
-    "body": "Dear Musician,\nlike every year, it's time to welcome now members to our big musical family! If you're interested in taking part of ESYO's 2024 concert activities, you just have to submit us the application form and a short video of you playing. You can find all this information on the dedicated page on this website.\nLooking forward to welcoming you in our orchestra!!!",
+    "title": "2025 Audition Period Will Soon Open",
+    "body": "We are excited to announce that the audition period for the 2025 season will soon open! Starting on December 1st, 2024, and running through March 31st, 2025, this is your chance to join our orchestra and showcase your talent. Whether you are a seasoned musician or an emerging talent, we encourage you to prepare for this extraordinary opportunity. Mark your calendars and get ready to apply!",
     "img": "/img/news/testbkg4.jpeg",
-    "publishedDate": "2024-01-14",
-    "id": "3"
-  }
+    "publishedDate": "2024-08-27",
+    "id": "187"
+  },
+  {
+    "title": "Explore Our All-New Website!",
+    "body": "We are thrilled to unveil our brand new website! Designed with you in mind, the site now offers comprehensive information about our orchestra, upcoming concert tours, and faculty members. You can easily get in touch with our organizers, stay updated with the latest news, and even apply directly for auditions if you're a young musician eager to join us. Visit us online and experience the new features today!",
+    "img": "/img/news/newweb.png",
+    "publishedDate": "2024-04-29",
+    "id": "259"
+  } 
 ]

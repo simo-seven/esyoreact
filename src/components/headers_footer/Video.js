@@ -28,11 +28,12 @@ const Video = () => {
             United <br /> Together
           </h1>
           <Link
-            to="/concertours"
+            to="/auditions"
             className="btn btn-secondary py-3 px-5 rounded-full me-3 animated slideInRight wow joinNow"
           >
             {/* Join the orchestra now! */}
-            What's On?
+            {/* What's On? */}
+            2025 Auditions Coming Soon
           </Link>
         </div>
       </div>

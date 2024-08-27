@@ -9,11 +9,11 @@ const PartnersCarousel = ({ sponsors }) => {
       <div className="container py-5 px-lg-5">
         <div className="row justify-content-center">
           <div className="col-lg-7 text-center">
-            <p className="section-title text-secondary justify-content-center text-1xl">
+            {/* <p className="section-title text-secondary justify-content-center text-1xl">
               Partners
-            </p>
+            </p> */}
             <h1 className="text-center text-white mb-4 text-5xl">
-              The European Spirith of Youth Orchestra is supported by
+              Our Partners<br/> and Supporters
             </h1>
           </div>
         </div>

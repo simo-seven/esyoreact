@@ -11,7 +11,7 @@ const Maestro = ({ bio }) => {
               M<sup>o</sup> {bio.name}
             </h1>
             <p className="mb-4 text-white">
-              {bio.body.split(" ").slice(0, 38).join(" ") + "..."}
+              {bio.body1.split(" ").slice(0, 38).join(" ") + "..."}
             </p>
             <ScrollToTopLink
               to="/artisticdirector"

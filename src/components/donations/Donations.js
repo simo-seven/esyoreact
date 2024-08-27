@@ -40,7 +40,7 @@ const Donations = () => {
         <div className="container py-3 px-lg-3">
           <div className="wow fadeInUp hidden md:block" data-wow-delay="0.1s">
             <h1 className="text-center mb-5 text-white text-4xl">
-              Become an ESYO donor
+              Become an ESYO supporter
             </h1>
           </div>
           <div className="py-3">

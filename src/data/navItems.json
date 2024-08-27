@@ -46,11 +46,6 @@
           "name": "Concert Tours",
           "to": "/concertours",
           "id": "22"
-        },
-        {
-          "name": "Other Events",
-          "to": "/otherevents",
-          "id": "23"
         }
       ],
       "id": "20"

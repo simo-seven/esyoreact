@@ -1,4 +1,4 @@
-import Questions from "./Questions";
+// import Questions from "./Questions";
 
 const ArtisticDirector = ({ bio, renderBody }) => {
   return (
@@ -25,13 +25,15 @@ const ArtisticDirector = ({ bio, renderBody }) => {
             />
           </div>
           <div className="col-md-6 text-justify hidden md:block">
-            <Questions bio={bio} min={0} max={3} />
+            {renderBody(bio.body1)}
+            {/* <Questions bio={bio} min={0} max={3} /> */}
           </div>
         </div>
-        <div className="col text-justify hidden md:block">
+        {/* <div className="col text-justify hidden md:block">
           <Questions bio={bio} min={2} max={7} />
-        </div>
-        <div className="row mt-4 py-4 text-justify">{renderBody(bio.body)}</div>
+        </div> */}
+        <div className="row mt-4 py-4 text-justify block md:hidden">{renderBody(bio.body1)}</div>
+        <div className="row mt-4 py-4 text-justify">{renderBody(bio.body2)}</div>
       </div>
     </div>
   );

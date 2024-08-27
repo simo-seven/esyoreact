@@ -42,6 +42,9 @@ const Footer = () => {
             <ScrollToTopLink className="btn btn-link" to="/pressmedia">
               Press & Media
             </ScrollToTopLink>
+            {/* <ScrollToTopLink className="btn btn-link" to="/faq">
+              FAQ
+            </ScrollToTopLink> */}
           </div>
           <div className="col-md-6 col-lg-4 hidden md:block">
             <ScrollToTopLink to="/">

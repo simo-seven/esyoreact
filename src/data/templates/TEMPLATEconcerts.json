@@ -2,7 +2,7 @@
     {
         "city": "Ajdovščina, Slovenia",
         "date": "02/08/2024",
-        "venue": "Lavričev Trg",
+        "venue": "Dvorana Prve Slovenske Vlade",
         "time": "9.00pm",
         "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
         "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
@@ -11,16 +11,16 @@
     {
         "city": "San Floriano del Collio (Gorizia), Italy",
         "date": "03/08/2024",
-        "venue": "City Concert Hall",
+        "venue": "Piazza Libertà",
         "time": "9.00pm",
         "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
         "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
         "id": "2"
     },
     {
-        "city": "San Vito al Tagliamento (Pordenone), Italy",
+        "city": "Pordenone, Italy",
         "date": "06/08/2024",
-        "venue": "City Concert Hall",
+        "venue": "Chiostro Biblioteca Civica",
         "time": "9.00pm",
         "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
         "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
@@ -28,8 +28,8 @@
     },
     {
         "city": "Montenars (Udine), Italy",
-        "date": "07/01/2024",
-        "venue": "City Concert Hall",
+        "date": "07/08/2024",
+        "venue": "Centro Festeggiamenti di Borgo Curminie",
         "time": "9.00pm",
         "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
         "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
