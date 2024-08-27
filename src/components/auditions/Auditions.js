@@ -28,7 +28,6 @@ const Auditions = ({ formatDate }) => {
           content="Audition for the European Spirit of Youth Orchestra. Join top musicians, perform in prestigious venues, and grow your talent in a vibrant musical community."
         />
         <link rel="canonical" href="/auditions" />
-        {/* Facebook tags */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -43,8 +42,6 @@ const Auditions = ({ formatDate }) => {
           property="og:image"
           content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
         />
-        {/* End Facebook tags */}
-        {/* Twitter tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -57,8 +54,7 @@ const Auditions = ({ formatDate }) => {
         <meta
           name="twitter:image"
           content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
-        />{" "}
-        {/* End Twitter tags */}
+        />
       </Helmet>
 
       {today > deadlineDate ? (
