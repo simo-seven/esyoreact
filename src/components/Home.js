@@ -26,7 +26,14 @@ const Home = () => {
     <>
       <Helmet>
         <title>European Spirit of Youth Orchestra</title>
-        <meta name="description" content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."/>
+        <meta
+          name="description"
+          content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."
+        />
+        <meta
+          name="keywords"
+          content="orchestra, youth orchestra, europe, european orchestra, european youth orchestra"
+        />
         <link rel="canonical" href="/" />
       </Helmet>
 
