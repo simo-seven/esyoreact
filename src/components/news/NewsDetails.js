@@ -28,7 +28,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         <meta property="og:url" content={`https://esyo.eu/news/${id}`} />
         <meta
           property="og:image"
-          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+          content={news.img}
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -42,7 +42,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         />
         <meta
           name="twitter:image"
-          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+          content={news.img}
         />
       </Helmet>
 
