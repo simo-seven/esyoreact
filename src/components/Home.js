@@ -35,6 +35,33 @@ const Home = () => {
           content="orchestra, youth orchestra, europe, european orchestra, european youth orchestra"
         />
         <link rel="canonical" href="/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="European Spirit of Youth Orchestra"
+        />
+        <meta
+          property="og:description"
+          content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."
+        />
+        <meta property="og:url" content="https://esyo.eu/" />
+        <meta
+          property="og:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="European Spirit of Youth Orchestra"
+        />
+        <meta
+          name="twitter:description"
+          content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."
+        />
+        <meta
+          name="twitter:image"
+          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+        />
       </Helmet>
 
       <Video />
