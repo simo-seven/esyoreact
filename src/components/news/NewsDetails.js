@@ -28,7 +28,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         <meta property="og:url" content={`https://esyo.eu/news/${id}`} />
         <meta
           property="og:image"
-          content={news.img}
+          content={`https://esyo.eu/${news.img}`}
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -42,7 +42,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         />
         <meta
           name="twitter:image"
-          content={news.img}
+          content={`https://esyo.eu/${news.img}`}
         />
       </Helmet>
 
