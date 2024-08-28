@@ -210,7 +210,6 @@ div.testimonial-item div img.reviewer-image {
 }
 .grayscalepumped {
   filter: grayscale(100%);
-  /* opacity: 0.5; */
 }
 div.container-xxl div.height100vh {
   height: 100vh;
@@ -221,16 +220,6 @@ div.zindex1 {
 select option {
   font-family: "Jost", sans-serif;
 }
-/* 
-OLD
-
-.intro-screen {
-  background-image: url(/public/img/testbkg2BW.jpg);
-  width: 100%;
-  bottom: 0;
-  height: auto;
-  background-position: center center;
-} */
 
 .intro-screen {
   background-image: url(/public/img/BUCigor.jpeg);
@@ -492,7 +481,7 @@ button.languagebutton {
   border-top-left-radius: 8px;
   text-align: right;
 }
-ul.dots ol.dots{
+ul.dots ol.dots {
   list-style: initial;
 }
 
