@@ -15,7 +15,7 @@ const PublicContributions = ({ renderBody }) => {
   return (
     <>
       <Helmet>
-        <title>Public Contributions - European Spirit of Youth Orchestra</title>
+        <title>Public Contributions | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Access detailed records of public contributions to ESYO from recent years. Select a year to view, with content available in Italian for administrative purposes."
@@ -25,7 +25,7 @@ const PublicContributions = ({ renderBody }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Public Contributions - European Spirit of Youth Orchestra"
+          content="Public Contributions | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -40,7 +40,7 @@ const PublicContributions = ({ renderBody }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Public Contributions - European Spirit of Youth Orchestra"
+          content="Public Contributions | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

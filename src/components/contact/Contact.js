@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact - European Spirit of Youth Orchestra</title>
+        <title>Contact | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Connect with the European Spirit of Youth Orchestra. Reach out for inquiries, collaborations, or to learn more about our vibrant musical community."
@@ -17,7 +17,7 @@ const Contact = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Contact - European Spirit of Youth Orchestra"
+          content="Contact | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -32,7 +32,7 @@ const Contact = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Contact - European Spirit of Youth Orchestra"
+          content="Contact | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

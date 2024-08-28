@@ -20,7 +20,7 @@ const Organizer = () => {
   return (
     <>
       <Helmet>
-        <title>Organizer - European Spirit of Youth Orchestra</title>
+        <title>Organizer | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Learn about Scuola per Giovani Musicisti Europei (SGME), promoting cultural dialogue and supporting young musicians through the ESYO Project."
@@ -30,7 +30,7 @@ const Organizer = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Organizer - European Spirit of Youth Orchestra"
+          content="Organizer | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -45,7 +45,7 @@ const Organizer = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Organizer - European Spirit of Youth Orchestra"
+          content="Organizer | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

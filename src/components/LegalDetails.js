@@ -5,7 +5,7 @@ const LegalDetails = () => {
   return (
     <>
       <Helmet>
-        <title>Legal Details - European Spirit of Youth Orchestra</title>
+        <title>Legal Details | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Legal details for the European Spirit of Youth Orchestra (ESYO): organizer info, address, key personnel, and links to social media profiles."
@@ -15,7 +15,7 @@ const LegalDetails = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Legal Details - European Spirit of Youth Orchestra"
+          content="Legal Details | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -30,7 +30,7 @@ const LegalDetails = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Legal Details - European Spirit of Youth Orchestra"
+          content="Legal Details | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

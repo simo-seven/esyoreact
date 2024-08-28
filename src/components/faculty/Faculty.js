@@ -17,7 +17,7 @@ const Faculty = () => {
   return (
     <>
       <Helmet>
-        <title>Faculty - European Spirit of Youth Orchestra</title>
+        <title>Faculty | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
@@ -27,7 +27,7 @@ const Faculty = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Faculty - European Spirit of Youth Orchestra"
+          content="Faculty | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -42,7 +42,7 @@ const Faculty = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Faculty - European Spirit of Youth Orchestra"
+          content="Faculty | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

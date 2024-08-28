@@ -9,17 +9,17 @@ const NewsDetails = ({ formatDate, renderBody }) => {
   return (
     <>
       <Helmet>
-        <title>News - European Spirit of Youth Orchestra</title>
+        <title>{news.title} | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
-          content="Stay updated with the latest news and events from the European Spirit of Youth Orchestra. Explore our recent performances, announcements, and more."
+          content={news.body.split(" ").slice(0, 20).join(" ") + "..."}
         />
         <link rel="canonical" href={`/news/${id}`} />
 
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="News - European Spirit of Youth Orchestra"
+          content="News | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -34,7 +34,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="News - European Spirit of Youth Orchestra"
+          content="News | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

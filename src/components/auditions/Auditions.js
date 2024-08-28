@@ -22,7 +22,7 @@ const Auditions = ({ formatDate }) => {
   return (
     <>
       <Helmet>
-        <title>Auditions - European Spirit of Youth Orchestra</title>
+        <title>Auditions | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Audition for the European Spirit of Youth Orchestra. Join top musicians, perform in prestigious venues, and grow your talent in a vibrant musical community."
@@ -31,7 +31,7 @@ const Auditions = ({ formatDate }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Auditions - European Spirit of Youth Orchestra"
+          content="Auditions | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -45,7 +45,7 @@ const Auditions = ({ formatDate }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Auditions - European Spirit of Youth Orchestra"
+          content="Auditions | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

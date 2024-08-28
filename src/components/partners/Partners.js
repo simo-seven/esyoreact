@@ -9,7 +9,7 @@ const Partners = () => {
   return (
     <>
       <Helmet>
-        <title>Partners - European Spirit of Youth Orchestra</title>
+        <title>Partners | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Discover the partners and supporters of the European Spirit of Youth Orchestra. Join us in celebrating those who help bring our musical vision to life."
@@ -19,7 +19,7 @@ const Partners = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Partners - European Spirit of Youth Orchestra"
+          content="Partners | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -34,7 +34,7 @@ const Partners = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Partners - European Spirit of Youth Orchestra"
+          content="Partners | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

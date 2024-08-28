@@ -7,7 +7,7 @@ const Donations = () => {
   return (
     <>
       <Helmet>
-        <title>Donations - European Spirit of Youth Orchestra</title>
+        <title>Donations | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
@@ -17,7 +17,7 @@ const Donations = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Donations - European Spirit of Youth Orchestra"
+          content="Donations | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -32,7 +32,7 @@ const Donations = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Donations - European Spirit of Youth Orchestra"
+          content="Donations | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

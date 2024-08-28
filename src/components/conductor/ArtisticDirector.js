@@ -5,7 +5,7 @@ const ArtisticDirector = ({ bio, renderBody }) => {
   return (
     <>
       <Helmet>
-        <title>Artistic Director - European Spirit of Youth Orchestra</title>
+        <title>Artistic Director | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Meet Igor Coretti Kuret, Principal Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
@@ -15,7 +15,7 @@ const ArtisticDirector = ({ bio, renderBody }) => {
         <meta property="og:type" content="profile" />
         <meta
           property="og:title"
-          content="Artistic Director - European Spirit of Youth Orchestra"
+          content="Artistic Director | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -30,7 +30,7 @@ const ArtisticDirector = ({ bio, renderBody }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Artistic Director - European Spirit of Youth Orchestra"
+          content="Artistic Director | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"
