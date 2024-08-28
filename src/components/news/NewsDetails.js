@@ -23,7 +23,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         />
         <meta
           property="og:description"
-          content="Stay updated with the latest news and events from the European Spirit of Youth Orchestra. Explore our recent performances, announcements, and more."
+          content={news.body.split(" ").slice(0, 20).join(" ") + "..."}
         />
         <meta property="og:url" content={`https://esyo.eu/news/${id}`} />
         <meta
@@ -38,7 +38,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         />
         <meta
           name="twitter:description"
-          content="Stay updated with the latest news and events from the European Spirit of Youth Orchestra. Explore our recent performances, announcements, and more."
+          content={news.body.split(" ").slice(0, 20).join(" ") + "..."}
         />
         <meta
           name="twitter:image"
