@@ -19,7 +19,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="News | European Spirit of Youth Orchestra"
+          content={news.title}
         />
         <meta
           property="og:description"
@@ -34,7 +34,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="News | European Spirit of Youth Orchestra"
+          content={news.title}
         />
         <meta
           name="twitter:description"
