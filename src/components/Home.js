@@ -47,7 +47,7 @@ const Home = () => {
         <meta property="og:url" content="https://esyo.eu/" />
         <meta
           property="og:image"
-          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+          content="https://esyo.eu/logo.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -60,7 +60,7 @@ const Home = () => {
         />
         <meta
           name="twitter:image"
-          content="https://esyo.eu/static/media/LogoSmall.180757e2ef4a35c3599e.png"
+          content="https://esyo.eu/logo.png"
         />
       </Helmet>
 
