@@ -141,7 +141,7 @@ function App() {
               />
             ))}
             <Route path="*" element={<NotFound />}></Route>
-            {/* <Route path="/adsuccess" element={<Success />}></Route> */}
+            <Route path="/success" element={<Success />}></Route>
           </Routes>
         </div>
         <Footer />

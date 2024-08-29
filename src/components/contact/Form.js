@@ -15,7 +15,7 @@ const Form = () => {
                 You are in the right place! Fill out the form and we will get
                 back to you as soon as possible.
               </p>
-              <form name="contact" action="/" method="post">
+              <form name="contact" action="/success" method="post" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="row g-3">
                   <div className="col-md-6">

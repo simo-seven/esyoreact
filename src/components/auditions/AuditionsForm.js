@@ -62,6 +62,17 @@ const AuditionsForm = ({ title }) => {
                     <label htmlFor="email">Your Email</label>
                   </div>
                 </div>
+                <div className="col-md-12">
+                  <div className="form-floating">
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                    />
+                    <label htmlFor="email">Parent's/Tutor's Email</label>
+                  </div>
+                </div>
                 <div className="col-md-6">
                   <div className="form-floating">
                     <input
