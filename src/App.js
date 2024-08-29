@@ -27,7 +27,7 @@ import Header from "./components/navigation/Header.js";
 import MenuOverlay from "./components/navigation/MenuOverlay.js";
 import Orchestra from "./components/orchestra/Orchestra.js";
 import PublicContributions from "./components/contributions/PublicContributions.js";
-import Success from "./components/forms/Success.js";
+// import Success from "./components/forms/Success.js";
 
 import data from "./data/navItems.json";
 import dataOrchestraBio from "./data/orchestraBio.json";
@@ -141,7 +141,7 @@ function App() {
               />
             ))}
             <Route path="*" element={<NotFound />}></Route>
-            <Route path="/success" element={<Success />}></Route>
+            {/* <Route path="/success" element={<Success />}></Route> */}
           </Routes>
         </div>
         <Footer />
