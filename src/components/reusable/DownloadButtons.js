@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
 
-const AuditionsDownloadButtons = ({ buttons }) => {
+const DownloadButtons = ({ buttons }) => {
   return (
     <div className="container-xxl">
       <div className="container">
@@ -30,4 +30,4 @@ const AuditionsDownloadButtons = ({ buttons }) => {
   );
 };
 
-export default AuditionsDownloadButtons;
+export default DownloadButtons;

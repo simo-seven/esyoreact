@@ -3,7 +3,7 @@ const Instruments = ({ instruments }) => {
     <>
       <p>
         <span className="beCareful text-2xl">Welcome</span> to the Auditions
-        page! 2024 auditions will be held for the following positions:
+        page! 2025 auditions will be held for the following positions:
       </p>
       <ul className="list-disc list-inside ml-5">
         {instruments.map((instrument) => (

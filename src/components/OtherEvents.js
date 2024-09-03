@@ -1,4 +1,4 @@
-import ComingSoon from "./ComingSoon";
+import ComingSoon from "./reusable/ComingSoon";
 
 const OtherEvents = () => {
   return (

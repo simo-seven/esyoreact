@@ -1,5 +1,5 @@
 import AuditionPlaces from "./AuditionPlaces";
-import AuditionsDownloadButtons from "./AuditionsDownloadButtons";
+import DownloadButtons from "../reusable/DownloadButtons";
 import AuditionsForm from "./AuditionsForm";
 import places from "../../data/auditions/places.json";
 import buttons from "../../data/auditions/downloadButtons.json";
@@ -79,7 +79,7 @@ const Auditions = ({ formatDate }) => {
             <Instruments instruments={instruments} />
             <Intro />
             <Deadline deadline={deadline} formatDate={formatDate} />
-            <AuditionsDownloadButtons buttons={buttons} />
+            <DownloadButtons buttons={buttons} />
             <AuditionPlaces places={places} formatDate={formatDate} />
             <AuditionsForm title={"Audition Form"} />
           </div>

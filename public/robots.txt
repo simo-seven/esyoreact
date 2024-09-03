@@ -2,5 +2,6 @@
 User-agent: *
 Disallow: /otherevents
 Disallow: /pressmedia
-Disallow: /privacypolicy
-Disallow: /cookiepolicy
+Disallow: /success
+Disallow: /musiciansarea
+Disallow: /faq

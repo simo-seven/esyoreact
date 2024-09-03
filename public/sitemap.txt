@@ -15,3 +15,4 @@ https://esyo.eu/partners
 https://esyo.eu/news/:id
 https://esyo.eu/orchestra
 https://esyo.eu/publicontributions
+https://esyo.eu/musiciansarea

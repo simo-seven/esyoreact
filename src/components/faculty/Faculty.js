@@ -1,6 +1,6 @@
 import FacultyMember from "./FacultyMember";
 import data from "../../data/faculty.json";
-import ComingSoon from "../ComingSoon";
+import ComingSoon from "../reusable/ComingSoon";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 

@@ -1,16 +1,16 @@
 [
     {
-        "file": "/files/GeneralRegulations.pdf",
+        "file": "/files/auditions/GeneralRegulations.pdf",
         "name": "General Regulations",
         "id": "1"
     },
     {
-        "file": "/files/AuditionInfo.pdf",
+        "file": "/files/auditions/AuditionInfo.pdf",
         "name": "Audition Information",
         "id": "2"
     },
     {
-        "file": "/files/SummerProgramme.pdf",
+        "file": "/files/auditions/SummerProgramme.pdf",
         "name": "Concert Programme",
         "id": "3"
     }

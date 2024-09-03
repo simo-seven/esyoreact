@@ -63,7 +63,8 @@ const AuditionsForm = ({ title }) => {
                   </div>
                 </div>
                 <div className="col-md-12">
-                  <div className="form-floating">
+                <p>Only if the applicant is under 18:</p>
+                <div className="form-floating">
                     <input
                       type="email"
                       className="form-control"

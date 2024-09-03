@@ -1,6 +1,6 @@
 import Biography from "./orchestra/HomeBiography";
 import Maestro from "./conductor/Maestro";
-import RollingNumbers from "./RollingNumbers";
+import RollingNumbers from "./reusable/RollingNumbers";
 import dataNumbers from "../data/rollingNumbers.json";
 import dataNews from "../data/news.json";
 import News from "./news/News";
@@ -18,7 +18,7 @@ import DesktopConcerts from "./tours/DesktopConcerts";
 import data from "../data/concerts/venues.json";
 import { Helmet } from "react-helmet-async";
 
-const Home = () => {
+const Home = ({formatDate}) => {
   const concerts = data;
   console.log(dataConductor);
 
@@ -63,12 +63,12 @@ const Home = () => {
           content="https://esyo.eu/logo.png"
         />
       </Helmet>
-
+      
       <Video />
       <Biography title="The ESYO Orchestra" bio={dataBio} />
       <RollingNumbers numbers={dataNumbers} />
       <Maestro bio={dataConductor} />
-      <News news={dataNews} />
+      <News news={dataNews} formatDate={formatDate} />
       {/*  Old conditional rendering (displaying Coming Soon if there were no concerts)
       {concerts?.length === 0 ? (
         <>

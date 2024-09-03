@@ -1,4 +1,4 @@
-import ScrollToTopLink from "../ScrollToTopLink";
+import ScrollToTopLink from "../reusable/ScrollToTopLink";
 
 const Maestro = ({ bio }) => {
   return (

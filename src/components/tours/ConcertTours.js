@@ -1,7 +1,7 @@
 import DesktopConcerts from "./DesktopConcerts";
 import MobileConcerts from "./MobileConcerts";
 import Repertoire from "./Repertoire";
-import ComingSoon from "../ComingSoon";
+import ComingSoon from "../reusable/ComingSoon";
 import data from "../../data/concerts/venues.json";
 import repertoire from "../../data/concerts/repertoire.json";
 import { Helmet } from "react-helmet-async";
