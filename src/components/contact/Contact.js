@@ -12,7 +12,7 @@ const Contact = () => {
           name="description"
           content="Connect with the European Spirit of Youth Orchestra. Reach out for inquiries, collaborations, or to learn more about our vibrant musical community."
         />
-        <link rel="canonical" href="/contact" />
+        <link rel="canonical" href="https://esyo.eu/contact" />
 
         <meta property="og:type" content="website" />
         <meta

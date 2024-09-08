@@ -12,7 +12,7 @@ const Donations = () => {
           name="description"
           content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
         />
-        <link rel="canonical" href="/donations" />
+        <link rel="canonical" href="https://esyo.eu/donations" />
 
         <meta property="og:type" content="website" />
         <meta

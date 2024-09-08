@@ -11,7 +11,7 @@ const Orchestra = ({ bio, renderBody }) => {
           name="description"
           content="Explore the European Spirit of Youth Orchestra, a symphonic ensemble embodying the European dream through diverse young talents. Learn about our musicians and mission."
         />
-        <link rel="canonical" href="/orchestra" />
+        <link rel="canonical" href="https://esyo.eu/orchestra" />
 
         <meta property="og:type" content="website" />
         <meta

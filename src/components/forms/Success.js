@@ -8,7 +8,7 @@ const Success = () => {
     <>
     <Helmet>
       <title>All good!</title>
-      <link rel="canonical" href="/success" />
+      <link rel="canonical" href="https://esyo.eu/success" />
     </Helmet>
 
     <div className="container-xxl py-5">

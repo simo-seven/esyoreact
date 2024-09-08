@@ -10,7 +10,7 @@ const LegalDetails = () => {
           name="description"
           content="Legal details for the European Spirit of Youth Orchestra (ESYO): organizer info, address, key personnel, and links to social media profiles."
         />
-        <link rel="canonical" href="/legaldetails" />
+        <link rel="canonical" href="https://esyo.eu/legaldetails" />
 
         <meta property="og:type" content="website" />
         <meta

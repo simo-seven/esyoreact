@@ -25,7 +25,7 @@ const Organizer = () => {
           name="description"
           content="Learn about Scuola per Giovani Musicisti Europei (SGME), promoting cultural dialogue and supporting young musicians through the ESYO Project."
         />
-        <link rel="canonical" href="/organizer" />
+        <link rel="canonical" href="https://esyo.eu/organizer" />
 
         <meta property="og:type" content="website" />
         <meta

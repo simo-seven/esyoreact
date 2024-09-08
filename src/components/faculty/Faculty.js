@@ -22,7 +22,7 @@ const Faculty = () => {
           name="description"
           content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
         />
-        <link rel="canonical" href="/faculty" />
+        <link rel="canonical" href="https://esyo.eu/faculty" />
 
         <meta property="og:type" content="website" />
         <meta

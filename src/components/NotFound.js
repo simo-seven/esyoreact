@@ -8,7 +8,7 @@ const NotFound = () => {
     <>
       <Helmet>
         <title>404 Not Found</title>
-        <link rel="canonical" href="*" />
+        {/* <link rel="canonical" href="*" /> */}
       </Helmet>
       <div className="container-xxl py-5 vh-100 centerMiddle">
         <div className="container py-5 px-lg-5">

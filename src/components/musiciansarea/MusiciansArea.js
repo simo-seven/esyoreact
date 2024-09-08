@@ -11,7 +11,7 @@ const MusiciansArea = () => {
           name="description"
           content="Finalize your application at Musicians Area and access vital resources for musicians. Stay informed with expert tips and timely updates."
         />
-        <link rel="canonical" href="/musiciansarea" />
+        <link rel="canonical" href="https://esyo.eu/musiciansarea" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"

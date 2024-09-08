@@ -14,7 +14,7 @@ const Partners = () => {
           name="description"
           content="Discover the partners and supporters of the European Spirit of Youth Orchestra. Join us in celebrating those who help bring our musical vision to life."
         />
-        <link rel="canonical" href="/partners" />
+        <link rel="canonical" href="https://esyo.eu/partners" />
 
         <meta property="og:type" content="website" />
         <meta

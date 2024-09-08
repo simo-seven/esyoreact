@@ -27,7 +27,7 @@ const faq = () => {
           name="description"
           content="Find answers to common questions about auditions, performances, and more. Your guide to joining and participating in the orchestra."
         />
-        <link rel="canonical" href="/faq" />
+        <link rel="canonical" href="https://esyo.eu/faq" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"

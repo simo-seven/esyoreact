@@ -17,7 +17,7 @@ const ConcertTours = () => {
           name="description"
           content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
         />
-        <link rel="canonical" href="/concertours" />
+        <link rel="canonical" href="https://esyo.eu/concertours" />
 
         <meta property="og:type" content="website" />
         <meta

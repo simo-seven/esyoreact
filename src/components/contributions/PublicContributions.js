@@ -20,7 +20,7 @@ const PublicContributions = ({ renderBody }) => {
           name="description"
           content="Access detailed records of public contributions to ESYO from recent years. Select a year to view, with content available in Italian for administrative purposes."
         />
-        <link rel="canonical" href="/publicontributions" />
+        <link rel="canonical" href="https://esyo.eu/publicontributions" />
 
         <meta property="og:type" content="website" />
         <meta

@@ -14,7 +14,7 @@ const NewsDetails = ({ formatDate, renderBody }) => {
           name="description"
           content={news.body.split(" ").slice(0, 20).join(" ") + "..."}
         />
-        <link rel="canonical" href={`/news/${id}`} />
+        <link rel="canonical" href={`https://esyo.eu/news/${id}`} />
 
         <meta property="og:type" content="article" />
         <meta
