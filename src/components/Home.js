@@ -34,7 +34,7 @@ const Home = ({formatDate}) => {
           name="keywords"
           content="orchestra, youth orchestra, europe, european orchestra, european youth orchestra"
         />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="URL" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
