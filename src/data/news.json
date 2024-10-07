@@ -1,9 +1,35 @@
 [
   {
+    "title": "United in Music: ESYO's 30th Anniversary Tour from the Balkans to Brussels",
+    "body": "Thanks to the support of the Department of Cultural and Tourism Policies of the Municipality of Trieste, co-organizer of the tour, 13 young musicians from ESYO, hailing from Italy, Albania, North Macedonia, and Serbia, will meet on October 27 in Belgrade to prepare the musical program for their concerts scheduled between November 1 and 8 in the Serbian capital, Rijeka, and Brussels.\nWith the tour \"United Together, from the Balkans to Brussels,\" the young musicians of ESYO, led by Maestro Igor Coretti Kuret, who, as the great violinist Yehudi Menuhin described them, are “the connective tissue of our humanity and bearers of the message of understanding, compassion, and love, generating vibrations that no barrier can stop, and who, through their music-making, exhibit a joy that can only arise from goodwill and trust among people from diverse backgrounds,” will also give voice to those who do not have one. By playing the instruments of the Orchestra of the Sea, constructed in Italian prisons from the wood of migrant boats stranded in Lampedusa, provided for the occasion by the Foundation of Spirit and Arts chaired by Arnoldo Mosca Mondadori, and accompanied by the narrative voice of Paolo Rumiz, they will bring the endless tragedy affecting humanity, always provoked by wars, to the attention of European public opinion.",
+    "partnerSponsor": [
+      {
+        "mainOrTitle": "ORGANIZING ENTITIES of the tour \"UNITED TOGETHER, FROM THE BALKANS TO BRUSSELS\"",
+        "relatedOrganisationsInstitutions": "Cultural Association School for Young European Musicians APS of Trieste\nDepartment of Cultural and Tourism Policies of the Municipality of Trieste (co-organizer)",
+        "id": "1"
+      },
+      {
+        "mainOrTitle": "PATRONAGE ENTITIES",
+        "relatedOrganisationsInstitutions": "European Parliament\nEmbassy of Italy in Belgrade\nEmbassy of Italy in Brussels",
+        "id": "2"
+      },
+      {
+        "mainOrTitle": "ORGANIZING ENTITIES",
+        "relatedOrganisationsInstitutions": "Embassy of Italy in Belgrade (concert for the Centenary of the Residence of Italy in Belgrade)\nItalian Cultural Institute of Belgrade (concert in Belgrade)\nItalian Cultural Institute of Brussels (concert at the IIC in Brussels)\nBrussels Circle of Giuliani in the World (concert at the IIC in Brussels)\nFVG Region Liaison Office in Brussels (vernissage of Giorgio Celiberti's exhibition)\nItalian Union",
+        "id": "3"
+      }
+    ],
+    "img": "/img/news/autumnTour24.PNG",
+    "publishedDate": "2024-10-07",
+    "author": "Prepared by the Press Office of the Cultural Association School for Young European Musicians APS",
+    "id": "71"
+  },
+  {
     "title": "2025 Season Auditions",
     "body": "We are excited to announce that the audition period for the 2025 season will soon open! Starting on December 1st, 2024, and running through March 31st, 2025, this is your chance to join our orchestra and showcase your talent. Whether you are a seasoned musician or an emerging talent, we encourage you to prepare for this extraordinary opportunity. Mark your calendars and get ready to apply!",
     "img": "/img/news/testbkg4.jpeg",
     "publishedDate": "2024-08-27",
+    "author": "",
     "id": "187"
   },
   {
@@ -11,6 +37,7 @@
     "body": "We are thrilled to unveil our brand new website! Designed with you in mind, the site now offers comprehensive information about our orchestra, upcoming concert tours, and faculty members. You can easily get in touch with our organizers, stay updated with the latest news, and even apply directly for auditions if you're a young musician eager to join us. Visit us online and experience the new features today!",
     "img": "/img/news/newweb.png",
     "publishedDate": "2024-04-29",
+    "author": "",
     "id": "259"
   } 
 ]
