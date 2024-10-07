@@ -43,12 +43,12 @@ const NewsDetails = ({ formatDate, renderBody }) => {
                 {renderBody(news.body)}
               </div>
               <div className="mt-10 mb-3 text-justify">
-                {news.partnerSponsor.map((partner) => (
+                {news.partnerSponsor && (news.partnerSponsor.map((partner) => (
                   <div key={partner.id} className="mt-10 mb-3 text-justify">
                     <h2 className="text-white">{partner.mainOrTitle}</h2>
                     {renderBody(partner.relatedOrganisationsInstitutions)}
                   </div>
-                ))}
+                )))}
               </div>
               <p className="mt-10">
                 <small>
