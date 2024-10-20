@@ -31,9 +31,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                           )}
                         </div>
                       </div>
-                      <div className="col-md-6 concertCardDetailsRight">
+                      <div className="col-md-6 concertCardDetailsRight flex items-center justify-center">
                         <div className="card-body">
-                          <p className="card-text">{concert.description}</p>
+                          <p className="card-text mb-3">{concert.description}</p>
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
@@ -41,9 +41,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                   ) : (
                     // Output if the concert.id is odd (aligned to the left)
                     <div className="row g-0">
-                      <div className="col-md-6 concertCardDetailsLeft">
+                      <div className="col-md-6 concertCardDetailsLeft flex items-center justify-center">
                         <div className="card-body">
-                          <p className="card-text">{concert.description}</p>
+                          <p className="card-text mb-3">{concert.description}</p>
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
