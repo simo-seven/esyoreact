@@ -13,7 +13,7 @@ const ConcertTours = () => {
   return (
     <>
       <Helmet>
-        <title>Concert Tours | European Spirit of Youth Orchestra</title>
+        <title>Autumn Tour | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
