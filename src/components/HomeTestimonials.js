@@ -1,56 +1,58 @@
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const HomeTestimonials = ({ testimonials }) => {
-  const options = {
-    //implementing owlcarousel library
-    loop: true,
-    margin: 20,
-    nav: false,
-    dots: false,
+  const settings = {
+    infinite: true,
+    slidesToShow: 2, // Show two slides on larger screens
+    slidesToScroll: 1,
     autoplay: true,
-    responsive: {
-      0: {
-        items: 1, // Show 1 item on mobile
+    autoplaySpeed: 4000,
+    arrows: false, // Disable arrows
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1, // Show one slide on mobile
+        },
       },
-      768: {
-        items: 2, // Show 2 items on desktop
-      }
-    },
+    ],
   };
 
   return (
-    <div className="container-xxl py-5 wow fadeInUp bckblack" data-wow-delay="0.1s">
-      <div className="container py-5 px-lg-5">
-        {/* <p className="section-title text-secondary justify-content-center mt-0">
-          Testimonial
-        </p> */}
-        <h1 className="text-center mb-5 text-white text-5xl">What they say about us</h1>
-        <OwlCarousel className="testimonial-carousel" {...options}>
+    <div className="py-10 bg-black">
+      <div className="container mx-auto py-5 px-4">
+        <h1 className="text-center mb-5 text-white text-4xl md:text-5xl font-bold">
+          What they say about us
+        </h1>
+        <Slider {...settings} className="flex justify-center">
           {testimonials.map((testimonial) => (
-            <div
-              className="testimonial-item bg-light rounded my-4"
-              key={testimonial.id}
-            >
-              <p className="fs-5">
-                <i className="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>
-                {testimonial.quote}
-              </p>
-              <div className="d-flex align-items-center">
-                <img
-                  className="reviewer-image rounded-circle"
-                  src={testimonial.img}
-                  alt={testimonial.name}
-                />
-                <div className="ps-4">
-                  <h5 className="mb-1">{testimonial.name}</h5>
-                  <span>{testimonial.description}</span>
+            <div className="flex justify-center mx-2" key={testimonial.id}>
+              <div className="bg-white rounded-lg shadow-md p-5 m-5 w-full max-w-lg"> {/* Adjust the card width */}
+                <p className="text-lg text-gray-700">
+                  <i className="fa fa-quote-left fa-2x text-primary mr-3"></i>
+                  {testimonial.quote}
+                </p>
+                <div className="flex items-center mt-4">
+                  <img
+                    className="w-16 h-16 rounded-full border-2 border-gray-200"
+                    src={testimonial.img}
+                    alt={testimonial.name}
+                  />
+                  <div className="ml-4">
+                    <h5 className="text-lg font-semibold">
+                      {testimonial.name}
+                    </h5>
+                    <small className="text-gray-500">
+                      {testimonial.description}
+                    </small>
+                  </div>
                 </div>
               </div>
             </div>
           ))}
-        </OwlCarousel>
+        </Slider>
       </div>
     </div>
   );

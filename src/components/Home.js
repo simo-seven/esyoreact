@@ -6,8 +6,8 @@ import dataNews from "../data/news.json";
 import News from "./news/News";
 import dataSponsors from "../data/partners.json";
 import PartnersCarousel from "./PartnersCarousel";
-import HomeTestimonials from "./HomeTestimonials";
-import dataTestimonials from "../data/testimonials/homePage.json";
+// import HomeTestimonials from "./HomeTestimonials";
+// import dataTestimonials from "../data/testimonials/homePage.json";
 import dataBio from "../data/orchestraBio.json";
 import dataConductor from "../data/conductorBio.json";
 import Video from "./headers_footer/Video";
@@ -123,7 +123,7 @@ const Home = ({formatDate}) => {
       )}
 
       <PartnersCarousel sponsors={dataSponsors} />
-      <HomeTestimonials testimonials={dataTestimonials} />
+      {/* <HomeTestimonials testimonials={dataTestimonials} /> */}
     </>
   );
 };
