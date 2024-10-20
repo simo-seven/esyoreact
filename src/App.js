@@ -127,7 +127,7 @@ function App() {
                         renderBody={renderBody}
                       />
                     )}
-                    {path === "/concertours" && <ConcertTours />}
+                    {path === "/concertours" && <ConcertTours renderBody={renderBody} />}
                     {path === "/donations" && <Donations />}
                     {path === "/auditions" && (
                       <Auditions formatDate={formatDate} />

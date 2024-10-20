@@ -1,4 +1,4 @@
-const DesktopConcerts = ({ concerts, bcg }) => {
+const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
   return (
     <div className={`container-xxl py-5 hideOnMobile ${bcg}`}>
       <div className="container py-5 px-lg-5">
@@ -19,11 +19,16 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                             <span className="concertDate">{concert.date}</span>
                           </h1>
                           <p className="card-text text-white">
-                            {concert.venue}
+                          {renderBody(concert.venue)}
                           </p>
                           <p className="card-text">
-                            <i className="fa-solid fa-clock"></i> {concert.time}
+                            {concert.time} <i className="fa-solid fa-clock"></i>
                           </p>
+                          {concert.private && (
+                            <p className="card-text">
+                              Private event <i className="fa-solid fa-lock"></i>
+                            </p>
+                          )}
                         </div>
                       </div>
                       <div className="col-md-6 concertCardDetailsRight">
@@ -51,11 +56,16 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                             <span className="concertDate">{concert.date}</span>
                           </h1>
                           <p className="card-text text-white">
-                            {concert.venue}
+                            {renderBody(concert.venue)}
                           </p>
                           <p className="card-text">
                             <i className="fa-solid fa-clock"></i> {concert.time}
                           </p>
+                          {concert.private && (
+                            <p className="card-text">
+                              <i className="fa-solid fa-lock"></i> Private event
+                            </p>
+                          )}
                         </div>
                       </div>
                     </div>
