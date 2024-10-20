@@ -12,7 +12,7 @@ const MobileConcerts = ({ concerts }) => {
               <div className="d-flex flex-column text-center rounded bg-grey py-4">
                 <i className="fa fa-calendar fa-2x beCareful py-4"></i>
                 <h4 className="beCareful">
-                  {concert.date}, {concert.time}
+                  {concert.date}{!concert.private && (`, ${concert.time}`)}
                 </h4>
                 {concert.private && (
                   <p className="card-text mt-2">

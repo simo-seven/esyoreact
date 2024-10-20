@@ -18,10 +18,15 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                           <h1 className="card-text text-white">
                             <span className="concertDate">{concert.date}</span>
                           </h1>
-                          <p className="card-text text-white m-1">{concert.venue}</p>
-                          <p className="card-text">
-                            {concert.time} <i className="fa-solid fa-clock"></i>
+                          <p className="card-text text-white m-1">
+                            {concert.venue}
                           </p>
+                          {!concert.private && (
+                            <p className="card-text">
+                              {concert.time}{" "}
+                              <i className="fa-solid fa-clock"></i>
+                            </p>
+                          )}
                           {concert.private && (
                             <p className="card-text">
                               Private event <i className="fa-solid fa-lock"></i>
@@ -31,7 +36,9 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                       </div>
                       <div className="col-md-6 concertCardDetailsRight d-flex align-items-center justify-content-center">
                         <div className="card-body">
-                          <p className="card-text mb-3">{concert.description}</p>
+                          <p className="card-text mb-3">
+                            {concert.description}
+                          </p>
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
@@ -41,7 +48,9 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                     <>
                       <div className="col-md-6 concertCardDetailsLeft d-flex align-items-center justify-content-center">
                         <div className="card-body">
-                          <p className="card-text mb-3">{concert.description}</p>
+                          <p className="card-text mb-3">
+                            {concert.description}
+                          </p>
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
@@ -53,10 +62,15 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                           <h1 className="card-text text-white">
                             <span className="concertDate">{concert.date}</span>
                           </h1>
-                          <p className="card-text text-white m-1">{concert.venue}</p>
-                          <p className="card-text">
-                            <i className="fa-solid fa-clock"></i> {concert.time}
+                          <p className="card-text text-white m-1">
+                            {concert.venue}
                           </p>
+                          {!concert.private && (
+                            <p className="card-text">
+                              <i className="fa-solid fa-clock"></i>{" "}
+                              {concert.time}
+                            </p>
+                          )}
                           {concert.private && (
                             <p className="card-text">
                               <i className="fa-solid fa-lock"></i> Private event
