@@ -18,9 +18,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                           <h1 className="card-text text-white">
                             <span className="concertDate">{concert.date}</span>
                           </h1>
-                          <p className="card-text text-white">
-                          {renderBody(concert.venue)}
-                          </p>
+                          <div className="card-text text-white m-1">
+                            {renderBody(concert.venue)}
+                          </div>
                           <p className="card-text">
                             {concert.time} <i className="fa-solid fa-clock"></i>
                           </p>
@@ -33,7 +33,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                       </div>
                       <div className="col-md-6 concertCardDetailsRight flex items-center justify-center">
                         <div className="card-body">
-                          <p className="card-text mb-3">{concert.description}</p>
+                          <p className="card-text mb-3">
+                            {concert.description}
+                          </p>
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
@@ -43,7 +45,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                     <div className="row g-0">
                       <div className="col-md-6 concertCardDetailsLeft flex items-center justify-center">
                         <div className="card-body">
-                          <p className="card-text mb-3">{concert.description}</p>
+                          <p className="card-text mb-3">
+                            {concert.description}
+                          </p>
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
@@ -55,9 +59,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                           <h1 className="card-text text-white">
                             <span className="concertDate">{concert.date}</span>
                           </h1>
-                          <p className="card-text text-white">
+                          <div className="card-text text-white m-1">
                             {renderBody(concert.venue)}
-                          </p>
+                          </div>
                           <p className="card-text">
                             <i className="fa-solid fa-clock"></i> {concert.time}
                           </p>
