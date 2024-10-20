@@ -7,7 +7,7 @@ import data from "../../data/concerts/venues.json";
 import repertoire from "../../data/concerts/repertoire.json";
 import { Helmet } from "react-helmet-async";
 
-const ConcertTours = ({renderBody}) => {
+const ConcertTours = () => {
   const concerts = data;
   const programme = repertoire;
   return (
@@ -59,7 +59,7 @@ const ConcertTours = ({renderBody}) => {
       ) : (
         <>
           <MobileConcerts concerts={concerts} bcg={""} />
-          <DesktopConcerts concerts={concerts} bcg={""} renderBody={renderBody} />
+          <DesktopConcerts concerts={concerts} bcg={""} />
           {/* <Concerts concerts={concerts} /> */}
           <Repertoire programme={programme} />
         </>

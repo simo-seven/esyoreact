@@ -1,4 +1,4 @@
-const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
+const DesktopConcerts = ({ concerts, bcg }) => {
   return (
     <div className={`container-xxl py-5 hideOnMobile ${bcg}`}>
       <div className="container py-5 px-lg-5">
@@ -18,9 +18,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                           <h1 className="card-text text-white">
                             <span className="concertDate">{concert.date}</span>
                           </h1>
-                          <div className="card-text text-white m-1">
-                            {renderBody(concert.venue)}
-                          </div>
+                          <p className="card-text text-white m-1">
+                            {concert.venue}
+                          </p>
                           <p className="card-text">
                             {concert.time} <i className="fa-solid fa-clock"></i>
                           </p>
@@ -59,9 +59,9 @@ const DesktopConcerts = ({ concerts, bcg, renderBody }) => {
                           <h1 className="card-text text-white">
                             <span className="concertDate">{concert.date}</span>
                           </h1>
-                          <div className="card-text text-white m-1">
-                            {renderBody(concert.venue)}
-                          </div>
+                          <p className="card-text text-white m-1">
+                            {concert.venue}
+                          </p>
                           <p className="card-text">
                             <i className="fa-solid fa-clock"></i> {concert.time}
                           </p>

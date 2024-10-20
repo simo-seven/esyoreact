@@ -28,13 +28,12 @@ import MenuOverlay from "./components/navigation/MenuOverlay.js";
 import Orchestra from "./components/orchestra/Orchestra.js";
 import PublicContributions from "./components/contributions/PublicContributions.js";
 import MusiciansArea from "./components/musiciansarea/MusiciansArea.js";
-import Faq from "./components/Faq.js"
+import Faq from "./components/Faq.js";
 // import Success from "./components/forms/Success.js";
 
 import data from "./data/navItems.json";
 import dataOrchestraBio from "./data/orchestraBio.json";
 import dataConductorBio from "./data/conductorBio.json";
-
 
 function App() {
   const introTitles = {
@@ -55,7 +54,7 @@ function App() {
     "/privacypolicy": "Privacy Policy",
     "/publicontributions": "Public Contributions",
     "/musiciansarea": "Musicians Area",
-    "/faq": "FAQ"
+    "/faq": "FAQ",
   };
 
   // Logic behind the navigation
@@ -98,7 +97,11 @@ function App() {
         />
         <div className="content">
           <Routes>
-            <Route exact path="/" element={<Home formatDate={formatDate} />}></Route>
+            <Route
+              exact
+              path="/"
+              element={<Home formatDate={formatDate} />}
+            ></Route>
             {Object.entries(introTitles).map(([path, title]) => (
               <Route
                 key={path}
@@ -127,7 +130,7 @@ function App() {
                         renderBody={renderBody}
                       />
                     )}
-                    {path === "/concertours" && <ConcertTours renderBody={renderBody} />}
+                    {path === "/concertours" && <ConcertTours />}
                     {path === "/donations" && <Donations />}
                     {path === "/auditions" && (
                       <Auditions formatDate={formatDate} />
