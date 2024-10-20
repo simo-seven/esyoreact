@@ -1,6 +1,7 @@
 import DesktopConcerts from "./DesktopConcerts";
 import MobileConcerts from "./MobileConcerts";
 import Repertoire from "./Repertoire";
+// import Concerts from "./Concerts";
 import ComingSoon from "../reusable/ComingSoon";
 import data from "../../data/concerts/venues.json";
 import repertoire from "../../data/concerts/repertoire.json";
@@ -29,10 +30,7 @@ const ConcertTours = () => {
           content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
         />
         <meta property="og:url" content="https://esyo.eu/concertours" />
-        <meta
-          property="og:image"
-          content="https://esyo.eu/logo.png"
-        />
+        <meta property="og:image" content="https://esyo.eu/logo.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -43,10 +41,7 @@ const ConcertTours = () => {
           name="twitter:description"
           content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
         />
-        <meta
-          name="twitter:image"
-          content="https://esyo.eu/logo.png"
-        />
+        <meta name="twitter:image" content="https://esyo.eu/logo.png" />
       </Helmet>
 
       {concerts?.length === 0 ? (
@@ -63,8 +58,9 @@ const ConcertTours = () => {
         </>
       ) : (
         <>
-          <MobileConcerts concerts={concerts} />
-          <DesktopConcerts concerts={concerts} />
+          <MobileConcerts concerts={concerts} bcg={""} />
+          <DesktopConcerts concerts={concerts} bcg={""} />
+          {/* <Concerts concerts={concerts} /> */}
           <Repertoire programme={programme} />
         </>
       )}

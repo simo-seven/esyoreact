@@ -3,7 +3,7 @@ import ScrollToTopLink from "./reusable/ScrollToTopLink";
 const PartnersCarousel = ({ sponsors }) => {
   return (
     <div
-      className="container-xxl newsletter py-5 wow fadeInUp bckblack paddingsxdxzero mt-0"
+      className="container-xxl newsletter py-5 wow fadeInUp paddingsxdxzero mt-0"
       data-wow-delay="0.1s"
     >
       <div className="container py-5 px-lg-5">

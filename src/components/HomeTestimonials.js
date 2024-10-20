@@ -21,7 +21,7 @@ const HomeTestimonials = ({ testimonials }) => {
   };
 
   return (
-    <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div className="container-xxl py-5 wow fadeInUp bckblack" data-wow-delay="0.1s">
       <div className="container py-5 px-lg-5">
         {/* <p className="section-title text-secondary justify-content-center mt-0">
           Testimonial

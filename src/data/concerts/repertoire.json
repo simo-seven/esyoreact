@@ -1,22 +1,32 @@
 [
     {
         "composer": "W.A. Mozart",
-        "title": "Idomeneo Overture",
+        "title": "Divertimento in D, KV 136",
+        "soloists": "",
         "id": "1"
     },
     {
-        "composer": "G. Bizet",
-        "title": "L' Arlesienne Suite No. 1",
+        "composer": "A. Vivaldi",
+        "title": "Concerto for two Violins in A minor RV 522",
+        "soloists": "Aleksandra Latinović (violin) and Lena Coretti Kuret (violin)",
         "id": "2"
     },
     {
-        "composer": "G. Bizet",
-        "title": "Petite Suite - Jeux d'enfants",
+        "composer": "A. Vivaldi",
+        "title": "Concerto for Violin and Cello in B-flat major RV 547",
+        "soloists": "Klea Bardhoshi (violin) and Isidora Krmpotić (cello)",
         "id": "3"
     },
     {
-        "composer": "P.I. Tchaikovsky",
-        "title": "Romeo & Juliet Fantasy Overture",
+        "composer": "G. Puccini",
+        "title": "Crisantemi",
+        "soloists": "",
         "id": "4"
+    },
+    {
+        "composer": "B. Britten",
+        "title": "Sentimental Sarabande (from the Simple Symphony)",
+        "soloists": "",
+        "id": "5"
     }
 ]

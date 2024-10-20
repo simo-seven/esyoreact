@@ -1,6 +1,6 @@
 const MobileConcerts = ({ concerts }) => {
   return (
-    <div className="container-xxl py-3 onlyMobile">
+    <div className="container-xxl py-3 onlyMobile bckblack pt-5 pb-5">
       <div className="container py-1 px-lg-3">
         <div className="row g-4">
           {concerts.map((concert) => (

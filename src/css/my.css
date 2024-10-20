@@ -427,7 +427,7 @@ button.languagebutton {
 /* Styling */
 .slider {
   background: transparent;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
   height: auto;
   margin: 0;
   overflow: hidden;

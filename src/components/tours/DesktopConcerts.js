@@ -1,6 +1,6 @@
-const DesktopConcerts = ({ concerts }) => {
+const DesktopConcerts = ({ concerts, bcg }) => {
   return (
-    <div className="container-xxl py-5 hideOnMobile">
+    <div className={`container-xxl py-5 hideOnMobile ${bcg}`}>
       <div className="container py-5 px-lg-5">
         <div className="container">
           <div className="row">

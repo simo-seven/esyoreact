@@ -20,7 +20,6 @@ import { Helmet } from "react-helmet-async";
 
 const Home = ({formatDate}) => {
   const concerts = data;
-  console.log(dataConductor);
 
   return (
     <>
@@ -105,7 +104,7 @@ const Home = ({formatDate}) => {
       {concerts?.length > 0 && (
         <>
           <div
-            className="container-xxl newsletter wow fadeInUp paddingsxdxzero mt-0"
+            className="container-xxl newsletter wow fadeInUp paddingsxdxzero mt-0 bckblack"
             data-wow-delay="0.1s"
           >
             <div className="container px-lg-5">
@@ -118,8 +117,8 @@ const Home = ({formatDate}) => {
               </div>
             </div>
           </div>
-          <MobileConcerts concerts={concerts} />
-          <DesktopConcerts concerts={concerts} />
+          <MobileConcerts concerts={concerts} bcg={"bckblack"} />
+          <DesktopConcerts concerts={concerts} bcg={"bckblack"}/>
         </>
       )}
 
