@@ -1,0 +1,27 @@
+[
+  {
+    "section": "First Violins",
+    "members": "Marija Janković (Serbia), Marijana Suzić (Serbia), Niccolò Kolata (Italy)",
+    "id": 1
+  },
+  {
+    "section": "Second Violins",
+    "members": "Lena Coretti Kuret (Italy), Klea Bardhoshi (Albania), Athena Picech (Italy)",
+    "id": 2
+  },
+  {
+    "section": "Violas",
+    "members": "Viktor Manev (Macedonia), Tamara Grubin (Serbia)",
+    "id": 3
+  },
+  {
+    "section": "Cellos",
+    "members": "Isidora Krmpotić (Serbia), Marco Anese (Italy)",
+    "id": 4
+  },
+  {
+    "section": "Double Basses",
+    "members": "David Vasović (Serbia)",
+    "id": 5
+  }
+]

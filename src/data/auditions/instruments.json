@@ -2,76 +2,61 @@
     {
         "type": "Violins",
         "quantity": "18",
-        "id": "1"
+        "id": 1
     },
     {
         "type": "Violas",
         "quantity": "6",
-        "id": "2"
+        "id": 2
     },
     {
         "type": "Cellos",
         "quantity": "6",
-        "id": "3"
+        "id": 3
     },
     {
         "type": "Doublebasses",
         "quantity": "4",
-        "id": "4"
+        "id": 4
     },
     {
         "type": "Flutes (1 with compulsory piccolo)",
         "quantity": "3",
-        "id": "5"
+        "id": 5
     },
     {
         "type": "Oboes (1 with compulsory English horn)",
-        "quantity": "3",
-        "id": "6"
+        "quantity": "2",
+        "id": 6
     },
     {
         "type": "Clarinets",
         "quantity": "2",
-        "id": "7"
-    },
-    {
-        "type": "Alto-saxophone",
-        "quantity": "1",
-        "id": "8"
+        "id": 7
     },
     {
         "type": "Bassoons",
         "quantity": "2",
-        "id": "9"
+        "id": 8
     },
     {
         "type": "French Horns",
-        "quantity": "4",
-        "id": "10"
+        "quantity": "2",
+        "id": 9
     },
     {
         "type": "Trumpets",
-        "quantity": "4",
-        "id": "11"
+        "quantity": "2",
+        "id": 10
     },
     {
         "type": "Trombones",
         "quantity": "3",
-        "id": "12"
+        "id": 11
     },
     {
-        "type": "Tuba",
+        "type": "Timpani & 2 Percussions",
         "quantity": "1",
-        "id": "13"
-    },
-    {
-        "type": "Timpani & 4 Percussions",
-        "quantity": "1",
-        "id": "14"
-    },
-    {
-        "type": "Harp",
-        "quantity": "1",
-        "id": "15"
+        "id": 12
     }
 ]

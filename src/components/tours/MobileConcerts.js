@@ -19,6 +19,11 @@ const MobileConcerts = ({ concerts }) => {
                     <i className="fa-solid fa-lock"></i> Private event
                   </p>
                 )}
+                {concert.special_guest && (
+                  <p className="card-text mt-2">
+                    <i className="fa-solid fa-user"></i> {concert.special_guest}
+                  </p>
+                  )}
                 <p className="m-0 mt-2 text-white">
                   {concert.venue} <br />
                   <span className="fw-bold">{concert.city}</span>

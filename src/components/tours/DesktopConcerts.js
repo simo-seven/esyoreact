@@ -39,6 +39,11 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                           <p className="card-text mb-3">
                             {concert.description}
                           </p>
+                          {concert.special_guest && (
+                            <p className="card-text mb-3 ml-2">
+                              <i className="fa-solid fa-user"></i> {concert.special_guest}
+                            </p>
+                          )}
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
@@ -51,6 +56,11 @@ const DesktopConcerts = ({ concerts, bcg }) => {
                           <p className="card-text mb-3">
                             {concert.description}
                           </p>
+                          {concert.special_guest && (
+                            <p className="card-text mb-3">
+                              {concert.special_guest} <i className="fa-solid fa-user"></i>
+                            </p>
+                          )}
                           <p className="card-text">{concert.program}</p>
                         </div>
                       </div>
