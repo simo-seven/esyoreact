@@ -11,7 +11,7 @@ const Repertoire = ({ programme }) => {
                 {piece.title}
               </span> <br />
               {piece.soloists && (
-                <small className="text-gray-300 ml-5">
+                <small className="text-gray-300">
                 {`Soloists: ${piece.soloists}`}
               </small>
               )}
