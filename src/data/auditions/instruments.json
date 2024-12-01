@@ -16,12 +16,12 @@
     },
     {
         "type": "Doublebasses",
-        "quantity": "4",
+        "quantity": "3",
         "id": 4
     },
     {
         "type": "Flutes (1 with compulsory piccolo)",
-        "quantity": "3",
+        "quantity": "2",
         "id": 5
     },
     {
@@ -55,7 +55,7 @@
         "id": 11
     },
     {
-        "type": "Timpani & 2 Percussions",
+        "type": "Timpani & 3 Percussions",
         "quantity": "1",
         "id": 12
     }

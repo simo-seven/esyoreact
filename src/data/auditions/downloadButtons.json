@@ -8,10 +8,5 @@
         "file": "/files/auditions/AuditionInfo.pdf",
         "name": "Audition Information",
         "id": "2"
-    },
-    {
-        "file": "/files/auditions/SummerProgramme.pdf",
-        "name": "Concert Programme",
-        "id": "3"
     }
 ]

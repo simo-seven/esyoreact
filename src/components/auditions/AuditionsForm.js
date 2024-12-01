@@ -1,11 +1,21 @@
 import { Link } from "react-router-dom";
 
-const AuditionsForm = ({ title }) => {
+const AuditionsForm = ({ title, deadline, formatDate }) => {
   return (
     <>
-      <p className="mt-10">
-        Are you ready? Just fill out the following form and you are done.{" "}
-        <span className="beCareful">Good luck for your audition!</span>
+      <p className="mt-10 text-justify">
+        <span className="beCareful text-2xl">
+          What happens after you submit your audition form?
+        </span>
+      </p>
+      <p className="text-justify">
+        {`After you submit your form, we will review your application. If the Artistic Director selects you, we will get in touch once the audition process is complete (after ${formatDate(
+          deadline
+        )}).`}
+      </p>
+      <p className="text-justify mt-5">
+        Are you ready? Just fill out the following form and you are done. Good
+        luck for your audition!
       </p>
       <div
         className="animate__animated animate__fadeInUp mt-5"
@@ -19,11 +29,7 @@ const AuditionsForm = ({ title }) => {
             <p className="mb-2">
               All fields are <span className="beCareful">required</span>!
             </p>
-            <form
-              name="audition"
-              action="/"
-              method="post"
-            >
+            <form name="audition" action="/" method="post">
               <input type="hidden" name="form-name" value="audition" />
               <div className="row g-3">
                 <div className="col-md-6">
@@ -63,8 +69,8 @@ const AuditionsForm = ({ title }) => {
                   </div>
                 </div>
                 <div className="col-md-12">
-                <p>Only if the applicant is under 18:</p>
-                <div className="form-floating">
+                  <p>Only if the applicant is under 18:</p>
+                  <div className="form-floating">
                     <input
                       type="email"
                       className="form-control"
@@ -140,21 +146,18 @@ const AuditionsForm = ({ title }) => {
                         Oboe/English Horn
                       </option>
                       <option value="ClarinetBassClarinet">Clarinet</option>
-                      <option value="AltoSaxophone">Alto-saxophone</option>
                       <option value="Bassoon">Bassoon</option>
                       <option value="FrenchHorn">French Horn</option>
                       <option value="Trumpet">Trumpet</option>
                       <option value="Trombone">Trombone</option>
-                      <option value="Tuba">Tuba</option>
                       <option value="TimpaniPercussions">
                         Timpani/Percussions
                       </option>
-                      <option value="Harp">Harp</option>
                     </select>
                     <label htmlFor="Instrument">Your Instrument</label>
                   </div>
                 </div>
-                <div className="col-md-12">
+                {/* <div className="col-md-12">
                   <div className="form-floating">
                     <select
                       className="form-control"
@@ -168,15 +171,16 @@ const AuditionsForm = ({ title }) => {
                     </select>
                     <label htmlFor="auditionplace">Audition Place</label>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-md-12">
-                  <p>Only if your previous selection is "Online":</p>
+                  {/* <p>Only if your previous selection is "Online":</p> */}
                   <div className="form-floating">
                     <input
                       type="text"
                       className="form-control"
                       name="videoURL"
                       placeholder="Video URL"
+                      required
                     />
                     <label htmlFor="videoURL">Video Url</label>
                   </div>

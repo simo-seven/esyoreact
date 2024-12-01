@@ -127,7 +127,7 @@ div.footersocials {
 }
 .contactCards {
   border: 1px solid #ffffff;
-  border-radius: 8px;
+  border-radius: 40px;
 }
 .d-flex.flex-column.text-center.rounded {
   display: flex; /* Utilizza Flexbox */
