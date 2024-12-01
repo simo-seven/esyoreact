@@ -1,0 +1,38 @@
+[
+    {
+        "composer": "W.A. Mozart",
+        "title": "Divertimento in D, KV 136",
+        "soloists": "",
+        "id": 1
+    },
+    {
+        "composer": "A. Vivaldi",
+        "title": "Concerto for two Violins in A minor RV 522",
+        "soloists": "Marija Janković and Lena Coretti Kuret",
+        "id": 2
+    },
+    {
+        "composer": "A. Vivaldi",
+        "title": "Concerto for Violin and Cello in B-flat major RV 547",
+        "soloists": "Klea Bardhoshi and Isidora Krmpotić",
+        "id": 3
+    },
+    {
+        "composer": "G. Tartini",
+        "title": "Adagio Cantabile",
+        "soloists": "",
+        "id": 4
+    },
+    {
+        "composer": "G. Puccini",
+        "title": "Crisantemi",
+        "soloists": "",
+        "id": 5
+    },
+    {
+        "composer": "B. Britten",
+        "title": "Sentimental Sarabande (from the Simple Symphony)",
+        "soloists": "",
+        "id": 6
+    }
+]

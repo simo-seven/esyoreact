@@ -53,6 +53,7 @@ const ConcertTours = () => {
               <div className="container-fluid">
                 <div className="row">
                   <ComingSoon />
+                  <Repertoire programme={programme} />
                 </div>
               </div>
             </div>

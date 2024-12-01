@@ -3,7 +3,7 @@ const Repertoire = ({ programme }) => {
     <div className="container-xxl py-3">
       <div className="container py-5 px-lg-5">
         <div className="wow fadeInUp" data-wow-delay="0.1s">
-          <h1 className="text-center mb-5 text-white text-4xl">The Repertoire</h1>
+          <h1 className="text-center mb-5 text-white text-4xl">Repertoire</h1>
           {programme.map((piece) => (
             <h4 key={piece.id} className="m-4">
               <span className="beCareful">{piece.composer}</span> <br />
