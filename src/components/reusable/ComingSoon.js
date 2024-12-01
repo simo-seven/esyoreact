@@ -4,9 +4,12 @@ const ComingSoon = () => {
   return (
     <div className="col-md-12 mt-5 mb-5">
       <div className="text-center">
-        <h1 className="text-white mb-3 text-4xl">Official Dates Coming Soon!!!</h1>
+        <h1 className="text-white mb-3 text-4xl">
+          Official Dates Coming Soon!!!
+        </h1>
         <p>
-          Follow us on{" "}
+          The ESYO Summer Tour 2025 is planned to take place <br />
+          approximately from July 20 to August 10, 2025. <br /> Follow us on{" "}
           <Link
             to="https://www.instagram.com/esyo_eu/"
             target="_blank"
