@@ -122,8 +122,8 @@ const Home = ({formatDate}) => {
         </>
       )}
 
-      <PartnersCarousel sponsors={dataSponsors} />
-      <HomeTestimonials testimonials={dataTestimonials} />
+      <PartnersCarousel sponsors={dataSponsors} bcg={"bckblack"} />
+      <HomeTestimonials testimonials={dataTestimonials} bcg={""} />
     </>
   );
 };

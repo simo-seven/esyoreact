@@ -1,9 +1,9 @@
 import ScrollToTopLink from "./reusable/ScrollToTopLink";
 
-const PartnersCarousel = ({ sponsors }) => {
+const PartnersCarousel = ({ sponsors, bcg }) => {
   return (
     <div
-      className="container-xxl newsletter py-5 wow fadeInUp paddingsxdxzero mt-0"
+      className={`container-xxl newsletter py-5 wow fadeInUp paddingsxdxzero mt-0 ${bcg}`}
       data-wow-delay="0.1s"
     >
       <div className="container py-5 px-lg-5">

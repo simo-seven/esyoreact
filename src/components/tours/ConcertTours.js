@@ -15,7 +15,7 @@ const ConcertTours = () => {
   return (
     <>
       <Helmet>
-        <title>Autumn Tour | European Spirit of Youth Orchestra</title>
+        <title>Summer Tour | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
@@ -25,7 +25,7 @@ const ConcertTours = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Concert Tours | European Spirit of Youth Orchestra"
+          content="Summer Tour | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -37,7 +37,7 @@ const ConcertTours = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Concert Tours | European Spirit of Youth Orchestra"
+          content="Summer Tour | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"

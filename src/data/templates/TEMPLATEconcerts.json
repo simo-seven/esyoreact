@@ -1,47 +1,69 @@
 [
     {
-        "city": "Ajdovščina, Slovenia",
-        "date": "02/08/2024",
-        "venue": "Dvorana Prve Slovenske Vlade",
-        "time": "9.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
-        "id": "1"
+      "city": "Belgrade, Serbia",
+      "date": "31/10/2024",
+      "venue": "Residence of the Italian Embassy",
+      "time": "7.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Beethoven, Puccini, Vivaldi, Mozart and Britten",
+      "special_guest": "",
+      "private": true,
+      "id": 1
     },
     {
-        "city": "San Floriano del Collio (Gorizia), Italy",
-        "date": "03/08/2024",
-        "venue": "Piazza Libertà",
-        "time": "9.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
-        "id": "2"
+      "city": "Belgrade, Serbia",
+      "date": "01/11/2024",
+      "venue": "Svečana dvorana Doma Vojske Srbije",
+      "time": "7.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Puccini, Vivaldi, Tartini, Mozart and Britten",
+      "special_guest": "",
+      "private": false,
+      "id": 2
     },
     {
-        "city": "Pordenone, Italy",
-        "date": "06/08/2024",
-        "venue": "Chiostro Biblioteca Civica",
-        "time": "9.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
-        "id": "3"
+      "city": "Brussels, Belgium",
+      "date": "05/11/2024",
+      "venue": "Italian Cultural Institute",
+      "time": "6.30pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Puccini, Vivaldi, Tartini, Mozart and Britten",
+      "special_guest": "With Paolo Rumiz’s extraordinary narration",
+      "private": false,
+      "id": 3
     },
     {
-        "city": "Montenars (Udine), Italy",
-        "date": "07/08/2024",
-        "venue": "Centro Festeggiamenti di Borgo Curminie",
-        "time": "9.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
-        "id": "4"
+      "city": "Brussels, Belgium",
+      "date": "06/11/2024",
+      "venue": "European Parliament",
+      "time": "5.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Puccini, Vivaldi, Tartini, Mozart and Britten",
+      "special_guest": "",
+      "private": true,
+      "id": 4
     },
     {
-        "city": "Trieste, Italy",
-        "date": "08/08/2024",
-        "venue": "Piazza Giuseppe Verdi",
-        "time": "9.00pm",
-        "description": "ESYO 'European Spirit of Youth Orchestra', conducted by Maestro Igor Coretti Kuret and Maestro Nenad Petković",
-        "program": "Music by P.I. Tchaikovsky, G. Bizet and W.A. Mozart",
-        "id": "5"
+      "city": "Brussels, Belgium",
+      "date": "07/11/2024",
+      "venue": "Atelier Marcel Hastir",
+      "time": "7.30pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Puccini, Vivaldi, Tartini, Mozart and Britten",
+      "special_guest": "",
+      "private": false,
+      "id": 5
+    },
+    {
+      "city": "Brussels, Belgium",
+      "date": "08/11/2024",
+      "venue": "Headquarters of the Liaison Offices of the FVG Region",
+      "time": "7.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Puccini, Vivaldi, Tartini, Mozart and Britten",
+      "special_guest": "",
+      "private": true,
+      "id": 6
     }
-]
+  ]
+  
