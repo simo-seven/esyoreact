@@ -3,6 +3,18 @@ import { Link } from "react-router-dom";
 const AuditionsForm = ({ title, deadline, formatDate }) => {
   return (
     <>
+      <p className="mt-14 text-justify">
+        <span className="beCareful text-2xl">
+          How does the audition look like?
+        </span>
+      </p>
+      <p className="text-justify">
+        Candidates are asked to perform a short program (two, in the character
+        contrasting pieces) of their own choice (max. 5-7 min.) and will be
+        selected both based on their performances as well as of their team-
+        working capabilities. The final decision will be made by the Artistic
+        Director in agreement with the ESYO faculty members.
+      </p>
       <p className="mt-10 text-justify">
         <span className="beCareful text-2xl">
           What happens after you submit your audition form?
@@ -15,7 +27,10 @@ const AuditionsForm = ({ title, deadline, formatDate }) => {
       </p>
       <p className="text-justify mt-5">
         Are you ready? Just fill out the following form and you are done. Good
-        luck for your audition!
+        luck for your audition! Should you have any doubts or questions about
+        your eligibility for participating in the auditions or about the
+        registration process, please{" "}
+        <span className="beCareful">don’t hesitate to contact us</span>.
       </p>
       <div
         className="animate__animated animate__fadeInUp mt-5"
