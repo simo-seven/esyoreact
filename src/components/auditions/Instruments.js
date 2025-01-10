@@ -8,7 +8,7 @@ const Instruments = ({ instruments }) => {
       </p>
       <p className="text-justify">
         The Orchestra’s Summer Tour 2025 is planned to take place approximately
-        from <span className="beCareful">July 20 to August 10, 2025</span>. Stay
+        from <span className="beCareful">July 13 to August 3, 2025</span>. Stay
         tuned for more details as the date draws closer. You can explore the
         repertoire on the{" "}
         <Link to="/concertours" className="beCareful">
