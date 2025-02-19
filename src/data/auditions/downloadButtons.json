@@ -1,12 +1,7 @@
 [
     {
-        "file": "/files/auditions/GeneralRegulations.pdf",
+        "file": "/files/GeneralRegulations.pdf",
         "name": "General Regulations",
         "id": "1"
-    },
-    {
-        "file": "/files/auditions/AuditionInfo.pdf",
-        "name": "Audition Information",
-        "id": "2"
     }
 ]

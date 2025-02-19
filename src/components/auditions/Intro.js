@@ -10,7 +10,7 @@ const Intro = () => {
     //   auditions or about the registration process, please{" "}
     //   <span className="beCareful">don’t hesitate to contact us</span>.
     // </p>
-    <p className="text-justify mt-5">
+    <p className="text-justify mt-3">
       The European Spirit of Youth Orchestra (ESYO) offers a high-level
       pre-professional training to selected young musicians (aged 13 – 23) from
       all European countries and other non-European countries. The ESYO Project

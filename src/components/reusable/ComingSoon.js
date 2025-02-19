@@ -9,7 +9,8 @@ const ComingSoon = () => {
         </h1>
         <p>
           The ESYO Summer Tour 2025 is planned to take place approximately from
-          July 13 to August 3, 2025. <br /> Follow us on{" "}
+          July 13 to August 3, 2025, featuring six concerts across Italy,
+          Slovenia, Croatia, and Austria. <br /> Follow us on{" "}
           <Link
             to="https://www.instagram.com/esyo_eu/"
             target="_blank"

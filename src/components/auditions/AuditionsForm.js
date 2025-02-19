@@ -1,30 +1,8 @@
 import { Link } from "react-router-dom";
 
-const AuditionsForm = ({ title, deadline, formatDate }) => {
+const AuditionsForm = ({ title }) => {
   return (
     <>
-      <p className="mt-14 text-justify">
-        <span className="beCareful text-2xl">
-          How does the audition look like?
-        </span>
-      </p>
-      <p className="text-justify">
-        Candidates are asked to perform a short program (two, in the character
-        contrasting pieces) of their own choice (max. 5-7 min.) and will be
-        selected both based on their performances as well as of their team-
-        working capabilities. The final decision will be made by the Artistic
-        Director in agreement with the ESYO faculty members.
-      </p>
-      <p className="mt-10 text-justify">
-        <span className="beCareful text-2xl">
-          What happens after you submit your audition form?
-        </span>
-      </p>
-      <p className="text-justify">
-        {`After you submit your form, we will review your application. If the Artistic Director selects you, we will get in touch once the audition process is complete (after ${formatDate(
-          deadline
-        )}).`}
-      </p>
       <p className="text-justify mt-5">
         Are you ready? Just fill out the following form and you are done. Good
         luck for your audition! Should you have any doubts or questions about
@@ -225,7 +203,7 @@ const AuditionsForm = ({ title, deadline, formatDate }) => {
                     />
                     <label className="form-check-label" htmlFor="gdprConsent">
                       I agree with all the terms and conditions listed in the
-                      ESYO 2024 Regulation.
+                      ESYO 2025 Regulation.
                     </label>
                   </div>
                 </div>
