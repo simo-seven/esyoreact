@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
 
 const Person = ({ people }) => {
   return (
@@ -17,14 +16,7 @@ const Person = ({ people }) => {
               {person.position}
             </h3>
             <Link to={person.link}>
-              {person.position === "Developer and Webmaster" ? (
-                <FontAwesomeIcon
-                  icon={faArrowAltCircleRight}
-                  className="beCareful me-1"
-                />
-              ) : (
-                <FontAwesomeIcon icon={faEnvelope} className="beCareful me-1" />
-              )}{" "}
+              <FontAwesomeIcon icon={faEnvelope} className="beCareful me-1" />{" "}
               {person.name}
             </Link>
           </div>

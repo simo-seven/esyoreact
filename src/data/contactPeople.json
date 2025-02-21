@@ -3,28 +3,24 @@
         "name": "Alessio Glavina",
         "position": "Office and Communication",
         "link": "mailto:segreteria@esyo.eu",
-        "icon": "<FontAwesomeIcon icon={faEnvelope} className='beCareful me-1' />",
         "id": "1"
     },
     {
         "name": "Igor Coretti Kuret",
         "position": "Artistic Director",
         "link": "mailto:maestro@esyo.eu",
-        "icon": "faEnvelope",
         "id": "2"
     },
     {
         "name": "Jan Coretti Kuret",
         "position": "Social Media Manager",
         "link": "https://www.instagram.com/jankuret_piano?igsh=MXRpcms2YnN3dnZidw",
-        "icon": "faShareAlt",
         "id": "3"
     },
     {
         "name": "Simone Sette",
         "position": "Developer and Webmaster",
         "link": "mailto:orchestra@esyo.eu",
-        "icon": "faEnvelope",
         "id": "4"
     }
 ]

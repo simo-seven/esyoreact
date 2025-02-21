@@ -12,7 +12,6 @@ import UpcomingAuditions from "./UpcomingAuditions";
 import { Helmet } from "react-helmet-async"; // Import Helmet
 import { Link } from "react-router-dom";
 
-
 const Auditions = ({ formatDate }) => {
   const startDate = "2024-12-01";
   const deadline = "2025-03-31";
@@ -77,8 +76,7 @@ const Auditions = ({ formatDate }) => {
             </p>
             <p className="text-justify">
               The Orchestra’s Summer Tour 2025 is scheduled to take place from
-              approximately{" "}
-              <span className="beCareful">July 13 to August 3, 2025</span>,
+              <span className="beCareful"> July 13 to August 3, 2025</span>,
               featuring six concerts across Italy, Slovenia, Croatia, and
               Austria. Stay tuned for more details as the date draws closer. You
               can explore the repertoire on the{" "}
