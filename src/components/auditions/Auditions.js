@@ -52,7 +52,7 @@ const Auditions = ({ formatDate }) => {
         <meta name="twitter:image" content="https://esyo.eu/logo.png" />
       </Helmet>
 
-      {today > deadlineDate ? (
+      {today > new Date(deadlineDate.setDate(deadlineDate.getDate() + 1)) ? (
         <div className="container-xxl py-5">
           <div className="container py-5 px-lg-5">
             <Expired deadline={deadline} formatDate={formatDate} />
