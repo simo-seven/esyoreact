@@ -1,14 +1,14 @@
 [
     {
-        "name": "Alessio Glavina",
-        "position": "Office and Communication",
-        "link": "mailto:segreteria@esyo.eu",
-        "id": "1"
-    },
-    {
         "name": "Igor Coretti Kuret",
         "position": "Artistic Director",
         "link": "mailto:maestro@esyo.eu",
+        "id": "1"
+    },
+    {
+        "name": "Simone Sette",
+        "position": "ESYO Secretariat",
+        "link": "mailto:orchestra@esyo.eu",
         "id": "2"
     },
     {
@@ -16,11 +16,5 @@
         "position": "Social Media Manager",
         "link": "https://www.instagram.com/jankuret_piano?igsh=MXRpcms2YnN3dnZidw",
         "id": "3"
-    },
-    {
-        "name": "Simone Sette",
-        "position": "Developer and Webmaster",
-        "link": "mailto:orchestra@esyo.eu",
-        "id": "4"
-    }
+    } 
 ]

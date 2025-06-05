@@ -22,10 +22,7 @@ const LegalDetails = () => {
           content="Legal details for the European Spirit of Youth Orchestra (ESYO): organizer info, address, key personnel, and links to social media profiles."
         />
         <meta property="og:url" content="https://esyo.eu/legaldetails" />
-        <meta
-          property="og:image"
-          content="https://esyo.eu/logo.png"
-        />
+        <meta property="og:image" content="https://esyo.eu/logo.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -36,10 +33,7 @@ const LegalDetails = () => {
           name="twitter:description"
           content="Legal details for the European Spirit of Youth Orchestra (ESYO): organizer info, address, key personnel, and links to social media profiles."
         />
-        <meta
-          name="twitter:image"
-          content="https://esyo.eu/logo.png"
-        />
+        <meta name="twitter:image" content="https://esyo.eu/logo.png" />
       </Helmet>
 
       <div className="container-xxl py-5">
@@ -54,18 +48,21 @@ const LegalDetails = () => {
             <p>
               <span className="fw-bold">Legal Address</span>: I - 34137 Trieste,
               Via San Giacomo in Monte 24 <br />
-              <span className="fw-bold">Fiscal Code</span>: 90049860324
+              <span className="fw-bold">Tax ID</span>: 90049860324
             </p>
             <div className="py-3">
               <p>
-                <span className="fw-bold">President</span>: Franco Sideri <br />
-                <span className="fw-bold">Secretary</span>: Tiziano Simonut{" "}
+                <span className="fw-bold">President</span>: MR Ezio Perillo • <a href="mailto:presidente@esyo.eu" className="justOrange">presidente[at]esyo.eu</a>
+                <br />
+                <span className="fw-bold">Vice-presidents</span>: MS Barbara Lapornik and MR Franco Sideri <br />
+                <span className="fw-bold">Secretary General</span>: Tiziano Simonut • <a href="mailto:info@esyo.eu" className="justOrange">info[at]esyo.eu</a>
                 <br />
                 <span className="fw-bold">Members of Advisory Board</span>:
-                Franco Delben, Roberto Magris, Lino Roncali, Fabio Petrossi{" "}
+                MS Gloria Favret, MS Veronica Logar, MR Lino Roncali, MS Katia Naro and MS Gabriella Valvo
                 <br />
-                <span className="fw-bold">Artistic Director</span>: Igor Coretti
-                Kuret
+                <span className="fw-bold">Communication with the associated members</span>: MR Lino Roncali • <a href="mailto:comunicazione@esyo.eu" className="justOrange">comunicazione[at]esyo.eu</a>
+                <br />
+                <span className="fw-bold">SGME Secretariat</span>: MR Alessio Glavina • <a href="mailto:segreteria@esyo.eu" className="justOrange">segreteria[at]esyo.eu</a>
               </p>
             </div>
             <div className="py-3">

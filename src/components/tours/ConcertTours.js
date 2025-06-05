@@ -5,7 +5,7 @@ import OrchestraMembers from "./OrchestraMembers";
 // import Concerts from "./Concerts";
 import ComingSoon from "../reusable/ComingSoon";
 import data from "../../data/concerts/venues.json";
-import members from "../../data/concerts/orchestra.json";
+// import members from "../../data/concerts/orchestra.json";
 import repertoire from "../../data/concerts/repertoire.json";
 import { Helmet } from "react-helmet-async";
 
@@ -64,8 +64,16 @@ const ConcertTours = () => {
           <MobileConcerts concerts={concerts} bcg={""} />
           <DesktopConcerts concerts={concerts} bcg={""} />
           {/* <Concerts concerts={concerts} /> */}
-          <Repertoire programme={programme} />
-          <OrchestraMembers members={members} />
+          <div className="container-xxl py-5">
+            <div className="container py-5 px-lg-5">
+              <div className="container-fluid">
+                <div className="row">
+                  <Repertoire programme={programme} />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <OrchestraMembers members={members} /> */}
         </>
       )}
     </>

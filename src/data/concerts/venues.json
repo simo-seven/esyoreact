@@ -1,1 +1,79 @@
-[]
+[
+    {
+      "city": "Ajdovščina, Slovenia",
+      "date": "19/07/2025",
+      "venue": "Srednja šola Veno Pilon",
+      "time": "9.00pm",
+      "description": "WHO IS WHO?",
+      "program": "",
+      "special_guest": "",
+      "private": false,
+      "id": 1
+    },
+    {
+      "city": "Ajdovščina, Slovenia",
+      "date": "24/07/2025",
+      "venue": "Srednja šola Veno Pilon",
+      "time": "4.00pm",
+      "description": "PUBLIC DRESS REHEARSAL",
+      "program": "",
+      "special_guest": "",
+      "private": false,
+      "id": 2
+    },
+    {
+      "city": "Ajdovščina, Slovenia",
+      "date": "25/07/2025",
+      "venue": "Dvorana prve slovenske vlade",
+      "time": "9.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Beethoven and Mendelssohn",
+      "special_guest": "",
+      "private": false,
+      "id": 3
+    },
+    {
+      "city": "San Floriano del Collio, Števerjan, Italy",
+      "date": "25/07/2025",
+      "venue": "Piazza Libertà, 1",
+      "time": "9.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Beethoven and Mendelssohn",
+      "special_guest": "",
+      "private": false,
+      "id": 4
+    },
+    {
+      "city": "Aurisina, Nabrežina, Italy",
+      "date": "29/07/2025",
+      "venue": "",
+      "time": "9.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Beethoven and Mendelssohn",
+      "special_guest": "",
+      "private": false,
+      "id": 5
+    },
+    {
+      "city": "Vipavski Križ, Slovenia",
+      "date": "01/08/2025",
+      "venue": "",
+      "time": "9.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Beethoven and Mendelssohn",
+      "special_guest": "",
+      "private": false,
+      "id": 6
+    },
+    {
+      "city": "Trieste, Italy",
+      "date": "02/08/2025",
+      "venue": "Piazza Verdi",
+      "time": "9.00pm",
+      "description": "The European Spirit of Youth Orchestra and its soloists, conducted by Maestro Igor Coretti Kuret",
+      "program": "Music by Beethoven and Mendelssohn",
+      "special_guest": "",
+      "private": false,
+      "id": 7
+    }
+]
