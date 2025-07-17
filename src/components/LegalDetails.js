@@ -55,7 +55,7 @@ const LegalDetails = () => {
                 <span className="fw-bold">President</span>: MR Ezio Perillo • <a href="mailto:presidente@esyo.eu" className="justOrange">presidente[at]esyo.eu</a>
                 <br />
                 <span className="fw-bold">Vice-presidents</span>: MS Barbara Lapornik and MR Franco Sideri <br />
-                <span className="fw-bold">Secretary General</span>: Tiziano Simonut • <a href="mailto:info@esyo.eu" className="justOrange">info[at]esyo.eu</a>
+                <span className="fw-bold">Secretary General</span>: MR Tiziano Simonut • <a href="mailto:info@esyo.eu" className="justOrange">info[at]esyo.eu</a>
                 <br />
                 <span className="fw-bold">Members of Advisory Board</span>:
                 MS Gloria Favret, MS Veronica Logar, MR Lino Roncali, MS Katia Naro and MS Gabriella Valvo
