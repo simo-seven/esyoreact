@@ -1,5 +1,14 @@
 [
   {
+    "title": "Scheduled Concert in Aurisina (TS) Cancelled",
+    "body": "We are sorry to announce that the concert scheduled for July 29, 2025, in Aurisina (Trieste) has been cancelled. We apologize for any inconvenience this may cause and appreciate your understanding. For more information, please contact us directly.",
+    "partnerSponsor": [],
+    "img": "/img/news/aurisina_cancelled.png",
+    "publishedDate": "2025-07-29",
+    "author": "",
+    "id": "20250729"
+  },
+  {
     "title": "ESYO Summer Tour 2025: \"UNITED TOGETHER – GO! 2025, for a Europe of good friends\"",
     "body": "From July 13 to August 3, 2025, the European Spirit of Youth Orchestra (ESYO) sets off on its exciting Summer Tour 2025, proudly titled: \"UNITED TOGETHER – GO! 2025, for a Europe of good friends\". This year’s tour brings together young musicians from 15 countries, united by music and friendship. Representing the true spirit of Europe—and beyond—our orchestra includes talents from: Romania, Spain, Russian Federation, Serbia, Italy, North Macedonia, Hungary, Germany, Slovenia, Belarus, Poland, Slovakia, Montenegro, Portugal, and China.\nTour dates and concert details are now available online – check out the full schedule right here on our website and join us on this unforgettable musical journey across Europe!",
     "partnerSponsor": [],
@@ -32,14 +41,5 @@
     "publishedDate": "2024-10-07",
     "author": "Written by the Press Office of the Cultural Association School for Young European Musicians APS",
     "id": "20241007"
-  },
-  {
-    "title": "2025 Season Auditions",
-    "body": "We are excited to announce that the audition period for the 2025 season will soon open! Starting on December 1st, 2024, and running through March 31st, 2025, this is your chance to join our orchestra and showcase your talent. Whether you are a seasoned musician or an emerging talent, we encourage you to prepare for this extraordinary opportunity. Mark your calendars and get ready to apply!",
-    "partnerSponsor": [],
-    "img": "/img/news/testbkg4.jpeg",
-    "publishedDate": "2024-08-27",
-    "author": "",
-    "id": "20240827"
   }
 ]
