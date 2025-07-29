@@ -8,7 +8,7 @@ const PressMedia = () => {
           </p>
         </div>
         <div className="text-center">
-          <iframe
+          {/* <iframe
             src="https://mediagol-meride-tv.akamaized.net/proxy/iframe.php/3862/gol"
             width="630"
             height="352"
@@ -20,7 +20,7 @@ const PressMedia = () => {
               può parlare anche di Europa e clima» - La videointervista - Open
             </p>
             <p>Il tuo browser non supporta il tag iframe</p>
-          </iframe>
+          </iframe> */}
         </div>
       </div>
     </div>
