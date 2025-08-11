@@ -122,8 +122,8 @@ const Home = ({formatDate}) => {
         </>
       )}
       {/* if no concerts are displayed: first partners then testimonials */}
-      <HomeTestimonials testimonials={dataTestimonials} bcg={""} />
-      <PartnersCarousel sponsors={dataSponsors} bcg={"bckblack"} />
+      <HomeTestimonials testimonials={dataTestimonials} bcg={"bckblack"} />
+      <PartnersCarousel sponsors={dataSponsors} bcg={""} />
     </>
   );
 };
