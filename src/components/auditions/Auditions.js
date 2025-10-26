@@ -13,8 +13,8 @@ import { Helmet } from "react-helmet-async"; // Import Helmet
 import { Link } from "react-router-dom";
 
 const Auditions = ({ formatDate }) => {
-  const startDate = "2024-12-01";
-  const deadline = "2025-03-31";
+  const startDate = "2025-12-01";
+  const deadline = "2026-03-31";
 
   const today = new Date();
   const deadlineDate = new Date(deadline);

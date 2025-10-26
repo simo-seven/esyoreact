@@ -1,17 +1,27 @@
 [
     {
         "file": "/files/musiciansarea/",
-        "name": "FileName 1",
+        "name": "Letter of Commitment",
         "id": "1"
     },
     {
         "file": "/files/musiciansarea/",
-        "name": "FileName 2",
+        "name": "Application Form",
         "id": "2"
     },
     {
         "file": "/files/musiciansarea/",
-        "name": "FileName 3",
+        "name": "Privacy, Audio and Video Policy",
         "id": "3"
+    },
+    {
+        "file": "/files/musiciansarea/",
+        "name": "Dichiarazione ENPALS",
+        "id": "4"
+    },
+    {
+        "file": "/files/musiciansarea/",
+        "name": "Health Certificate",
+        "id": "5"
     }
 ]

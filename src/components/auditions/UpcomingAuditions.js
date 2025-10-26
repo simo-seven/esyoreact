@@ -7,7 +7,7 @@ const UpcomingAuditions = ({ startDate, deadline, formatDate }) => {
         Get Ready to Shine: Auditions Are Coming Back Soon!
       </h1>
       <p className="mt-10">
-        {`Mark your calendars! The next audition period for the 2025 season will run from `}{" "}
+        {`Mark your calendars! The next audition period for the next season will run from `}{" "}
         <span className="beCareful">{formatDate(startDate)}</span> {` to `}{" "}
         <span className="beCareful">{formatDate(deadline)}</span>{" "}
         {`. This is your chance to showcase your talent and be part of something amazing. Don’t miss out!`}

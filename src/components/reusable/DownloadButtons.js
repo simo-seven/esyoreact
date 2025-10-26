@@ -8,7 +8,7 @@ const DownloadButtons = ({ buttons }) => {
         <div className="row g-4 justify-content-center">
           {buttons.map((button) => (
             <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
+              className="col-lg-2 col-md-6 wow fadeInUp"
               data-wow-delay="0.1s"
               key={button.id}
             >

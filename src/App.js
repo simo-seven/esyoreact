@@ -54,7 +54,7 @@ function App() {
     "/cookiepolicy": "Cookie Policy",
     "/privacypolicy": "Privacy Policy",
     "/publicontributions": "Public Contributions",
-    "/musiciansarea": "Musicians Area",
+    "/musiciansarea": "Musician's Area",
     "/faq": "FAQ"
   };
 

@@ -1,21 +1,22 @@
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import DownloadButtons from "../reusable/DownloadButtons";
-import data from "../../data/musiciansarea/downloadButtons.json";
+import docs from "../../data/musiciansarea/downloadButtons.json";
 
 const MusiciansArea = () => {
   return (
     <>
       <Helmet>
-        <title>Musicians Area | European Spirit of Youth Orchestra</title>
+        <title>Musician's Area | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
-          content="Finalize your application at Musicians Area and access vital resources for musicians. Stay informed with expert tips and timely updates."
+          content="Finalize your application at Musician's Area and access vital resources for musicians. Stay informed with expert tips and timely updates."
         />
         <link rel="canonical" href="https://esyo.eu/musiciansarea" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Musicians Area | European Spirit of Youth Orchestra"
+          content="Musician's Area | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -26,7 +27,7 @@ const MusiciansArea = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Musicians Area | European Spirit of Youth Orchestra"
+          content="Musician's Area | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"
@@ -38,34 +39,86 @@ const MusiciansArea = () => {
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <p>
-            <span className="beCareful">Hello and welcome</span> to the
-            Musicians Area!
+            Hello and welcome to the
+            <span className="beCareful"> Musician's Area</span>!
           </p>
-          <p className="mt-5 mb-4">
-            Here, you will find the documents you need to download, complete,
-            sign, and upload using the form we sent you via email. Completing
-            these steps is essential to finalize your application and secure
-            your spot in the European Spirit of Youth Orchestra.
+          <p className="mt-5 text-justify">
+            On this page, you will find all the documents you need to{" "}
+            <span className="beCareful">
+              download, complete, sign, and upload
+            </span>
+            . Completing these steps is essential to finalize your application
+            and secure your place in the European Spirit of Youth Orchestra. The
+            deadline for submitting all forms is{" "}
+            <span className="beCareful">
+              December 15<sup>th</sup>, 2025
+            </span>
+            .
           </p>
-          <DownloadButtons buttons={data} />
-          <p className="mt-5">
+          {/* <p className="text-justify">
             If you have any questions, you can reach out to us by replying to
             the email that brought you here or by writing to us at{" "}
             <a href="mailto:orchestra@esyo.eu" className="beCareful">
               orchestra@esyo.eu
             </a>
             . We are here to assist you and ensure a smooth application process.{" "}
-          </p>
+          </p> */}
 
-          <p className="text-center beCareful m-5">
-            Do not forget to bring the original documents with you on the next
-            concert tour!
+          <h3 className="mt-5 text-white text-3xl">STEP 1</h3>
+          <p className="mt-2 text-justify">
+            Please download, complete, and sign the following documents.
           </p>
+          <DownloadButtons buttons={docs} />
 
-          <p>
-            Errors resulting from misreading or neglecting the official
-            documents provided will not be tolerated.
+          <h3 className="mt-5 text-white text-3xl">STEP 2</h3>
+          <p className="mt-2 text-justify">
+            It’s now time to upload all the completed and signed documents. If
+            you already know that you will be paying in cash at the arrival
+            desk, please select the “Cash” option when completing the “Finalize
+            My Application” form.
           </p>
+          <div className="row justify-content-center mb-5">
+            <div className=" text-center">
+              <Link
+                to="https://forms.gle/UfgMCVNqU9SPwqoKA"
+                className="btn btn-secondary py-3 px-5 rounded-full me-3 animated slideInRight wow joinNow"
+              >
+                Finalize my application*
+              </Link>
+            </div>
+          </div>
+          <i className="text-justify">
+            *Please note: All required documents must be uploaded in order to
+            submit the form. All fields are mandatory. Errors resulting from
+            misreading or disregarding the official documents provided will not
+            be accepted.
+          </i>
+
+          <h3 className="mt-5 text-white text-3xl">STEP 3</h3>
+          <p className="mt-2 text-justify">
+            Please upload the proofs of payment here.
+          </p>
+          <div className="row justify-content-center">
+            <div className=" text-center">
+              <Link
+                to="https://forms.gle/JGFxgQ1NUv5yxpd86"
+                className="btn btn-secondary py-3 px-5 rounded-full me-3 animated slideInRight wow joinNow"
+              >
+                Upload the proofs of payment
+              </Link>
+            </div>
+
+            <h3 className="mt-5 text-white text-3xl">STEP 4</h3>
+            <p className="mt-2 text-justify beCareful mb-5">
+              Do not forget to bring the original documents with you on the next
+              concert tour!
+            </p>
+
+            <i className="mt-5">
+              See you soon, <br />
+              The ESYO team
+            </i>
+          </div>
         </div>
       </div>
     </>
