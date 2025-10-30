@@ -1,17 +1,12 @@
 [
     {
-        "file": "/files/musiciansarea/",
+        "file": "/files/musiciansarea/[ESYO]_LettComm_Winter25.pdf",
         "name": "Letter of Commitment",
         "id": "1"
     },
     {
-        "file": "/files/musiciansarea/",
-        "name": "Application Form",
-        "id": "2"
-    },
-    {
-        "file": "/files/musiciansarea/",
-        "name": "Privacy, Audio and Video Policy",
+        "file": "/files/musiciansarea/[ESYO]_Privacy_policy_and_Audio_Video_Consent.pdf",
+        "name": "Privacy and Video",
         "id": "3"
     },
     {
@@ -20,7 +15,7 @@
         "id": "4"
     },
     {
-        "file": "/files/musiciansarea/",
+        "file": "/files/musiciansarea/[ESYO]_Health_Certificate.pdf",
         "name": "Health Certificate",
         "id": "5"
     }

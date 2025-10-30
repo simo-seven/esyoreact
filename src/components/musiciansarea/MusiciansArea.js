@@ -96,7 +96,7 @@ const MusiciansArea = () => {
 
           <h3 className="mt-5 text-white text-3xl">STEP 3</h3>
           <p className="mt-2 text-justify">
-            Please upload the proofs of payment here.
+            Please upload the proofs of payment here. If you are paying cash at your arrival in Sežana (SLO), you can skip this step.
           </p>
           <div className="row justify-content-center">
             <div className=" text-center">
