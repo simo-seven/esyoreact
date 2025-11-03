@@ -51,7 +51,7 @@ const MusiciansArea = () => {
             and secure your place in the European Spirit of Youth Orchestra. The
             deadline for submitting all forms is{" "}
             <span className="beCareful">
-              December 15<sup>th</sup>, 2025
+              November 11<sup>th</sup>, 2025 at 12.00pm CET
             </span>
             .
           </p>
@@ -72,10 +72,7 @@ const MusiciansArea = () => {
 
           <h3 className="mt-5 text-white text-3xl">STEP 2</h3>
           <p className="mt-2 text-justify">
-            It’s now time to upload all the completed and signed documents. If
-            you already know that you will be paying in cash at the arrival
-            desk, please select the “Cash” option when completing the “Finalize
-            My Application” form.
+            It’s now time to upload all the completed and signed documents!
           </p>
           <div className="row justify-content-center mb-5">
             <div className=" text-center">
