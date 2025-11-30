@@ -48,12 +48,7 @@ const MusiciansArea = () => {
               download, complete, sign, and upload
             </span>
             . Completing these steps is essential to finalize your application
-            and secure your place in the European Spirit of Youth Orchestra. The
-            deadline for submitting all forms is{" "}
-            <span className="beCareful">
-              November 11<sup>th</sup>, 2025 at 12.00pm CET
-            </span>
-            .
+            and secure your place in the European Spirit of Youth Orchestra.
           </p>
           {/* <p className="text-justify">
             If you have any questions, you can reach out to us by replying to

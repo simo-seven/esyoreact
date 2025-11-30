@@ -203,7 +203,7 @@ const AuditionsForm = ({ title }) => {
                     />
                     <label className="form-check-label" htmlFor="gdprConsent">
                       I agree with all the terms and conditions listed in the
-                      ESYO 2025 Regulation.
+                      ESYO Regulations.
                     </label>
                   </div>
                 </div>

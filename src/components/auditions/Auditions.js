@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const Auditions = ({ formatDate }) => {
   const startDate = "2025-12-01";
-  const deadline = "2026-03-31";
+  const deadline = "2027-03-31";
 
   const today = new Date();
   const deadlineDate = new Date(deadline);
@@ -75,15 +75,14 @@ const Auditions = ({ formatDate }) => {
               <span className="beCareful">Welcome</span> to the Auditions page!
             </p>
             <p className="text-justify">
-              The Orchestra’s Summer Tour 2025 is scheduled to take place from
-              <span className="beCareful"> July 13 to August 3, 2025</span>,
-              featuring six concerts across Italy, Slovenia, Croatia, and
-              Austria. Stay tuned for more details as the date draws closer. You
-              can explore the repertoire on the{" "}
-              <Link to="/concertours" className="beCareful">
-                Concert Tour
-              </Link>{" "}
-              page.
+              The Orchestra’s Summer Tour 2026 is scheduled to take place from
+              <span className="beCareful">July 19 to August 9, 2026</span>, and
+              we have also finalized the Winter Tour, which will run from{" "}
+              <span className="beCareful">
+                December 26, 2026, to January 6, 2027
+              </span>
+              . <br />
+              Stay tuned for more details as the dates draw closer!
             </p>
 
             <Instruments instruments={instruments} />
@@ -97,11 +96,11 @@ const Auditions = ({ formatDate }) => {
             </p>
             <p className="text-justify">
               Candidates are asked to perform a short program (two, in the
-              character contrasting pieces) of their own choice (max. 5-7 min.)
-              and will be selected both based on their performances as well as
-              of their team- working capabilities. The final decision will be
-              made by the Artistic Director in agreement with the ESYO faculty
-              members.
+              character contrasting pieces) of their own choice (max. 5 - 7
+              min.) and will be selected both based on their performances as
+              well as of their team-working capabilities. The final decision
+              will be made by the Artistic Director in agreement with the ESYO
+              faculty members.
             </p>
             <p className="mt-10 text-justify">
               <span className="beCareful text-2xl">

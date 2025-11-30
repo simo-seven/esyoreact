@@ -16,16 +16,16 @@
     },
     {
         "type": "Doublebasses",
-        "quantity": "3",
+        "quantity": "4",
         "id": 4
     },
     {
         "type": "Flutes (1 with compulsory piccolo)",
-        "quantity": "2",
+        "quantity": "3",
         "id": 5
     },
     {
-        "type": "Oboes (1 with compulsory English horn)",
+        "type": "Oboes",
         "quantity": "2",
         "id": 6
     },
@@ -41,12 +41,12 @@
     },
     {
         "type": "French Horns",
-        "quantity": "2",
+        "quantity": "4",
         "id": 9
     },
     {
         "type": "Trumpets",
-        "quantity": "2",
+        "quantity": "3",
         "id": 10
     },
     {
@@ -55,8 +55,18 @@
         "id": 11
     },
     {
-        "type": "Timpani & 3 Percussions",
+        "type": "Tuba",
         "quantity": "1",
         "id": 12
+    },
+    {
+        "type": "Timpani & 3 Percussions",
+        "quantity": "1",
+        "id": 13
+    },
+    {
+        "type": "Harp",
+        "quantity": "1",
+        "id": 14
     }
 ]
