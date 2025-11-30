@@ -10,7 +10,7 @@ import Intro from "./Intro";
 import Expired from "./Expired";
 import UpcomingAuditions from "./UpcomingAuditions";
 import { Helmet } from "react-helmet-async"; // Import Helmet
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Auditions = ({ formatDate }) => {
   const startDate = "2025-12-01";
