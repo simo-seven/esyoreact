@@ -1,5 +1,14 @@
 [
   {
+    "title": "New Audition 2026/27 Season Announced",
+    "body": "We are pleased to announce the opening of the new audition season, running from December 1, 2025, through March 31, 2026. All young musicians are warmly encouraged to apply via the Auditions page on this website. We look forward to discovering new talent and welcoming the next generation of performers!",
+    "partnerSponsor": [],
+    "img": "/img/news/testbkg4.jpeg",
+    "publishedDate": "2025-11-30",
+    "author": "",
+    "id": "20251130"
+  },
+  {
     "title": "Scheduled Concert in Aurisina (TS) Cancelled",
     "body": "We are sorry to announce that the concert scheduled for July 29, 2025, in Aurisina (Trieste) has been cancelled. We apologize for any inconvenience this may cause and appreciate your understanding. For more information, please contact us directly.",
     "partnerSponsor": [],
@@ -16,30 +25,5 @@
     "publishedDate": "2025-06-15",
     "author": "",
     "id": "20250615"
-  },
-  {
-    "title": "United in Music: ESYO's 30th Anniversary Tour from the Balkans to Brussels",
-    "body": "Thanks to the support of the Department of Cultural and Tourism Policies of the Municipality of Trieste, co-organizer of the tour, 13 young musicians from ESYO, hailing from Italy, Albania, North Macedonia, and Serbia, will meet on October 27 in Belgrade to prepare the musical program for their concerts scheduled between November 1 and 8 in the Serbian capital, Rijeka, and Brussels.\nWith the tour \"United Together, from the Balkans to Brussels,\" the young musicians of ESYO, led by Maestro Igor Coretti Kuret, who, as the great violinist Yehudi Menuhin described them, are “the connective tissue of our humanity and bearers of the message of understanding, compassion, and love, generating vibrations that no barrier can stop, and who, through their music-making, exhibit a joy that can only arise from goodwill and trust among people from diverse backgrounds,” will also give voice to those who do not have one. By playing the instruments of the Orchestra of the Sea, constructed in Italian prisons from the wood of migrant boats stranded in Lampedusa, provided for the occasion by the Foundation of Spirit and Arts chaired by Arnoldo Mosca Mondadori, and accompanied by the narrative voice of Paolo Rumiz, they will bring the endless tragedy affecting humanity, always provoked by wars, to the attention of European public opinion.",
-    "partnerSponsor": [
-      {
-        "mainOrTitle": "ORGANIZING ENTITIES of the tour \"UNITED TOGETHER, FROM THE BALKANS TO BRUSSELS\"",
-        "relatedOrganisationsInstitutions": "Cultural Association School for Young European Musicians APS of Trieste\nDepartment of Cultural and Tourism Policies of the Municipality of Trieste (co-organizer)",
-        "id": "1"
-      },
-      {
-        "mainOrTitle": "PATRONAGE ENTITIES",
-        "relatedOrganisationsInstitutions": "European Parliament\nEmbassy of Italy in Belgrade\nEmbassy of Italy in Brussels",
-        "id": "2"
-      },
-      {
-        "mainOrTitle": "ORGANIZING ENTITIES",
-        "relatedOrganisationsInstitutions": "Embassy of Italy in Belgrade (concert for the Centenary of the Residence of Italy in Belgrade)\nItalian Cultural Institute of Belgrade (concert in Belgrade)\nItalian Cultural Institute of Brussels (concert at the IIC in Brussels)\nBrussels Circle of Giuliani in the World (concert at the IIC in Brussels)\nFVG Region Liaison Office in Brussels (vernissage of Giorgio Celiberti's exhibition)\nItalian Union",
-        "id": "3"
-      }
-    ],
-    "img": "/img/news/autumnTour24.jpg",
-    "publishedDate": "2024-10-07",
-    "author": "Written by the Press Office of the Cultural Association School for Young European Musicians APS",
-    "id": "20241007"
   }
 ]

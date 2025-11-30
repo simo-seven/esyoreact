@@ -14,7 +14,7 @@ import { Helmet } from "react-helmet-async"; // Import Helmet
 
 const Auditions = ({ formatDate }) => {
   const startDate = "2025-12-01";
-  const deadline = "2027-03-31";
+  const deadline = "2026-03-31";
 
   const today = new Date();
   const deadlineDate = new Date(deadline);
