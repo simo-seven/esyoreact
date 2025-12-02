@@ -135,17 +135,17 @@ const AuditionsForm = ({ title }) => {
                       <option value="Cello">Cello</option>
                       <option value="Doublebass">Double Bass</option>
                       <option value="FlutePiccolo">Flute/Piccolo</option>
-                      <option value="Oboe/EnglishHorn">
-                        Oboe/English Horn
-                      </option>
-                      <option value="ClarinetBassClarinet">Clarinet</option>
+                      <option value="Oboe">Oboe</option>
+                      <option value="Clarinet">Clarinet</option>
                       <option value="Bassoon">Bassoon</option>
                       <option value="FrenchHorn">French Horn</option>
                       <option value="Trumpet">Trumpet</option>
                       <option value="Trombone">Trombone</option>
+                      <option value="Tuba">Tuba</option>
                       <option value="TimpaniPercussions">
                         Timpani/Percussions
                       </option>
+                      <option value="Harp">Harp</option>
                     </select>
                     <label htmlFor="Instrument">Your Instrument</label>
                   </div>
