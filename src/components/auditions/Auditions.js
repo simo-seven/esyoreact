@@ -76,7 +76,7 @@ const Auditions = ({ formatDate }) => {
             </p>
             <p className="text-justify">
               The Orchestra’s Summer Tour 2026 is scheduled to take place from
-              <span className="beCareful">July 19 to August 9, 2026</span>, and
+              <span className="beCareful"> July 19 to August 9, 2026</span>, and
               we have also finalized the Winter Tour, which will run from{" "}
               <span className="beCareful">
                 December 26, 2026, to January 6, 2027
