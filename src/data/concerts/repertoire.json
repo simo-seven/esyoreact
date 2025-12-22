@@ -6,21 +6,15 @@
         "id": 1
     },
     {
-        "composer": "J.S. Bach",
-        "title": "Contrapunctus No. 1",
-        "soloists": "",
-        "id": 2
-    },
-    {
         "composer": "P.I. Tchaikovsky",
         "title": "Variations on a Rococo Theme, Op. 33 (edited by Wilhelm Fitzenhagen)",
-        "soloists": "Claudio Casadei",
-        "id": 3
+        "soloists": "Alberto Casadei",
+        "id": 2
     },
     {
         "composer": "P.I. Tchaikovsky",
         "title": "Concerto for Violin in D major, Op. 35",
         "soloists": "Alexandra Tirsu",
-        "id": 4
+        "id": 3
     }
 ]
