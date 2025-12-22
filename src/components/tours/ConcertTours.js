@@ -66,11 +66,36 @@ const ConcertTours = () => {
           <MobileConcerts concerts={concerts} bcg={""} />
           <DesktopConcerts concerts={concerts} bcg={""} />
           {/* <Concerts concerts={concerts} /> */}
-          <div className="container-xxl py-5">
+          <div className="container-xxl">
             <div className="container py-5 px-lg-5">
               <div className="container-fluid">
                 <div className="row">
                   <Repertoire programme={programme} />
+                  <h1 className="text-center m-3 text-white text-4xl">
+                    Soloists
+                  </h1>
+                  <div className="col-md-12 mt-5 mb-5">
+                  <p className="text-justify">
+                    <span className="beCareful">Alberto Casadei</span> is one of
+                    the most exciting cellists of his generation, acclaimed as
+                    both a soloist and chamber musician. Alongside an
+                    international concert career at major venues such as the
+                    Salle Cortot and the Moscow Conservatory, he pursues an
+                    innovative compositional research exploring the cello in
+                    classical, electric, and electronic contexts. He plays a
+                    1698 cello by Domenico Roggieri.
+                  </p>
+                  <p className="text-justify">
+                    <span className="beCareful">Alexandra Tirsu</span> is a
+                    Moldovan-born, Vienna-based violinist with an international
+                    career shaped by major competition prizes and worldwide
+                    critical acclaim. She performs regularly in leading halls
+                    such as the Vienna Konzerthaus and the Concertgebouw,
+                    collaborating with renowned artists and orchestras across
+                    Europe and beyond. She plays the 1717 “Reifenberg” violin by
+                    Antonio Stradivari, courtesy of the The Stradivari Society.
+                  </p>
+                  </div>
                 </div>
               </div>
             </div>
