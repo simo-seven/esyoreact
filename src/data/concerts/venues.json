@@ -1,24 +1,13 @@
 [
     {
-      "city": "Modena, Italy",
-      "date": "03/01/2026",
-      "venue": "",
-      "time": "tbd",
-      "description": "The ESYO Orchestra and its soloists, conducted by M° Igor Coretti Kuret and M° Nenad Petković",
-      "program": "Music by L.v. Beethoven and P.I. Čajkovski",
-      "special_guest": "Alexandra Tirsu (violin) and Alberto Casadei (cello)",
-      "private": false,
-      "id": 1
-    },
-    {
       "city": "Trieste, Italy",
       "date": "05/01/2026",
       "venue": "Politeama Rossetti",
       "time": "8.30pm",
       "description": "The ESYO Orchestra and its soloists, conducted by M° Igor Coretti Kuret and M° Nenad Petković",
       "program": "Music by L.v. Beethoven and P.I. Čajkovski",
-      "special_guest": "Alexandra Tirsu (violin) and Alberto Casadei (cello)",
+      "special_guest": "Jelin Lee (violin) and Alberto Casadei (cello)",
       "private": false,
-      "id": 2
+      "id": 1
     }
-]
+  ]

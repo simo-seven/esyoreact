@@ -75,26 +75,44 @@ const ConcertTours = () => {
                     Soloists
                   </h1>
                   <div className="col-md-12 mt-5 mb-5">
-                  <p className="text-justify">
-                    <span className="beCareful">Alberto Casadei</span> is one of
-                    the most exciting cellists of his generation, acclaimed as
-                    both a soloist and chamber musician. Alongside an
-                    international concert career at major venues such as the
-                    Salle Cortot and the Moscow Conservatory, he pursues an
-                    innovative compositional research exploring the cello in
-                    classical, electric, and electronic contexts. He plays a
-                    1698 cello by Domenico Roggieri.
-                  </p>
-                  <p className="text-justify">
-                    <span className="beCareful">Alexandra Tirsu</span> is a
-                    Moldovan-born, Vienna-based violinist with an international
-                    career shaped by major competition prizes and worldwide
-                    critical acclaim. She performs regularly in leading halls
-                    such as the Vienna Konzerthaus and the Concertgebouw,
-                    collaborating with renowned artists and orchestras across
-                    Europe and beyond. She plays the 1717 “Reifenberg” violin by
-                    Antonio Stradivari, courtesy of the The Stradivari Society.
-                  </p>
+                    <p className="text-justify">
+                      <span className="beCareful">Alberto Casadei</span> is an
+                      Italian cellist widely regarded as one of the most
+                      compelling musicians of his generation. A dynamic and
+                      versatile artist, he is equally active as a soloist and
+                      chamber musician, combining his concert career with an
+                      in-depth compositional research focused on expanding the
+                      expressive possibilities of the cello in both classical
+                      and electric contexts. He has performed on some of the
+                      world’s most iconic stages, including the Great Hall of
+                      the Moscow Conservatory and the renowned Salle Cortot in
+                      Paris. He has appeared as a soloist with leading
+                      international orchestras under conductors such as Valery
+                      Gergiev and Michele Mariotti, and has collaborated with
+                      distinguished artists including Patricia Kopatchinskaja. A
+                      prizewinner of major international competitions, he also
+                      served as principal cello of the Rotterdam Philharmonic
+                      Orchestra and the Arena di Verona Orchestra. He currently
+                      teaches at the Conservatorio G. Braga and is co-founder of
+                      the Stradivari International Music Academy. He performs on
+                      a 1698 cello by Domenico Roggieri, once favored by Pablo
+                      Casals.
+                    </p>
+                    <p className="text-justify">
+                      <span className="beCareful">Jelin Lee</span> is a Korean
+                      violinist whose career began at an early age, debuting as
+                      a soloist at seven with the Seoul Symphony Orchestra.
+                      Prizewinner of several major international competitions,
+                      she has refined her artistry through masterclasses with
+                      leading violinists such as Vadim Repin and Zakhar Bron.
+                      She has performed as a soloist at renowned international
+                      festivals in Europe, Russia, and the United States,
+                      collaborating with orchestras including the KBS Symphony
+                      Orchestra and the Berlin Symphoniker. Currently based in
+                      Graz, she continues her advanced studies at the University
+                      of Music and Performing Arts Graz and performs on an
+                      antique violin by the London maker Furber
+                    </p>
                   </div>
                 </div>
               </div>
