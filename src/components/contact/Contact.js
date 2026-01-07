@@ -43,7 +43,6 @@ const Contact = () => {
           content="https://esyo.eu/logo.png"
         />
       </Helmet>
-
       <Form />
       <People />
       <Connect />
