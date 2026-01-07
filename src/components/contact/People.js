@@ -7,7 +7,7 @@ const People = () => {
       <div className="container py-5 px-lg-5 pt-0">
         <div className="wow fadeInUp" data-wow-delay="0.1s">
           <h1 className="text-center mb-5 text-white text-4xl" id="fillout">
-            People
+            Our Team
           </h1>
         </div>
         <div className="row g-4 justify-content-center">

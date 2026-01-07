@@ -15,10 +15,21 @@ const Person = ({ people }) => {
             <h3 className="margintop2vh text-white text-2xl">
               {person.position}
             </h3>
-            <Link to={person.link}>
-              <FontAwesomeIcon icon={faEnvelope} className="beCareful me-1" />{" "}
-              {person.name}
-            </Link>
+            {person.link ? (
+              <Link to={person.link}>
+                <FontAwesomeIcon icon={faEnvelope} className="beCareful me-1" />{" "}
+                {person.name}
+              </Link>
+            ) : (
+              <>
+                {person.name}
+              </>
+            )}
+            {person.formerMember && (
+              <p className="mt-2 text-sm text-gray-400">
+                {person.formerMember}
+              </p>
+            )}
           </div>
         </div>
       ))}

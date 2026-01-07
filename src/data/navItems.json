@@ -23,11 +23,6 @@
           "name": "Organizer",
           "to": "/organizer",
           "id": "14"
-        },
-        {
-          "name": "Partners",
-          "to": "/partners",
-          "id": "15"
         }
       ],
       "id": "10"
@@ -57,10 +52,16 @@
       "id": "30"
     },
     {
+      "name": "Partners",
+      "to": "/partners",
+      "hasSubmenu": false,
+      "id": "40"
+    },
+    {
       "name": "Contact",
       "to": "/contact",
       "hasSubmenu": false,
-      "id": "40"
+      "id": "50"
     }
   ]
   

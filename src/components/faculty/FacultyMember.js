@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const FacultyMember = ({ members }) => {
   const [expandedId, setExpandedId] = useState(null);

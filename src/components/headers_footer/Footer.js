@@ -39,8 +39,8 @@ const Footer = () => {
             <ScrollToTopLink className="btn btn-link" to="/privacypolicy">
               Privacy Policy
             </ScrollToTopLink>
-            <ScrollToTopLink className="btn btn-link" to="/pressmedia">
-              Press & Media
+            <ScrollToTopLink className="btn btn-link" to="/donations">
+              Donations
             </ScrollToTopLink>
             {/* <ScrollToTopLink className="btn btn-link" to="/faq">
               FAQ
@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="copyright">
           <div className="row">
             <div className="text-center">
-              &copy; ESYO 2024, All Right Reserved. <br />
+              &copy; ESYO 2026, All Right Reserved. <br />
             </div>
             {/* <!-- <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 &copy; ESYO 2024, All Right Reserved. <br />

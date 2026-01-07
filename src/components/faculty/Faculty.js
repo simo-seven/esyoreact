@@ -9,8 +9,7 @@ const Faculty = () => {
   const [family, setFamily] = useState("strings");
 
   const strings = () => setFamily("strings");
-  const woodwinds = () => setFamily("woodwinds");
-  const brass = () => setFamily("brass");
+  const windsbrass = () => setFamily("windsbrass");
   const percussion = () => setFamily("percussion");
   const harp = () => setFamily("harp");
 
@@ -76,16 +75,9 @@ const Faculty = () => {
                     <button
                       className="btn btn-secondary"
                       type="button"
-                      onClick={() => woodwinds()}
+                      onClick={() => windsbrass()}
                     >
-                      Winds
-                    </button>
-                    <button
-                      className="btn btn-secondary"
-                      type="button"
-                      onClick={() => brass()}
-                    >
-                      Brass
+                      Winds & Brass
                     </button>
                     <button
                       className="btn btn-secondary"
