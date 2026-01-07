@@ -1,7 +1,17 @@
 [
     {
-        "file": "/files/GeneralRegulations.pdf",
-        "name": "Regulations",
+        "file": "/files/[ESYO]_2026_Regulations.pdf",
+        "name": "General Regulations",
         "id": "1"
+    },
+    {
+        "file": "/files/[ESYO]_Fees_Benefits",
+        "name": "Fees & Benefits",
+        "id": "2"
+    },
+    {
+        "file": "/files/[ESYO]_Annual_Program_2026.pdf",
+        "name": "Annual Program",
+        "id": "3"
     }
 ]

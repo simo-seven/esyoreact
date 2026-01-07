@@ -112,6 +112,14 @@ const Auditions = ({ formatDate }) => {
                 deadline
               )}).`}
             </p>
+            <p className="text-justify mb-3 mt-5">
+              Please take some time to carefully read through the{" "}
+              <span className="beCareful">
+                Regulations, Fees & Benefits, and Annual Program documents
+              </span>{" "}
+              before submitting your application to ensure you are fully informed
+              about the orchestra's policies and offerings.
+            </p>
             <DownloadButtons buttons={buttons} />
             <AuditionsForm title={"Audition Form"} />
           </div>
