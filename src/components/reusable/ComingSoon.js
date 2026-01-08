@@ -8,8 +8,8 @@ const ComingSoon = () => {
           Official Dates Coming Soon!!!
         </h1>
         <p>
-          The ESYO Winter Tour 2025 is planned to take place from December 26,
-          2025 to January 6, 2026. <br /> Follow us on{" "}
+          The ESYO Summer Tour 2026 is planned to take place from July 19
+          to August 9, 2026. <br /> Follow us on{" "}
           {/* featuring XXX concerts across Italy, Slovenia, Croatia, and Austria. <br /> Follow us on{" "} */}
           <Link
             to="https://www.instagram.com/esyo_eu/"

@@ -10,7 +10,7 @@ import Intro from "./Intro";
 import Expired from "./Expired";
 import UpcomingAuditions from "./UpcomingAuditions";
 import { Helmet } from "react-helmet-async"; // Import Helmet
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Auditions = ({ formatDate }) => {
   const startDate = "2025-12-01";
@@ -75,14 +75,17 @@ const Auditions = ({ formatDate }) => {
               <span className="beCareful">Welcome</span> to the Auditions page!
             </p>
             <p className="text-justify">
-              The Orchestra’s Summer Tour 2026 is scheduled to take place from
-              <span className="beCareful"> July 19 to August 9, 2026</span>, and
-              we have also finalized the Winter Tour, which will run from{" "}
+              The ESYO Summer Tour 2026 is scheduled to take place from
+              <span className="beCareful"> July 19 to August 9, 2026</span>. We
+              we have already finalized also the Winter Tour, which will run from{" "}
               <span className="beCareful">
                 December 26, 2026, to January 6, 2027
               </span>
-              . <br />
-              Stay tuned for more details as the dates draw closer!
+              . The music program of the summer tour has been already published in the{" "}
+              <Link to="/concertours" className="beCareful">
+                Concert Tour
+              </Link>{" "}
+              page.
             </p>
 
             <Instruments instruments={instruments} />
@@ -104,7 +107,7 @@ const Auditions = ({ formatDate }) => {
             </p>
             <p className="mt-10 text-justify">
               <span className="beCareful text-2xl">
-                What happens after you submit your audition form?
+                What happens after I submit the form?
               </span>
             </p>
             <p className="text-justify mb-3">
@@ -112,13 +115,18 @@ const Auditions = ({ formatDate }) => {
                 deadline
               )}).`}
             </p>
-            <p className="text-justify mb-3 mt-5">
+            <p className="mt-14 text-justify">
+              <span className="beCareful text-2xl">
+                What else do I need to know?
+              </span>
+            </p>
+            <p className="text-justify mb-3">
               Please take some time to carefully read through the{" "}
               <span className="beCareful">
                 Regulations, Fees & Benefits, and Annual Program documents
               </span>{" "}
-              before submitting your application to ensure you are fully informed
-              about the orchestra's policies and offerings.
+              before submitting your application to ensure you are fully
+              informed about the orchestra's policies and offerings.
             </p>
             <DownloadButtons buttons={buttons} />
             <AuditionsForm title={"Audition Form"} />

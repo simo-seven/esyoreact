@@ -1,14 +1,26 @@
 [
     {
-        "composer": "P.I. Tchaikovsky",
-        "title": "Variations on a Rococo Theme, Op. 33 (edited by Wilhelm Fitzenhagen)",
-        "soloists": "Alberto Casadei",
+        "composer": "J. Sibelius",
+        "title": "Finlandia, Op. 26",
+        "soloists": "",
         "id": 1
     },
     {
-        "composer": "P.I. Tchaikovsky",
-        "title": "Concerto for Violin in D major, Op. 35",
-        "soloists": "Jelin Lee",
+        "composer": "M. Mussorgsky",
+        "title": "Night on Bald Mountain",
+        "soloists": "",
         "id": 2
+    },
+    {
+        "composer": "E. Grieg",
+        "title": "Peer Gynt - Suite nr. 1 (Op. 46)",
+        "soloists": "",
+        "id": 3
+    },
+    {
+        "composer": "Z. Kodály",
+        "title": "Dances of Galanta",
+        "soloists": "",
+        "id": 4
     }
 ]
