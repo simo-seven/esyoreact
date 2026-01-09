@@ -43,13 +43,27 @@ const NewsDetails = ({ formatDate, renderBody }) => {
                 {renderBody(news.body)}
               </div>
               <div className="mt-10 mb-3 text-justify">
-                {news.partnerSponsor && (news.partnerSponsor.map((partner) => (
-                  <div key={partner.id} className="mt-10 mb-3 text-justify">
-                    <h2 className="text-white">{partner.mainOrTitle}</h2>
-                    {renderBody(partner.relatedOrganisationsInstitutions)}
-                  </div>
-                )))}
+                {news.partnerSponsor &&
+                  news.partnerSponsor.map((partner) => (
+                    <div key={partner.id} className="mt-10 mb-3 text-justify">
+                      <h2 className="text-white">{partner.mainOrTitle}</h2>
+                      {renderBody(partner.relatedOrganisationsInstitutions)}
+                    </div>
+                  ))}
               </div>
+              {news.button_link && (
+                <div className="mt-10 mb-3 text-justify">
+                  <div className="d-flex flex-column text-center rounded">
+                    <a
+                      href={news.button_link}
+                      className="btn btn-secondary py-sm-3 px-sm-5 rounded-pill mt-3 joinNow fontsize1point1rem"
+                    >
+                      {news.button_text}
+                    </a>
+                  </div>
+                </div>
+              )}
+
               <p className="mt-10">
                 <small>
                   {news.author && (
