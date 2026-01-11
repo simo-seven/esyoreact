@@ -5,6 +5,7 @@ const GuestConductor = ({ bio, renderBody }) => {
   return (
     <>
       <Helmet>
+        {/* Basic SEO */}
         <title>Guest Conductor | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
@@ -12,6 +13,7 @@ const GuestConductor = ({ bio, renderBody }) => {
         />
         <link rel="canonical" href="https://esyo.eu/guestconductor" />
 
+        {/* Open Graph (Facebook, LinkedIn, Discord) */}
         <meta property="og:type" content="profile" />
         <meta
           property="og:title"
@@ -26,8 +28,13 @@ const GuestConductor = ({ bio, renderBody }) => {
           property="og:image"
           content="https://esyo.eu/img/guest_conductor.jpg"
         />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
 
+        {/* Twitter / X Card */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ESYO_Europe" />
+        <meta name="twitter:creator" content="@ESYO_Europe" />
         <meta
           name="twitter:title"
           content="Guest Conductor | European Spirit of Youth Orchestra"
