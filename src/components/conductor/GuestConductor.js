@@ -13,8 +13,14 @@ const GuestConductor = ({ bio, renderBody }) => {
         />
         <link rel="canonical" href="https://esyo.eu/guestconductor" />
 
-        {/* Open Graph (Facebook, LinkedIn, Discord) */}
+        {/* Open Graph — WhatsApp, iMessage, Facebook, LinkedIn */}
         <meta property="og:type" content="profile" />
+        <meta
+          property="og:site_name"
+          content="European Spirit of Youth Orchestra"
+        />
+        <meta property="og:locale" content="en_US" />
+
         <meta
           property="og:title"
           content="Guest Conductor | European Spirit of Youth Orchestra"
@@ -24,14 +30,25 @@ const GuestConductor = ({ bio, renderBody }) => {
           content="Meet Nenad Petković, Guest Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
         />
         <meta property="og:url" content="https://esyo.eu/guestconductor" />
+
+        {/* Image — CRITICAL for WhatsApp/iMessage */}
         <meta
           property="og:image"
           content="https://esyo.eu/img/guest_conductor.jpg"
         />
+        <meta
+          property="og:image:secure_url"
+          content="https://esyo.eu/img/guest_conductor.jpg"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Nenad Petković conducting the European Spirit of Youth Orchestra"
+        />
 
-        {/* Twitter / X Card */}
+        {/* Twitter / X (kept for completeness) */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ESYO_Europe" />
         <meta name="twitter:creator" content="@ESYO_Europe" />
