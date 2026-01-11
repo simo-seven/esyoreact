@@ -24,7 +24,7 @@ const ArtisticDirector = ({ bio, renderBody }) => {
         <meta property="og:url" content="https://esyo.eu/artisticdirector" />
         <meta
           property="og:image"
-          content="https://esyo.eu/logo.png"
+          content="https://esyo.eu/img/conductor.jpeg"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -38,7 +38,7 @@ const ArtisticDirector = ({ bio, renderBody }) => {
         />
         <meta
           name="twitter:image"
-          content="https://esyo.eu/logo.png"
+          content="https://esyo.eu/img/conductor.jpeg"
         />
       </Helmet>
 

@@ -8,7 +8,7 @@ const GuestConductor = ({ bio, renderBody }) => {
         <title>Guest Conductor | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
-          content="Meet Igor Coretti Kuret, Principal Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
+          content="Meet Nenad Petković, Guest Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
         />
         <link rel="canonical" href="https://esyo.eu/guestconductor" />
 
@@ -19,12 +19,12 @@ const GuestConductor = ({ bio, renderBody }) => {
         />
         <meta
           property="og:description"
-          content="Meet Igor Coretti Kuret, Principal Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
+          content="Meet Nenad Petković, Guest Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
         />
         <meta property="og:url" content="https://esyo.eu/guestconductor" />
         <meta
           property="og:image"
-          content="https://esyo.eu/logo.png"
+          content="https://esyo.eu/img/guest_conductor.jpg"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -34,11 +34,11 @@ const GuestConductor = ({ bio, renderBody }) => {
         />
         <meta
           name="twitter:description"
-          content="Meet Igor Coretti Kuret, Principal Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
+          content="Meet Nenad Petković, Guest Conductor of ESYO. Learn about his achievements, projects, and contributions to youth orchestras and cultural dialogue."
         />
         <meta
           name="twitter:image"
-          content="https://esyo.eu/logo.png"
+          content="https://esyo.eu/img/guest_conductor.jpg"
         />
       </Helmet>
 
