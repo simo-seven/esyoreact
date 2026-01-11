@@ -16,6 +16,7 @@ import LegalDetails from "./components/LegalDetails.js";
 import CookiePolicy from "./components/CookiePolicy.js";
 import PressMedia from "./components/PressMedia.js";
 import ArtisticDirector from "./components/conductor/ArtisticDirector.js";
+import GuestConductor from "./components/conductor/GuestConductor.js";
 import Faculty from "./components/faculty/Faculty.js";
 import OtherEvents from "./components/OtherEvents.js";
 import Auditions from "./components/auditions/Auditions.js";
@@ -34,6 +35,7 @@ import Faq from "./components/Faq.js"
 import data from "./data/navItems.json";
 import dataOrchestraBio from "./data/orchestraBio.json";
 import dataConductorBio from "./data/conductorBio.json";
+import dataGuestConductorBio from "./data/guestConductorBio.json";
 
 
 function App() {
@@ -49,6 +51,7 @@ function App() {
     "/faculty": "Faculty",
     "/organizer": "Organizer",
     "/artisticdirector": "Artistic Director",
+    "/guestconductor": "Guest Conductor",
     "/pressmedia": "Press and Media",
     "/legaldetails": "Legal Details",
     "/cookiepolicy": "Cookie Policy",
@@ -114,6 +117,12 @@ function App() {
                       <ArtisticDirector
                         renderBody={renderBody}
                         bio={dataConductorBio}
+                      />
+                    )}
+                    {path === "/guestconductor" && (
+                      <GuestConductor
+                        renderBody={renderBody}
+                        bio={dataGuestConductorBio}
                       />
                     )}
                     {path === "/organizer" && <Organizer />}
