@@ -145,7 +145,6 @@ const AuditionsForm = ({ title }) => {
                       <option value="TimpaniPercussions">
                         Timpani/Percussions
                       </option>
-                      <option value="Harp">Harp</option>
                     </select>
                     <label htmlFor="Instrument">Your Instrument</label>
                   </div>
