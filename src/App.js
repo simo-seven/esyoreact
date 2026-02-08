@@ -14,13 +14,12 @@ import Organizer from "./components/organizer/Organizer.js";
 import PrivacyPolicy from "./components/PrivacyPolicy.js";
 import LegalDetails from "./components/LegalDetails.js";
 import CookiePolicy from "./components/CookiePolicy.js";
-import PressMedia from "./components/PressMedia.js";
 import ArtisticDirector from "./components/conductor/ArtisticDirector.js";
 import GuestConductor from "./components/conductor/GuestConductor.js";
 import Faculty from "./components/faculty/Faculty.js";
-import OtherEvents from "./components/OtherEvents.js";
 import Auditions from "./components/auditions/Auditions.js";
 import ConcertTours from "./components/tours/ConcertTours.js";
+import Legato from "./components/legato/Legato.js";
 import Partners from "./components/partners/Partners.js";
 import NewsDetails from "./components/news/NewsDetails.js";
 import IntroScreen from "./components/headers_footer/Intro.js";
@@ -47,12 +46,11 @@ function App() {
     "/contact": "Contact",
     "/auditions": "Auditions",
     "/orchestra": "Orchestra",
-    "/otherevents": "Other Events",
+    "/legato": "LEGATO",
     "/faculty": "Faculty",
     "/organizer": "Organizer",
     "/artisticdirector": "Artistic Director",
     "/guestconductor": "Guest Conductor",
-    "/pressmedia": "Press and Media",
     "/legaldetails": "Legal Details",
     "/cookiepolicy": "Cookie Policy",
     "/privacypolicy": "Privacy Policy",
@@ -112,7 +110,6 @@ function App() {
                     {path === "/privacypolicy" && <PrivacyPolicy />}
                     {path === "/cookiepolicy" && <CookiePolicy />}
                     {path === "/legaldetails" && <LegalDetails />}
-                    {path === "/pressmedia" && <PressMedia />}
                     {path === "/artisticdirector" && (
                       <ArtisticDirector
                         renderBody={renderBody}
@@ -127,7 +124,7 @@ function App() {
                     )}
                     {path === "/organizer" && <Organizer />}
                     {path === "/faculty" && <Faculty />}
-                    {path === "/otherevents" && <OtherEvents />}
+                    {path === "/legato" && <Legato />}
                     {path === "/contact" && <Contact />}
                     {path === "/partners" && <Partners />}
                     {path === "/news/:id" && (
