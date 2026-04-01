@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const Auditions = ({ formatDate }) => {
   const startDate = "2025-12-01";
-  const deadline = "2026-04-01";
+  const deadline = "2026-03-31";
 
   const today = new Date();
   const deadlineDate = new Date(deadline);

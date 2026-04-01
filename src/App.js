@@ -19,7 +19,6 @@ import GuestConductor from "./components/conductor/GuestConductor.js";
 import Faculty from "./components/faculty/Faculty.js";
 import Auditions from "./components/auditions/Auditions.js";
 import ConcertTours from "./components/tours/ConcertTours.js";
-import Legato from "./components/legato/Legato.js";
 import Partners from "./components/partners/Partners.js";
 import NewsDetails from "./components/news/NewsDetails.js";
 import IntroScreen from "./components/headers_footer/Intro.js";
@@ -46,7 +45,6 @@ function App() {
     "/contact": "Contact",
     "/auditions": "Auditions",
     "/orchestra": "Orchestra",
-    "/legato": "LEGATO",
     "/faculty": "Faculty",
     "/organizer": "Organizer",
     "/artisticdirector": "Artistic Director",
@@ -124,7 +122,6 @@ function App() {
                     )}
                     {path === "/organizer" && <Organizer />}
                     {path === "/faculty" && <Faculty />}
-                    {path === "/legato" && <Legato />}
                     {path === "/contact" && <Contact />}
                     {path === "/partners" && <Partners />}
                     {path === "/news/:id" && (
