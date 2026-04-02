@@ -15,7 +15,7 @@ const ConcertTours = () => {
   return (
     <>
       <Helmet>
-        <title>Summer Tour | European Spirit of Youth Orchestra</title>
+        <title>Spring Tour | European Spirit of Youth Orchestra</title>
         <meta
           name="description"
           content="Discover the European Spirit of Youth Orchestra's concert tour dates and locations. Join us for unforgettable performances across Europe."
@@ -25,7 +25,7 @@ const ConcertTours = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Summer Tour | European Spirit of Youth Orchestra"
+          content="Spring Tour | European Spirit of Youth Orchestra"
         />
         <meta
           property="og:description"
@@ -37,7 +37,7 @@ const ConcertTours = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Summer Tour | European Spirit of Youth Orchestra"
+          content="Spring Tour | European Spirit of Youth Orchestra"
         />
         <meta
           name="twitter:description"
@@ -66,7 +66,7 @@ const ConcertTours = () => {
           <MobileConcerts concerts={concerts} bcg={""} />
           <DesktopConcerts concerts={concerts} bcg={""} />
           {/* <Concerts concerts={concerts} /> */}
-          <div className="container-xxl">
+          {/* <div className="container-xxl">
             <div className="container py-5 px-lg-5">
               <div className="container-fluid">
                 <div className="row">
@@ -117,7 +117,7 @@ const ConcertTours = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <OrchestraMembers members={members} /> */}
         </>
       )}
