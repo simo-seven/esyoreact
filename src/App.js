@@ -74,8 +74,24 @@ function App() {
   };
 
   //string manipulation for \n in json file
+  const parseBold = (text) => {
+    const parts = text.split(/(\*\*.*?\*\*)/);
+    return parts.map((part, i) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return <strong key={i}>{part.slice(2, -2)}</strong>;
+      }
+      return part;
+    });
+  };
+
   const renderBody = (body) => {
-    return body.split(/\n+/).map((line, index) => <p key={index}>{line}</p>);
+    const paragraphs = body.split(/\n\n/);
+    return paragraphs.map((paragraph, index) => (
+      <div key={index}>
+        {paragraph.split(/\n/).map((line, i) => <p key={i}>{parseBold(line)}</p>)}
+        {index < paragraphs.length - 1 && <><br /><br /></>}
+      </div>
+    ));
   };
 
   return (
