@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Elia Vigolo",
+    "family": "strings",
+    "role": "Viola Coach",
+    "cv": "Elia Vigolo began studying violin at nine in Trieste, earning his diploma under Professor Selvaggio. He also obtained a viola diploma and studied cello, harp, and composition. At twenty, he joined the Regional Tuscan Orchestra in Florence and performed at the Verdi and Petruzzelli Theatres in Trieste and Bari. Specializing under professors like Gulli, Rossi, Cappone, and Materassi, VIGOLO has performed over 2000 concerts, with 300 as a soloist, covering more than 600 pieces. His performances have taken him to prestigious venues across Italy and internationally, including Gran Teatro la Fenice in Venice and venues in Rome, Florence, Ljubljana, Zagreb, Moscow, New York, and Tokyo. He has worked with notable conductors such as Arena, Montgomery, Gelmetti, and Oren. VIGOLO served as Concertmaster with various orchestras, including the Padua Chamber Orchestra and the Filarmonica Marchigiana, and as First Viola at Gran Teatro la Fenice. Currently, he performs in a duo with harpist Tatiana Donis and collaborates with several Italian orchestras.",
+    "photo": "vigolo.jpg",
+    "id": "3"
+  },
+  {
+    "name": "Tatiana Donis",
+    "family": "harp",
+    "role": "Harp Coach",
+    "cv": "Tatiana Donis graduated with distinction from the G. Tartini Conservatory of Trieste, Italy, in 1992 and further specialized with Professor Asja Varosja Agasievna at the Rimsky Korsakov Conservatory in St. Petersburg, performing as the top student at the course's closing concert. In 1996, she earned a degree in Political Science from the University of Trieste. She has performed with a variety of orchestras including the Chamber Orchestra of Friuli Venezia Giulia, I Cameristi Triestini, the Orchestra dell'Opera Giocosa del Friuli Venezia Giulia, and international ensembles such as the Pihalnega Orkestra of Maribor, Mihail Jora Philharmonic Orchestra of Bacau, and the Symphony Orchestra of Graz. Donis began teaching at the Glasbena Matica School of Music in Trieste in 1998 and joined the Philharmonic Orchestra of the Giuseppe Verdi Theatre of Trieste in 2000. She has performed with notable conductors and in theatres across Europe. In 2001, she participated in TirolFestSpiele in Erl, Austria, returning in subsequent years for performances of major works. She founded the \"Girotondo d'Arpe\" ensemble in 2003, overseeing its musical training and composing arrangements published by Edizioni Pizzicato and Ut Orpheus. Donis completed a Second Level Experimental Academy course at J. Tomadini Conservatory of Udine in 2006, with a thesis on Carlo Salzedo, and obtained the Suzuki Degree for Harp in Turin in 2013. She frequently performs in duo with violinist Elia Vigolo, with a repertoire spanning classical and Irish Celtic music.",
+    "photo": "donis.jpeg",
+    "id": "11"
+  }
+]

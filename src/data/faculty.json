@@ -16,11 +16,11 @@
         "id": "2"
     },
     {
-        "name":"Elia Vigolo",
+        "name":"Luca Persico",
         "family": "strings",
         "role":"Viola Coach",
-        "cv": "Elia Vigolo began studying violin at nine in Trieste, earning his diploma under Professor Selvaggio. He also obtained a viola diploma and studied cello, harp, and composition. At twenty, he joined the Regional Tuscan Orchestra in Florence and performed at the Verdi and Petruzzelli Theatres in Trieste and Bari. Specializing under professors like Gulli, Rossi, Cappone, and Materassi, VIGOLO has performed over 2000 concerts, with 300 as a soloist, covering more than 600 pieces. His performances have taken him to prestigious venues across Italy and internationally, including Gran Teatro la Fenice in Venice and venues in Rome, Florence, Ljubljana, Zagreb, Moscow, New York, and Tokyo. He has worked with notable conductors such as Arena, Montgomery, Gelmetti, and Oren. VIGOLO served as Concertmaster with various orchestras, including the Padua Chamber Orchestra and the Filarmonica Marchigiana, and as First Viola at Gran Teatro la Fenice. Currently, he performs in a duo with harpist Tatiana Donis and collaborates with several Italian orchestras.",
-        "photo": "vigolo.jpg",
+        "cv": "Born in Cagliari, Sardinia, in 1995, he graduated in violin in 2018 with Attilio Motzo and in viola in 2023 with Dimitri Mattu at the \"G.P  da Palestrina\" Conservatory. He kept improving his skills on the violin with Gianmaria Melis, Alessandro Perpich and Rebeca Ferri, and on the viola with Simonide Braconi, Adrien La Marca, Riccardo Masi and Francesco Fiore. He played with both instruments in several regional ensembles and abroad, performing on modern instruments as well on baroque ones, and developing his improvising skills between musical genres from Folk to Bebop. From 2019, he started teaching violin and harmony in italian schools and he joined young international orchestral projects such as Esyo, World Youth Orchestra, Neue Philarmonie München and FAME's Instititute. He played as violinist in Teatro Lirico di Cagliari, Ente Alba Passino di Sassari and Jeaner Philarmonie, and as violist in Orchestra Regionale Toscana, Orchestra del Maggio Fiorentino, Orchestra dell'Arena di Verona and Szczecin Philarmonie, where he currently works full-time in the position of solo and tutti.",
+        "photo": "persico.jpg",
         "id": "3"
     },
     {
@@ -80,11 +80,11 @@
         "id": "10"
     },
     {
-        "name":"Tatiana Donis",
+        "name":"Lara Macri",
         "family": "harp",
         "role":"Harp Coach",
-        "cv": "Tatiana Donis graduated with distinction from the G. Tartini Conservatory of Trieste, Italy, in 1992 and further specialized with Professor Asja Varosja Agasievna at the Rimsky Korsakov Conservatory in St. Petersburg, performing as the top student at the course's closing concert. In 1996, she earned a degree in Political Science from the University of Trieste. She has performed with a variety of orchestras including the Chamber Orchestra of Friuli Venezia Giulia, I Cameristi Triestini, the Orchestra dell'Opera Giocosa del Friuli Venezia Giulia, and international ensembles such as the Pihalnega Orkestra of Maribor, Mihail Jora Philharmonic Orchestra of Bacau, and the Symphony Orchestra of Graz. Donis began teaching at the Glasbena Matica School of Music in Trieste in 1998 and joined the Philharmonic Orchestra of the Giuseppe Verdi Theatre of Trieste in 2000. She has performed with notable conductors and in theatres across Europe. In 2001, she participated in TirolFestSpiele in Erl, Austria, returning in subsequent years for performances of major works. She founded the \"Girotondo d'Arpe\" ensemble in 2003, overseeing its musical training and composing arrangements published by Edizioni Pizzicato and Ut Orpheus. Donis completed a Second Level Experimental Academy course at J. Tomadini Conservatory of Udine in 2006, with a thesis on Carlo Salzedo, and obtained the Suzuki Degree for Harp in Turin in 2013. She frequently performs in duo with violinist Elia Vigolo, with a repertoire spanning classical and Irish Celtic music.",
-        "photo": "donis.jpeg",
+        "cv": "Harpist Lara Macri discovered her passion for orchestral playing through her first orchestral experience with the CEI Youth Orchestra under the direction of I. Coretti Kuret. Since then, orchestral music has remained at the center of her artistic life. She later won internships with several professional German orchestras, including the Bochumer Symphoniker, Göttinger Symphonieorchester and Braunschweig Statstheater. In the 2019/2020 season, she was appointed Principal Harp of the Tiroler Landestheater Innsbruck in Austria. Today, Lara is a dedicated orchestral musician based in Scandinavia, where she regularly performs as a guest player with the Oslo Philharmonic, the Stavanger Symphony Orchestra, and other leading ensembles. Alongside her performing career, she is also a passionate teacher. Since 2022, she has been working as Assistant Professor at the Norwegian Academy of Music in Oslo, Norway.",
+        "photo": "macri.jpg",
         "id": "11"
     }
 ]
