@@ -17,7 +17,8 @@ const Footer = () => {
             <p className="section-title text-white h5 mb-4">ORGANIZER</p>
             <ScrollToTopLink to="/organizer" className="text-white">
               Cultural association SGME <br />
-              Scuola per Giovani Musicisti Europei APS
+              Scuola per Giovani Musicisti Europei APS <br />
+              P.IVA: 01451640328 
             </ScrollToTopLink>
             <p className="section-title text-white h5 mb-4">Address</p>
             <p>
