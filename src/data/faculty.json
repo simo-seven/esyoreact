@@ -2,18 +2,10 @@
     {
         "name":"Tamás Major",
         "family": "strings",
-        "role":"1st Violin Coach",
+        "role":"Violins Coach",
         "cv": "Tamás Major graduated from the Franz Liszt College in 1981, having studied violin with József Szász and chamber music with György Kurtág. He participated at the 1979 Karajan orchestral competition as a concertmaster, where he won the second prize. He also was runner up at the 1980 Budapest Hubay violin competition. From 1981 to 1983, he worked with the Toscanini Symphony Orchestra in Parma as concertmaster. He is currently the concertmaster of the Swiss Italian Radio Symphony Orchestra. Since 1984, he has worked regularly with the Budapest Festival Orchestra. Tamás Major is a very active chamber musician and has made innumerable recordings for radio, television and record companies. ",
         "photo": "tamas.jpg",
         "id": "1"
-    },
-    {
-        "name":"Jelena Dimitrijević",
-        "family": "strings",
-        "role":"2nd Violin Coach",
-        "cv": "Jelena Dimitrijević was born in 1982 in Belgrade, Serbia. She studied violin in the class of Prof. Jasna Maksimovic at the Academy of Music in Belgrade, where she also completed her master's degree. Jelena was a member of the Gustav Mahler Youth Orchestra, the Jeneusses Musicales World Orchestra and the Norwegian Youth Orchestra. Since 2007 she has been a member of the Belgrade Philharmonic Orchestra. As a chamber and orchestral musician, she has worked with leading conductors and artists such as Zubin Mehta, Ivan Fisher, Charles Dutoit, Valery Gergiev, Aleksandar Vedernikov, Mikhail Jurovsky, Andris Poga and Andrey Boreyko. She is a member of the European Philharmonic Orchestra of Switzerland, with whom she performs and tours with Martha Argerich. As leader of the second violins of the No Border Orchestra, she has performed at the most important festivals in Europe and Asia (Wiener Festwochen, Kunstenfestiavldesartes in Brussels, Festival d'Automne in Paris, Brisbane Festival, Gwangju, Macao, Barbican, London, Hamburg, Berlin, Lisbon). Since 2016 she is a member of the ensemble Metamorphosis. Jelena joined the ESYO Faculty in 2023 and will be coaching the second violins during the 2024 season.",
-        "photo": "dimitrijevic.jpg",
-        "id": "2"
     },
     {
         "name":"Luca Persico",
@@ -74,7 +66,7 @@
     {
         "name":"Daniel Ciacchi",
         "family": "percussion",
-        "role":"Percussion Coach",
+        "role":"Percussion Assistant",
         "cv": "Daniel Ciacchi, born in Italy, began studying percussion at the age of 9 at the music school of the Prosecco town band under the guidance of Professor Francesca Hrast, with whom he continued his education at the Carducci-Dante Music High School. During this time, he took part in several national and international competitions, including the “Città di Palmanova International Music Competition,” where he won first prize in the chamber music category alongside pianist Andrea Furlan. In 2018, he enrolled at the G. Tartini Conservatory, graduating with top honors under the tutelage of maestro Fabián Pérez Tedesco. Between 2018 and 2019, he joined three tours with the European Spirit of Youth Orchestra (ESYO), conducted by maestro Igor Coretti Kuret, performing in various venues across Italy and Slovenia. Since 2022, Daniel has performed in a percussion duo with Mia Kristan, appearing at festivals and concert series such as Trieste Prima and the Salotto Musicale Friuli Venezia Giulia. In the 2023–2024 season, he participated in three international tours with ensembles promoted by the Tartini Conservatory, including the CEMAN (Central European Music Academy Network) and the Philharmonic Orchestra for New Bridges, touring in Italy, Croatia, Serbia, Hungary, Slovakia, and the Czech Republic. In 2024, he completed an Erasmus program at the Prince Claus Conservatoire in Groningen, studying under Mihály Kazsás, Tatiana Koleva, and Joeke Hoekstra. Also in 2024, Daniel began performing in professional settings with the Giuseppe Verdi Opera House in Trieste, the Ivan Pl. Zajc National Theatre Orchestra in Rijeka, and the FVG Orchestra.",
         "photo": "ciacchi.jpg",
         "id": "10"
