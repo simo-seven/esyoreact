@@ -38,5 +38,13 @@
     "cv": "Jelena Dimitrijević was born in 1982 in Belgrade, Serbia. She studied violin in the class of Prof. Jasna Maksimovic at the Academy of Music in Belgrade, where she also completed her master's degree. Jelena was a member of the Gustav Mahler Youth Orchestra, the Jeneusses Musicales World Orchestra and the Norwegian Youth Orchestra. Since 2007 she has been a member of the Belgrade Philharmonic Orchestra. As a chamber and orchestral musician, she has worked with leading conductors and artists such as Zubin Mehta, Ivan Fisher, Charles Dutoit, Valery Gergiev, Aleksandar Vedernikov, Mikhail Jurovsky, Andris Poga and Andrey Boreyko. She is a member of the European Philharmonic Orchestra of Switzerland, with whom she performs and tours with Martha Argerich. As leader of the second violins of the No Border Orchestra, she has performed at the most important festivals in Europe and Asia (Wiener Festwochen, Kunstenfestiavldesartes in Brussels, Festival d'Automne in Paris, Brisbane Festival, Gwangju, Macao, Barbican, London, Hamburg, Berlin, Lisbon). Since 2016 she is a member of the ensemble Metamorphosis. Jelena joined the ESYO Faculty in 2023 and will be coaching the second violins during the 2024 season.",
     "photo": "dimitrijevic.jpg",
     "id": "2"
-  }
+  },
+  {
+        "name":"Luca Persico",
+        "family": "strings",
+        "role":"Viola Coach",
+        "cv": "Born in Cagliari, Sardinia, in 1995, he graduated in violin in 2018 with Attilio Motzo and in viola in 2023 with Dimitri Mattu at the \"G.P  da Palestrina\" Conservatory. He kept improving his skills on the violin with Gianmaria Melis, Alessandro Perpich and Rebeca Ferri, and on the viola with Simonide Braconi, Adrien La Marca, Riccardo Masi and Francesco Fiore. He played with both instruments in several regional ensembles and abroad, performing on modern instruments as well on baroque ones, and developing his improvising skills between musical genres from Folk to Bebop. From 2019, he started teaching violin and harmony in italian schools and he joined young international orchestral projects such as Esyo, World Youth Orchestra, Neue Philarmonie München and FAME's Instititute. He played as violinist in Teatro Lirico di Cagliari, Ente Alba Passino di Sassari and Jeaner Philarmonie, and as violist in Orchestra Regionale Toscana, Orchestra del Maggio Fiorentino, Orchestra dell'Arena di Verona and Szczecin Philarmonie, where he currently works full-time in the position of solo and tutti.",
+        "photo": "persico.jpg",
+        "id": "3"
+    }
 ]
