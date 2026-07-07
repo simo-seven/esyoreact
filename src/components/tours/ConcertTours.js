@@ -66,12 +66,12 @@ const ConcertTours = () => {
           <MobileConcerts concerts={concerts} bcg={""} />
           <DesktopConcerts concerts={concerts} bcg={""} />
           {/* <Concerts concerts={concerts} /> */}
-          {/* <div className="container-xxl">
+          <div className="container-xxl">
             <div className="container py-5 px-lg-5">
               <div className="container-fluid">
                 <div className="row">
                   <Repertoire programme={programme} />
-                  <h1 className="text-center m-3 text-white text-4xl">
+                  {/* <h1 className="text-center m-3 text-white text-4xl">
                     Soloists
                   </h1>
                   <div className="col-md-12 mt-5 mb-5">
@@ -113,12 +113,13 @@ const ConcertTours = () => {
                       of Music and Performing Arts Graz and performs on an
                       antique violin by the London maker Furber
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <OrchestraMembers members={members} /> */}
+          
         </>
       )}
     </>
