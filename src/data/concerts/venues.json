@@ -22,6 +22,17 @@
     "id": 2
   },
   {
+    "city": "Ajdovščina, Slovenia",
+    "date": "31 July",
+    "venue": "Lavričev trg",
+    "time": "21.00",
+    "description": "Open-air concert",
+    "program": "Music by Mussorgsky, Grieg, Sibelius and Kodály ",
+    "special_guest": "",
+    "private": false,
+    "id": 3
+  },
+  {
     "city": "San Floriano del Collio, Italy",
     "date": "1 August",
     "venue": "Liberty Square",
@@ -30,7 +41,7 @@
     "program": "Music by Mussorgsky, Grieg, Sibelius and Kodály ",
     "special_guest": "",
     "private": false,
-    "id": 3
+    "id": 4
   },
   {
     "city": "Aurisina, Italy",
@@ -41,7 +52,7 @@
     "program": "Music by Mussorgsky, Grieg, Sibelius and Kodály ",
     "special_guest": "",
     "private": false,
-    "id": 4
+    "id": 5
   },
   {
     "city": "Valbruna, Italy",
@@ -52,7 +63,7 @@
     "program": "Music by Mussorgsky, Grieg, Sibelius and Kodály ",
     "special_guest": "",
     "private": false,
-    "id": 5
+    "id": 6
   },
   {
     "city": "Trieste, Italy",
@@ -63,7 +74,7 @@
     "program": "Music by Mussorgsky, Grieg, Sibelius and Kodály ",
     "special_guest": "",
     "private": false,
-    "id": 6
+    "id": 7
   },
   {
     "city": "Vipavski Križ, Slovenia",
@@ -74,7 +85,7 @@
     "program": "Music by Mussorgsky, Grieg, Sibelius and Kodály ",
     "special_guest": "",
     "private": false,
-    "id": 7
+    "id": 8
   },
   {
     "city": "Gorizia / Nova Gorica",
@@ -85,6 +96,6 @@
     "program": "The walk starts at 17.30",
     "special_guest": "",
     "private": false,
-    "id": 8
+    "id": 9
   }
 ]
