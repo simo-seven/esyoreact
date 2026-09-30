@@ -1,9 +1,11 @@
 import "./css/bootstrap.min.css";
+import "./customjs/lib/animate/animate.min.css";
 import "./css/my.css";
 import "./css/style.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useState } from "react";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 import Home from "./components/Home.js";
 import NotFound from "./components/NotFound.js";
@@ -96,6 +98,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header
           navbarOpen={navbarOpen}

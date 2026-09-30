@@ -16,52 +16,21 @@ import MobileConcerts from "./tours/MobileConcerts";
 import DesktopConcerts from "./tours/DesktopConcerts";
 
 import data from "../data/concerts/venues.json";
-import { Helmet } from "react-helmet-async";
+import SEO from "./common/SEO";
 
 const Home = ({formatDate}) => {
   const concerts = data;
 
   return (
     <>
-      <Helmet>
-        <title>European Spirit of Youth Orchestra</title>
-        <meta
-          name="description"
-          content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."
-        />
-        <meta
-          name="keywords"
-          content="orchestra, youth orchestra, europe, european orchestra, european youth orchestra"
-        />
-        <link rel="canonical" href="URL" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="European Spirit of Youth Orchestra"
-        />
-        <meta
-          property="og:description"
-          content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."
-        />
-        <meta property="og:url" content="https://esyo.eu/" />
-        <meta
-          property="og:image"
-          content="https://esyo.eu/logo.png"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="European Spirit of Youth Orchestra"
-        />
-        <meta
-          name="twitter:description"
-          content="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's Spirit through music, showcasing a harmonious blend of diverse voices and cultures."
-        />
-        <meta
-          name="twitter:image"
-          content="https://esyo.eu/logo.png"
-        />
-      </Helmet>
+      <SEO
+        title="European Spirit of Youth Orchestra"
+        description="The European Spirit of Youth Orchestra (ESYO) embodies the European youth's spirit through music, showcasing a harmonious blend of diverse voices and cultures."
+        keywords="orchestra, youth orchestra, europe, european orchestra, european youth orchestra, classical music, Igor Coretti Kuret"
+        canonical="https://esyo.eu/"
+        ogType="website"
+        ogImage="https://esyo.eu/logo.png"
+      />
       
       <Video />
       <Biography title="The ESYO Orchestra" bio={dataBio} />

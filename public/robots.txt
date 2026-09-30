@@ -1,7 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Allow: /
+Allow: /faq
 Disallow: /otherevents
 Disallow: /pressmedia
 Disallow: /success
 Disallow: /musiciansarea
-Disallow: /faq
+
+Sitemap: https://esyo.eu/sitemap.xml

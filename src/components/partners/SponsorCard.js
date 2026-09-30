@@ -1,4 +1,4 @@
-const MainSponsors = ({ data, title }) => {
+const SponsorCard = ({ data, title }) => {
   return (
     <>
       <div className="wow fadeInUp" data-wow-delay="0.1s">
@@ -10,11 +10,12 @@ const MainSponsors = ({ data, title }) => {
         <div className="row">
           {data.map((sponsor) => (
             <div className="col-md-4 mb-3" key={sponsor.id}>
-              <div className="card text-center bkgtrans">
+              <div className="card text-center bkgtrans border-0">
                 <img
                   src={sponsor.src}
                   className="card-img-top"
                   alt={sponsor.alt}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -25,4 +26,4 @@ const MainSponsors = ({ data, title }) => {
   );
 };
 
-export default MainSponsors;
+export default SponsorCard;

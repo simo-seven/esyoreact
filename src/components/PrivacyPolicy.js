@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
+import SEO from "./common/SEO";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="container-xxl py-5">
+    <>
+      <SEO
+        title="Privacy Policy"
+        description="Official privacy policy of the European Spirit of Youth Orchestra (ESYO) in compliance with EU Regulation 2016/679 (GDPR)."
+        canonical="https://esyo.eu/privacypolicy"
+        ogType="website"
+      />
+      <div className="container-xxl py-5">
       <div className="container py-5 px-lg-5 text-justify">
         <p>
           Dear Sir/Madam, candidate, <br />
@@ -209,6 +217,7 @@ const PrivacyPolicy = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 

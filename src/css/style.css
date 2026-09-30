@@ -265,11 +265,15 @@ h6,
   background: var(--primary);
 }
 
+.section-title.text-secondary {
+  color: #f68642 !important;
+}
+
 .section-title.text-secondary span:first-child,
 .section-title.text-secondary span:last-child,
 .section-title.text-secondary span:first-child::after,
 .section-title.text-secondary span:last-child::after {
-  background: var(--secondary);
+  background: #f68642;
 }
 
 .section-title.text-white span:first-child,

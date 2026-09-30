@@ -2,99 +2,58 @@ import FacultyMember from "./FacultyMember";
 import data from "../../data/faculty.json";
 import ComingSoon from "../reusable/ComingSoon";
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
+import SEO from "../common/SEO";
 
 const Faculty = () => {
   const members = data;
   const [family, setFamily] = useState("strings");
 
-  const strings = () => setFamily("strings");
-  const windsbrass = () => setFamily("windsbrass");
-  const percussion = () => setFamily("percussion");
-  const harp = () => setFamily("harp");
+  const categories = [
+    { key: "strings", label: "Strings" },
+    { key: "windsbrass", label: "Winds & Brass" },
+    { key: "harp", label: "Harp" },
+    { key: "percussion", label: "Percussion" },
+  ];
 
   return (
     <>
-      <Helmet>
-        <title>Faculty | European Spirit of Youth Orchestra</title>
-        <meta
-          name="description"
-          content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
-        />
-        <link rel="canonical" href="https://esyo.eu/faculty" />
-
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Faculty | European Spirit of Youth Orchestra"
-        />
-        <meta
-          property="og:description"
-          content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
-        />
-        <meta property="og:url" content="https://esyo.eu/faculty" />
-        <meta
-          property="og:image"
-          content="https://esyo.eu/logo.png"
-        />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Faculty | European Spirit of Youth Orchestra"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore the talented faculty of the European Spirit of Youth Orchestra, featuring leaders from string, woodwind, percussion, harp, and brass sections."
-        />
-        <meta
-          name="twitter:image"
-          content="https://esyo.eu/logo.png"
-        />
-      </Helmet>
+      <SEO
+        title="Faculty"
+        description="Explore the distinguished international faculty of the European Spirit of Youth Orchestra, featuring renowned master musicians and section leaders from across Europe."
+        keywords="ESYO faculty, violin masterclasses, cello teachers, orchestra professors, European music faculty"
+        canonical="https://esyo.eu/faculty"
+        ogType="website"
+      />
 
       <div className="container-xxl py-5">
-        <div className="container py-5 px-lg-5">
+        <div className="container py-4 sm:py-5 px-4 sm:px-lg-5">
           <div className="row">
             {members?.length === 0 ? (
               <ComingSoon />
             ) : (
               <>
-                <div className="col-12 d-flex justify-content-center">
+                <div className="col-12 d-flex justify-content-center mb-8">
                   <div
-                    className="btn-group btn-group-toggle mb-5"
-                    data-toggle="buttons"
+                    className="flex flex-wrap justify-center gap-2 p-1.5 bg-black/40 rounded-full border border-white/10"
+                    role="group"
+                    aria-label="Filter faculty by instrument section"
                   >
-                    <button
-                      className="btn btn-secondary"
-                      type="button"
-                      onClick={() => strings()}
-                    >
-                      Strings
-                    </button>
-                    <button
-                      className="btn btn-secondary"
-                      type="button"
-                      onClick={() => windsbrass()}
-                    >
-                      Winds & Brass
-                    </button>
-                    <button
-                      className="btn btn-secondary"
-                      type="button"
-                      onClick={() => harp()}
-                    >
-                      Harp
-                    </button>
-                    <button
-                      className="btn btn-secondary"
-                      type="button"
-                      onClick={() => percussion()}
-                    >
-                      Percussion
-                    </button>
+                    {categories.map((cat) => (
+                      <button
+                        key={cat.key}
+                        className={`py-2 px-5 rounded-full text-sm font-semibold transition-all duration-200 active:scale-95 ${
+                          family === cat.key
+                            ? "bg-[#f68642] text-black shadow-lg shadow-orange-500/30"
+                            : "text-white/80 hover:text-white hover:bg-white/10"
+                        }`}
+                        type="button"
+                        onClick={() => setFamily(cat.key)}
+                      >
+                        {cat.label}
+                      </button>
+                    ))}
                   </div>
-                </div>{" "}
+                </div>
                 <FacultyMember
                   members={members.filter((member) => member.family === family)}
                 />

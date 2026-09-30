@@ -2,7 +2,7 @@ import { useState } from "react";
 import data from "../../data/publicContributions.json";
 import SelectData from "./SelectData";
 import OutputData from "./OutputData";
-import { Helmet } from "react-helmet-async";
+import SEO from "../common/SEO";
 
 const PublicContributions = ({ renderBody }) => {
   const [year, setYear] = useState("1");
@@ -14,47 +14,17 @@ const PublicContributions = ({ renderBody }) => {
 
   return (
     <>
-      <Helmet>
-        <title>Public Contributions | European Spirit of Youth Orchestra</title>
-        <meta
-          name="description"
-          content="Access detailed records of public contributions to ESYO from recent years. Select a year to view, with content available in Italian for administrative purposes."
-        />
-        <link rel="canonical" href="https://esyo.eu/publicontributions" />
-
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Public Contributions | European Spirit of Youth Orchestra"
-        />
-        <meta
-          property="og:description"
-          content="Access detailed records of public contributions to ESYO from recent years. Select a year to view, with content available in Italian for administrative purposes."
-        />
-        <meta property="og:url" content="https://esyo.eu/publicontributions" />
-        <meta
-          property="og:image"
-          content="https://esyo.eu/logo.png"
-        />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Public Contributions | European Spirit of Youth Orchestra"
-        />
-        <meta
-          name="twitter:description"
-          content="Access detailed records of public contributions to ESYO from recent years. Select a year to view, with content available in Italian for administrative purposes."
-        />
-        <meta
-          name="twitter:image"
-          content="https://esyo.eu/logo.png"
-        />
-      </Helmet>
+      <SEO
+        title="Public Contributions"
+        description="Access official records and administrative transparency reports of public contributions received by Scuola per Giovani Musicisti Europei (SGME) for the ESYO project."
+        keywords="ESYO public contributions, SGME transparency, administrative contributions Trieste"
+        canonical="https://esyo.eu/publicontributions"
+        ogType="website"
+      />
 
       <div className="container-xxl py-5">
-        <div className="container py-5 px-lg-5">
-          <p className="lg:text-justify">
+        <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-5xl mx-auto">
+          <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify mb-8">
             On this administrative transparency page you will find all public
             contributions received in recent years. To view the desired year,
             simply select it in the box below. For administrative reasons the

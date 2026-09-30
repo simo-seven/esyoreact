@@ -1,73 +1,40 @@
 import DonationsTestimonial from "./Testimonial";
 import data from "../../data/testimonials/donationsPage.json";
-import { Helmet } from "react-helmet-async";
+import SEO from "../common/SEO";
 
 const Donations = () => {
   const testimonials = data;
+
   return (
     <>
-      <Helmet>
-        <title>Donations | European Spirit of Youth Orchestra</title>
-        <meta
-          name="description"
-          content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
-        />
-        <link rel="canonical" href="https://esyo.eu/donations" />
+      <SEO
+        title="Donations & Support"
+        description="Support the European Spirit of Youth Orchestra. Your donation funds scholarships, travel, and tuition for talented young European musicians."
+        keywords="donate ESYO, music scholarships Europe, support youth orchestra, cultural donations"
+        canonical="https://esyo.eu/donations"
+        ogType="website"
+      />
 
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Donations | European Spirit of Youth Orchestra"
-        />
-        <meta
-          property="og:description"
-          content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
-        />
-        <meta property="og:url" content="https://esyo.eu/donations" />
-        <meta
-          property="og:image"
-          content="https://esyo.eu/logo.png"
-        />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Donations | European Spirit of Youth Orchestra"
-        />
-        <meta
-          name="twitter:description"
-          content="Support the European Spirit of Youth Orchestra. Your donation helps young musicians access educational projects, scholarships, and concert tours across Europe."
-        />
-        <meta
-          name="twitter:image"
-          content="https://esyo.eu/logo.png"
-        />
-      </Helmet>
-
-      <div className="container-xxl py-3 hidden md:block">
-        <div className="container py-3 px-lg-3">
-          <div className="wow fadeInUp" data-wow-delay="0.1s">
+      {/* Testimonials from former members */}
+      <section className="container-xxl py-4" aria-label="Former members testimonials">
+        <div className="container py-3 px-4 sm:px-lg-5">
+          <div className="text-center mb-6">
             <p className="section-title text-secondary justify-content-center">
-              What do former members say?
+              <span></span>Their Stories<span></span>
             </p>
+            <h2 className="text-center text-white text-2xl sm:text-3xl font-bold">
+              What do former members say?
+            </h2>
           </div>
-        </div>
-      </div>
-
-      <div
-        className="container-xxl py-2 wow fadeInUp hidden md:block"
-        data-wow-delay="0.1s"
-      >
-        <div className="container py-2 px-lg-2">
-          <div className="row">
-            <div className="col-lg-6">
+          <div className="row g-4">
+            <div className="col-12 col-lg-6">
               <DonationsTestimonial
                 testimonials={testimonials.filter(
                   (testimonial) => testimonial.column === "sx"
                 )}
               />
             </div>
-            <div className="col-lg-6">
+            <div className="col-12 col-lg-6">
               <DonationsTestimonial
                 testimonials={testimonials.filter(
                   (testimonial) => testimonial.column === "dx"
@@ -76,17 +43,20 @@ const Donations = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container-xxl py-3 mb-5">
-        <div className="container py-3 px-lg-3">
-          <div className="wow fadeInUp hidden md:block" data-wow-delay="0.1s">
-            <h1 className="text-center mb-5 text-white text-4xl">
-              Become an ESYO supporter
+      {/* Main Donation Section */}
+      <section className="container-xxl py-4 mb-5" aria-label="Become a Supporter">
+        <div className="container py-4 px-4 sm:px-lg-5 max-w-4xl mx-auto">
+          <div className="text-center mb-6">
+            <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-extrabold mb-3">
+              Become an ESYO Supporter
             </h1>
+            <div className="w-16 h-1 bg-[#f68642] mx-auto rounded-full"></div>
           </div>
-          <div className="py-3">
-            <p className="text-justify">
+
+          <div className="space-y-4 text-gray-300 text-base sm:text-lg leading-relaxed text-justify">
+            <p>
               Join us and support the European Spirit of Youth Orchestra and its
               talented young musicians. Your donation will help our young
               musicians to participate in all ESYO educational projects. With
@@ -96,86 +66,64 @@ const Donations = () => {
               the planned concert tours and to develop their musical and
               artistic skills.
             </p>
-            <p className="text-center beCareful mt-5 mb-5">
+            <p className="text-center text-[#f68642] font-semibold text-lg py-3">
               By donating, you are helping to make a real difference in the
-              lives of these young musicians. <br />
-              Thank you for your support!
+              lives of these young musicians. Thank you for your support!
             </p>
-            <p className="text-justify">
+            <p>
               For our young musicians ESYO is a life-changing experience. Your
               donation will help them reach their full potential and make a
               lasting impact on the world of music. To donate, please make a
               bank transfer to the following account:
             </p>
           </div>
-          <div className="py-3">
-            <p className="text-center">
-              Associazione Culturale SGME APS <br />
-              Bank: ZKB Credito Cooperativo di Trieste e Gorizia S.C. <br />
-              Address: Via Giosuè Carducci, 4, 34133 Trieste TS, Italia <br />
-              IBAN: IT11K0892802200010000053126 <br />
-              BIC: CCRTIT2TVOO
+
+          {/* Bank Transfer Details Box */}
+          <div className="my-8 p-6 sm:p-8 bg-[#1f1f1f] border border-[#f68642]/40 rounded-2xl shadow-xl text-center">
+            <h3 className="text-white font-bold text-lg sm:text-xl mb-3">
+              Associazione Culturale SGME APS
+            </h3>
+            <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-4">
+              <span className="text-gray-400">Bank:</span> ZKB Credito Cooperativo di Trieste e Gorizia S.C. <br />
+              <span className="text-gray-400">Address:</span> Via Giosuè Carducci, 4, 34133 Trieste TS, Italia
             </p>
-          </div>
-          <div className="py-3">
-            <p className="text-justify">
-              The ESYO is a unique educational project that brings together
-              young musicians from all over Europe to work with some of the
-              world's leading conductors and musicians. It offers a variety of
-              educational activities, including workshops, masterclasses, and
-              concerts.
-            </p>
-          </div>
-          <div className="container mt-5 mb-5">
-            <div className="hideOnMobile">
-              <p className="text-center text-uppercase text-white">
-                <span className="beCareful">3000&#x20AC;</span> full scholarship
+            <div className="inline-block bg-black/60 px-4 py-3 rounded-xl border border-white/10 text-left sm:text-center">
+              <p className="font-mono text-xs sm:text-sm text-[#f68642] font-bold mb-1">
+                IBAN: <span className="text-white select-all">IT11K0892802200010000053126</span>
               </p>
-              <p className="text-center">or</p>
-              <div className="row">
-                <div className="col-md-6 align-items-center">
-                  <div>
-                    <p className="beCareful alignend">
-                      50&#x20AC; <br />
-                      100&#x20AC; <br />
-                      250&#x20AC; <br />
-                      500&#x20AC;
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-6 d-flex align-items-center">
-                  <div>
-                    <p className="text-uppercase text-white">
-                      your donation <br /> can contribute <br /> to create{" "}
-                      <br /> scholarships
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="onlyMobile">
-              <p className="text-center text-uppercase text-white">
-                <span className="beCareful">3000&#x20AC;</span> full scholarship
-              </p>
-              <p className="text-center">or</p>
-              <p className="text-center text-uppercase text-white">
-                <span className="beCareful">50&#x20AC;</span>,{" "}
-                <span className="beCareful">100&#x20AC;</span>,{" "}
-                <span className="beCareful">250&#x20AC;</span> or{" "}
-                <span className="beCareful">500&#x20AC;</span> your donation can
-                contribute to create scholarships
+              <p className="font-mono text-xs sm:text-sm text-[#f68642] font-bold">
+                BIC / SWIFT: <span className="text-white select-all">CCRTIT2TVOO</span>
               </p>
             </div>
           </div>
-          <div className="py-3">
-            <p className="text-justify">
-              All received donations are helping to cover the costs of tuition,
-              travel, and accommodation of young musicians who would otherwise
-              not be able to participate in the ESYO.
+
+          {/* Scholarship contribution cards */}
+          <div className="my-8 p-6 sm:p-8 bg-black/40 border border-white/10 rounded-2xl text-center">
+            <p className="text-white text-xl sm:text-2xl font-bold uppercase mb-2">
+              <span className="text-[#f68642]">3,000&euro;</span> Full Scholarship
+            </p>
+            <p className="text-gray-400 text-sm uppercase tracking-wider mb-4">or</p>
+            <div className="flex flex-wrap justify-center items-center gap-3 mb-4">
+              {["50€", "100€", "250€", "500€"].map((amount) => (
+                <span
+                  key={amount}
+                  className="px-4 py-2 rounded-xl bg-white/10 text-[#f68642] font-bold text-lg border border-white/10"
+                >
+                  {amount}
+                </span>
+              ))}
+            </div>
+            <p className="text-gray-300 text-sm sm:text-base">
+              Your donation contributes directly to creating scholarships for deserving young artists.
             </p>
           </div>
+
+          <p className="text-gray-400 text-sm text-center italic">
+            All received donations help cover tuition, travel, and accommodation
+            for young musicians who would otherwise not be able to participate in ESYO.
+          </p>
         </div>
-      </div>
+      </section>
     </>
   );
 };

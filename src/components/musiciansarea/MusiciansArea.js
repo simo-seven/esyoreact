@@ -1,115 +1,111 @@
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SEO from "../common/SEO";
 import DownloadButtons from "../reusable/DownloadButtons";
 import docs from "../../data/musiciansarea/downloadButtons.json";
 
 const MusiciansArea = () => {
   return (
     <>
-      <Helmet>
-        <title>Musician's Area | European Spirit of Youth Orchestra</title>
-        <meta
-          name="description"
-          content="Finalize your application at Musician's Area and access vital resources for musicians. Stay informed with expert tips and timely updates."
-        />
-        <link rel="canonical" href="https://esyo.eu/musiciansarea" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Musician's Area | European Spirit of Youth Orchestra"
-        />
-        <meta
-          property="og:description"
-          content="Finalize your application at Musicians Area and access vital resources for musicians. Stay informed with expert tips and timely updates."
-        />
-        <meta property="og:url" content="https://esyo.eu/" />
-        <meta property="og:image" content="https://esyo.eu/logo.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Musician's Area | European Spirit of Youth Orchestra"
-        />
-        <meta
-          name="twitter:description"
-          content="Finalize your application at Musicians Area and access vital resources for musicians. Stay informed with expert tips and timely updates."
-        />
-        <meta name="twitter:image" content="https://esyo.eu/logo.png" />
-      </Helmet>
+      <SEO
+        title="Musician's Area"
+        description="Access official documentation, application finalization, and payment proofs upload for accepted members of the European Spirit of Youth Orchestra."
+        canonical="https://esyo.eu/musiciansarea"
+        ogType="website"
+      />
 
       <div className="container-xxl py-5">
-        <div className="container py-5 px-lg-5">
-          <p>
-            Hello and welcome to the
-            <span className="beCareful"> Musician's Area</span>!
-          </p>
-          <p className="mt-5 text-justify">
-            On this page, you will find all the documents you need to{" "}
-            <span className="beCareful">
-              download, complete, sign, and upload
-            </span>
-            . Completing these steps is essential to finalize your application
-            and secure your place in the European Spirit of Youth Orchestra.
-          </p>
-          {/* <p className="text-justify">
-            If you have any questions, you can reach out to us by replying to
-            the email that brought you here or by writing to us at{" "}
-            <a href="mailto:orchestra@esyo.eu" className="beCareful">
-              orchestra@esyo.eu
-            </a>
-            . We are here to assist you and ensure a smooth application process.{" "}
-          </p> */}
-
-          <h3 className="mt-5 text-white text-3xl">STEP 1</h3>
-          <p className="mt-2 text-justify">
-            Please download, complete, and sign the following documents.
-          </p>
-          <DownloadButtons buttons={docs} />
-
-          <h3 className="mt-5 text-white text-3xl">STEP 2</h3>
-          <p className="mt-2 text-justify">
-            It’s now time to upload all the completed and signed documents!
-          </p>
-          <div className="row justify-content-center mb-5">
-            <div className=" text-center">
-              <Link
-                to="https://forms.gle/UfgMCVNqU9SPwqoKA"
-                className="btn btn-secondary py-3 px-5 rounded-full me-3 animated slideInRight wow joinNow"
-              >
-                Finalize my application*
-              </Link>
-            </div>
-          </div>
-          <i className="text-justify">
-            *Please note: All required documents must be uploaded in order to
-            submit the form. All fields are mandatory. Errors resulting from
-            misreading or disregarding the official documents provided will not
-            be accepted.
-          </i>
-
-          <h3 className="mt-5 text-white text-3xl">STEP 3</h3>
-          <p className="mt-2 text-justify">
-            Please upload the proofs of payment here. If you are paying cash at your arrival in Sežana (SLO), you can skip this step.
-          </p>
-          <div className="row justify-content-center">
-            <div className=" text-center">
-              <Link
-                to="https://forms.gle/JGFxgQ1NUv5yxpd86"
-                className="btn btn-secondary py-3 px-5 rounded-full me-3 animated slideInRight wow joinNow"
-              >
-                Upload the proofs of payment
-              </Link>
-            </div>
-
-            <h3 className="mt-5 text-white text-3xl">STEP 4</h3>
-            <p className="mt-2 text-justify beCareful mb-5">
-              Do not forget to bring the original documents with you on the next
-              concert tour!
+        <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-extrabold mb-3">
+              Musician's Area
+            </h1>
+            <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto text-justify sm:text-center leading-relaxed">
+              Welcome to the official musician's area. Please download, complete,
+              sign, and upload the required documents to finalize your registration
+              and secure your place in the European Spirit of Youth Orchestra.
             </p>
+          </div>
 
-            <i className="mt-5">
-              See you soon, <br />
-              The ESYO team
-            </i>
+          <div className="space-y-8">
+            {/* Step 1 */}
+            <div className="bg-[#1f1f1f] border border-white/10 rounded-2xl p-6 sm:p-8 shadow-lg">
+              <span className="inline-block px-3 py-1 rounded-full bg-[#f68642] text-black text-xs font-bold uppercase tracking-wider mb-2">
+                Step 1
+              </span>
+              <h2 className="text-white text-xl sm:text-2xl font-bold mb-3">
+                Download and Complete Documents
+              </h2>
+              <p className="text-gray-300 text-sm sm:text-base mb-6 leading-relaxed">
+                Please download, complete, and sign all the following required documents:
+              </p>
+              <DownloadButtons buttons={docs} />
+            </div>
+
+            {/* Step 2 */}
+            <div className="bg-[#1f1f1f] border border-white/10 rounded-2xl p-6 sm:p-8 shadow-lg text-center">
+              <span className="inline-block px-3 py-1 rounded-full bg-[#f68642] text-black text-xs font-bold uppercase tracking-wider mb-2">
+                Step 2
+              </span>
+              <h2 className="text-white text-xl sm:text-2xl font-bold mb-3">
+                Upload Signed Documents
+              </h2>
+              <p className="text-gray-300 text-sm sm:text-base mb-6 max-w-xl mx-auto leading-relaxed">
+                Once signed, submit your complete package via the official registration portal.
+              </p>
+              <div className="mb-4">
+                <a
+                  href="https://forms.gle/UfgMCVNqU9SPwqoKA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-secondary py-3 px-8 rounded-full font-bold inline-block hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg"
+                >
+                  Finalize My Application*
+                </a>
+              </div>
+              <p className="text-gray-400 text-xs italic max-w-xl mx-auto">
+                *Please note: All required documents must be uploaded in order to
+                submit the form. Errors resulting from misreading official documents
+                will not be accepted.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div className="bg-[#1f1f1f] border border-white/10 rounded-2xl p-6 sm:p-8 shadow-lg text-center">
+              <span className="inline-block px-3 py-1 rounded-full bg-[#f68642] text-black text-xs font-bold uppercase tracking-wider mb-2">
+                Step 3
+              </span>
+              <h2 className="text-white text-xl sm:text-2xl font-bold mb-3">
+                Proof of Payment
+              </h2>
+              <p className="text-gray-300 text-sm sm:text-base mb-6 max-w-xl mx-auto leading-relaxed">
+                Please upload your proof of bank transfer here. If you are paying in cash upon arrival in Sežana (Slovenia), you can skip this step.
+              </p>
+              <div>
+                <a
+                  href="https://forms.gle/JGFxgQ1NUv5yxpd86"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-secondary py-3 px-8 rounded-full font-bold inline-block hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg"
+                >
+                  Upload Proof of Payment
+                </a>
+              </div>
+            </div>
+
+            {/* Step 4 */}
+            <div className="bg-[#1f1f1f] border border-[#f68642]/40 rounded-2xl p-6 sm:p-8 shadow-lg text-center">
+              <span className="inline-block px-3 py-1 rounded-full bg-[#f68642] text-black text-xs font-bold uppercase tracking-wider mb-2">
+                Step 4
+              </span>
+              <h2 className="text-white text-xl sm:text-2xl font-bold mb-3">
+                Bring Original Documents
+              </h2>
+              <p className="text-gray-200 text-base font-medium max-w-xl mx-auto mb-4">
+                Do not forget to bring the physical, original signed documents with you on the concert tour!
+              </p>
+              <p className="text-[#f68642] font-semibold text-base">
+                See you soon &bull; The ESYO Team
+              </p>
+            </div>
           </div>
         </div>
       </div>
