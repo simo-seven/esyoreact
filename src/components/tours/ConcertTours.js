@@ -70,7 +70,7 @@ const ConcertTours = () => {
             <div className="container py-5 px-lg-5">
               <div className="container-fluid">
                 <div className="row">
-                  <Repertoire programme={programme} />
+                  {/* <Repertoire programme={programme} /> */}
                   {/* <h1 className="text-center m-3 text-white text-4xl">
                     Soloists
                   </h1>
