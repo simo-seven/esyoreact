@@ -43,22 +43,16 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://esyo.eu/news/20260924</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://esyo.eu/news/20260927-united-together</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://esyo.eu/news/rank-2026-001</loc>
-    <lastmod>2026-04-20</lastmod>
+    <loc>https://esyo.eu/news/20260924</loc>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://esyo.eu/news/20260415-summer</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://esyo.eu/partners</loc>

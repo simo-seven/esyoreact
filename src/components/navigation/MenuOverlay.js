@@ -79,27 +79,41 @@ const MenuOverlay = ({
                 animationDelay: `${index * 60}ms`,
               }}
             >
-              <Link
-                to={element.to}
-                className="nav-link inline-block py-2 px-4 group transition duration-200"
-                onClick={() => {
-                  if (element.hasSubmenu) {
-                    changeElements(element.id);
-                  } else {
-                    handleClose();
-                  }
-                }}
-              >
-                <span className="text-[#f68642] group-hover:text-white font-bold text-2xl sm:text-3xl md:text-4xl transition-colors duration-200 flex items-center justify-center gap-3">
-                  {element.name}
-                  {element.hasSubmenu && (
-                    <FontAwesomeIcon
-                      icon={faAngleDoubleRight}
-                      className="text-lg sm:text-xl transform group-hover:translate-x-1 transition-transform duration-200"
-                    />
-                  )}
-                </span>
-              </Link>
+              {element.to.startsWith("http") ? (
+                <a
+                  href={element.to}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-link inline-block py-2 px-4 group transition duration-200"
+                  onClick={handleClose}
+                >
+                  <span className="text-[#f68642] group-hover:text-white font-bold text-2xl sm:text-3xl md:text-4xl transition-colors duration-200 flex items-center justify-center gap-3">
+                    {element.name}
+                  </span>
+                </a>
+              ) : (
+                <Link
+                  to={element.to}
+                  className="nav-link inline-block py-2 px-4 group transition duration-200"
+                  onClick={() => {
+                    if (element.hasSubmenu) {
+                      changeElements(element.id);
+                    } else {
+                      handleClose();
+                    }
+                  }}
+                >
+                  <span className="text-[#f68642] group-hover:text-white font-bold text-2xl sm:text-3xl md:text-4xl transition-colors duration-200 flex items-center justify-center gap-3">
+                    {element.name}
+                    {element.hasSubmenu && (
+                      <FontAwesomeIcon
+                        icon={faAngleDoubleRight}
+                        className="text-lg sm:text-xl transform group-hover:translate-x-1 transition-transform duration-200"
+                      />
+                    )}
+                  </span>
+                </Link>
+              )}
             </li>
           ))}
         </ul>

@@ -46,6 +46,11 @@
           "name": "Concert Tours",
           "to": "/concertours",
           "id": "22"
+        },
+        {
+          "name": "LEGATO Project",
+          "to": "https://legatomusic.netlify.app",
+          "id": "23"
         }
       ],
       "id": "20"

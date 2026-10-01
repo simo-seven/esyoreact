@@ -14,6 +14,7 @@ import Video from "./headers_footer/Video";
 // import ComingSoon from "./ComingSoon";
 import MobileConcerts from "./tours/MobileConcerts";
 import DesktopConcerts from "./tours/DesktopConcerts";
+import LegatoBanner from "./LegatoBanner";
 
 import data from "../data/concerts/venues.json";
 import SEO from "./common/SEO";
@@ -90,6 +91,7 @@ const Home = ({formatDate}) => {
           <DesktopConcerts concerts={concerts} bcg={"bckblack"}/>
         </>
       )}
+      <LegatoBanner />
       {/* if no concerts are displayed: first partners then testimonials */}
       <HomeTestimonials testimonials={dataTestimonials} bcg={""} />
       <PartnersCarousel sponsors={dataSponsors} bcg={"bckblack"} />
