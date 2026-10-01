@@ -2,10 +2,24 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Scale base font size everywhere slightly up for improved readability */
+html {
+  font-size: 17px;
+}
 
+@media (min-width: 640px) {
+  html {
+    font-size: 17.5px;
+  }
+}
 
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
 
-.orange{
+.orange {
   color: #f68642;
 }
 

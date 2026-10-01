@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const LegatoBanner = () => {
   return (
@@ -43,7 +43,7 @@ const LegatoBanner = () => {
           </div>
 
           {/* Action button to project website */}
-          <div className="flex flex-wrap items-center justify-center gap-4 mb-4">
+          <div className="flex flex-wrap items-center justify-center gap-4">
             <a
               href="https://legatomusic.netlify.app"
               target="_blank"
@@ -52,29 +52,6 @@ const LegatoBanner = () => {
             >
               <span>Visit LEGATO Website</span>
               <FontAwesomeIcon icon={faArrowRight} />
-            </a>
-          </div>
-
-          {/* Regulatory links */}
-          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-gray-400 mt-2">
-            <a
-              href="https://www.ita-slo.eu/en"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#f68642] hover:text-white transition-colors inline-flex items-center gap-1"
-            >
-              <span>www.ita-slo.eu</span>
-              <FontAwesomeIcon icon={faExternalLinkAlt} className="text-[10px]" />
-            </a>
-            <span>•</span>
-            <a
-              href="https://euro-go.eu/spf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#f68642] hover:text-white transition-colors inline-flex items-center gap-1"
-            >
-              <span>www.euro-go.eu/spf</span>
-              <FontAwesomeIcon icon={faExternalLinkAlt} className="text-[10px]" />
             </a>
           </div>
         </div>
