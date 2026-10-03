@@ -1,7 +1,5 @@
-// import AuditionPlaces from "./AuditionPlaces";
 import DownloadButtons from "../reusable/DownloadButtons";
 import AuditionsForm from "./AuditionsForm";
-// import places from "../../data/auditions/places.json";
 import buttons from "../../data/auditions/downloadButtons.json";
 import instruments from "../../data/auditions/instruments.json";
 import Instruments from "./Instruments";
@@ -31,85 +29,106 @@ const Auditions = ({ formatDate }) => {
       />
 
       {today > deadlineDate ? (
-        <div className="container-xxl py-5">
-          <div className="container py-5 px-lg-5">
+        <section className="container-xxl py-5 bckblack" aria-label="Auditions Closed">
+          <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
             <Expired deadline={deadline} formatDate={formatDate} />
           </div>
-        </div>
+        </section>
       ) : today < startDateDate ? (
-        <div className="container-xxl py-5">
-          <div className="container py-5 px-lg-5">
+        <section className="container-xxl py-5 bckblack" aria-label="Auditions Upcoming">
+          <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
             <UpcomingAuditions
               startDate={startDate}
               deadline={deadline}
               formatDate={formatDate}
             />
           </div>
-        </div>
+        </section>
       ) : (
-        <div className="container-xxl py-5">
-          <div className="container py-5 px-lg-5">
-            <p>
-              <span className="beCareful">Welcome</span> to the Auditions page!
-            </p>
-            <p className="text-justify">
-              The ESYO Summer Tour 2026 is scheduled to take place from
-              <span className="beCareful"> July 19 to August 9, 2026</span>. We
-              we have already finalized also the Winter Tour, which will run from{" "}
-              <span className="beCareful">
-                December 26, 2026, to January 6, 2027
-              </span>
-              . The music program of the summer tour has been already published in the{" "}
-              <Link to="/concertours" className="beCareful">
-                Concert Tour
-              </Link>{" "}
-              page.
-            </p>
+        <section className="container-xxl py-5 bckblack" aria-label="Auditions Content">
+          <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
+            {/* Header / Intro section */}
+            <div className="mb-6">
+              <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-2">
+                Season 2027 / 2028
+              </p>
+              <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                Auditions & Applications
+              </h1>
+              <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify mb-4">
+                <span className="beCareful">Welcome</span> to the Auditions page!
+              </p>
+              <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify mb-4">
+                The next ESYO tour is scheduled for{" "}
+                <span className="beCareful">Summer 2027</span>, followed by the
+                Winter Tour taking place{" "}
+                <span className="beCareful">between 2027 and 2028</span>. The
+                music program will be published on the{" "}
+                <Link to="/concertours" className="beCareful">
+                  Concert Tour
+                </Link>{" "}
+                page.
+              </p>
+            </div>
 
+            {/* Instruments Section */}
             <Instruments instruments={instruments} />
+
+            {/* Training Intro Section */}
             <Intro />
+
+            {/* Deadline Section */}
             <Deadline deadline={deadline} formatDate={formatDate} />
-            {/* <AuditionPlaces places={places} formatDate={formatDate} /> */}
-            <p className="mt-14 text-justify">
-              <span className="beCareful text-2xl">
-                How does the audition look like?
-              </span>
-            </p>
-            <p className="text-justify">
-              Candidates are asked to perform a short program (two, in the
-              character contrasting pieces) of their own choice (max. 5 - 7
-              min.) and will be selected both based on their performances as
-              well as of their team-working capabilities. The final decision
-              will be made by the Artistic Director in agreement with the ESYO
-              faculty members.
-            </p>
-            <p className="mt-10 text-justify">
-              <span className="beCareful text-2xl">
-                What happens after I submit the form?
-              </span>
-            </p>
-            <p className="text-justify mb-3">
-              {`After you submit your form, we will review your application. If the Artistic Director selects you, we will get in touch once the audition process is complete (after ${formatDate(
-                deadline
-              )}).`}
-            </p>
-            <p className="mt-14 text-justify">
-              <span className="beCareful text-2xl">
-                What else do I need to know?
-              </span>
-            </p>
-            <p className="text-justify mb-3">
-              Please take some time to carefully read through the{" "}
-              <span className="beCareful">
-                Regulations, Fees & Benefits, and Annual Program documents
-              </span>{" "}
-              before submitting your application to ensure you are fully
-              informed about the orchestra's policies and offerings.
-            </p>
-            <DownloadButtons buttons={buttons} />
+
+            {/* Audition Details & Questions */}
+            <section className="py-4" aria-label="Audition Details">
+              <div className="mb-6">
+                <h3 className="text-white text-2xl font-bold mb-2">
+                  How does the audition look like?
+                </h3>
+                <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify">
+                  Candidates are asked to perform a short program (two, in the
+                  character contrasting pieces) of their own choice (max. 5 - 7
+                  min.) and will be selected both based on their performances as
+                  well as of their team-working capabilities. The final decision
+                  will be made by the Artistic Director in agreement with the ESYO
+                  faculty members.
+                </p>
+              </div>
+
+              <div className="mb-6">
+                <h3 className="text-white text-2xl font-bold mb-2">
+                  What happens after I submit the form?
+                </h3>
+                <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify">
+                  {`After you submit your form, we will review your application. If the Artistic Director selects you, we will get in touch once the audition process is complete (after ${formatDate(
+                    deadline
+                  )}).`}
+                </p>
+              </div>
+
+              <div className="mb-6">
+                <h3 className="text-white text-2xl font-bold mb-2">
+                  What else do I need to know?
+                </h3>
+                <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify mb-4">
+                  Please take some time to carefully read through the{" "}
+                  <span className="beCareful">
+                    Regulations, Fees & Benefits, and Annual Program documents
+                  </span>{" "}
+                  before submitting your application to ensure you are fully
+                  informed about the orchestra's policies and offerings.
+                </p>
+                <div className="text-center pt-2">
+                  <DownloadButtons buttons={buttons} />
+                </div>
+              </div>
+            </section>
+
+            {/* Audition Form */}
             <AuditionsForm title={"Audition Form"} />
           </div>
-        </div>
+        </section>
       )}
     </>
   );

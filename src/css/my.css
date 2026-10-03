@@ -694,3 +694,36 @@ button, a {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* High-contrast dark form controls */
+.dark-input,
+.form-control.dark-input,
+select.form-control.dark-input {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.dark-input:focus,
+.form-control.dark-input:focus,
+select.form-control.dark-input:focus {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
+  border-color: #f68642 !important;
+  box-shadow: 0 0 0 0.2rem rgba(246, 134, 66, 0.25) !important;
+  outline: none !important;
+}
+
+.dark-input::placeholder,
+.form-control.dark-input::placeholder {
+  color: #8e8e8e !important;
+  opacity: 1 !important;
+}
+
+select.form-control.dark-input option {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+
