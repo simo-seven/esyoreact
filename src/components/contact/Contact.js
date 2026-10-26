@@ -2,7 +2,7 @@ import Form from "./Form";
 import SEO from "../common/SEO";
 import people from "../../data/contactPeople.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
