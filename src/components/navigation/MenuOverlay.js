@@ -118,7 +118,7 @@ const MenuOverlay = ({
           ))}
         </ul>
 
-        {/* Quick Social & Contact links inside overlay */}
+        {/* Quick Social links inside overlay */}
         <div className="mt-10 pt-6 border-t border-white/10 flex items-center gap-6 text-white/70 text-sm">
           <a
             href="https://www.instagram.com/esyo_eu/"
@@ -138,14 +138,6 @@ const MenuOverlay = ({
             className="hover:text-[#f68642] transition-colors"
           >
             YouTube
-          </a>
-          <span>•</span>
-          <a
-            href="mailto:segreteria@esyo.eu"
-            aria-label="ESYO Email"
-            className="hover:text-[#f68642] transition-colors"
-          >
-            Contact
           </a>
         </div>
       </div>

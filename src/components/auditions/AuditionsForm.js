@@ -6,9 +6,6 @@ const AuditionsForm = ({ title = "Audition Form" }) => {
   return (
     <section className="py-5 border-t border-white/10" aria-label="Audition Form Section">
       <div className="text-center mb-6">
-        <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-2 justify-content-center">
-          <span></span>Registration<span></span>
-        </p>
         <h1 className="text-center text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-3">
           {title}
         </h1>

@@ -2,6 +2,7 @@
   {
     "city": "Trieste, Italy",
     "date": "22 September",
+    "dateISO": "2026-09-22",
     "venue": "Teatro Miela, Piazza Duca degli Abruzzi 3",
     "time": "20.30",
     "description": "Voyage d’un musicien — Free entry",
@@ -13,6 +14,7 @@
   {
     "city": "Trieste, Italy",
     "date": "14 October",
+    "dateISO": "2026-10-14",
     "venue": "Teatro Miela, Piazza Duca degli Abruzzi 3",
     "time": "20.30",
     "description": "Wood Still Says Nothing — Free entry",
@@ -24,10 +26,12 @@
   {
     "city": "Trieste, Italy",
     "date": "9 November",
+    "dateISO": "2026-11-09",
     "venue": "Magazzino 26 (Sala Luttazzi)",
     "time": "20.30",
     "description": "Suoni dei Balcani — Free entry",
     "program": "Concert by the symphony orchestra of the “Davorin Jenko” Music School of Belgrade",
+    "flyer": "/files/flyers/programma novembre_esecOK.pdf",
     "special_guest": "",
     "private": false,
     "id": 3
@@ -35,6 +39,7 @@
   {
     "city": "Trieste, Italy",
     "date": "10 December",
+    "dateISO": "2026-12-10",
     "venue": "MIB Trieste School of Management, Largo Caduti di Nasiriya",
     "time": "20.30",
     "description": "Buon Natale in musica — Free entry",

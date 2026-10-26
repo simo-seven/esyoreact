@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 const Expired = ({ deadline, formatDate }) => {
   return (
     <div className="py-5 text-center max-w-2xl mx-auto">
-      <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-2 justify-content-center">
-        <span></span>Auditions Notice<span></span>
-      </p>
       <h1 className="text-white text-3xl sm:text-4xl font-bold mb-4">
         Auditions Are Closed
       </h1>

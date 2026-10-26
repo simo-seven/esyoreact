@@ -11,8 +11,8 @@ import SEO from "../common/SEO";
 import { Link } from "react-router-dom";
 
 const Auditions = ({ formatDate }) => {
-  const startDate = "2025-12-01";
-  const deadline = "2026-03-31";
+  const startDate = "2026-12-01";
+  const deadline = "2027-03-01";
 
   const today = new Date();
   const deadlineDate = new Date(deadline);
@@ -29,13 +29,13 @@ const Auditions = ({ formatDate }) => {
       />
 
       {today > deadlineDate ? (
-        <section className="container-xxl py-5 bckblack" aria-label="Auditions Closed">
+        <section className="container-xxl py-5" aria-label="Auditions Closed">
           <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
             <Expired deadline={deadline} formatDate={formatDate} />
           </div>
         </section>
       ) : today < startDateDate ? (
-        <section className="container-xxl py-5 bckblack" aria-label="Auditions Upcoming">
+        <section className="container-xxl py-5" aria-label="Auditions Upcoming">
           <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
             <UpcomingAuditions
               startDate={startDate}
@@ -45,13 +45,10 @@ const Auditions = ({ formatDate }) => {
           </div>
         </section>
       ) : (
-        <section className="container-xxl py-5 bckblack" aria-label="Auditions Content">
+        <section className="container-xxl py-5" aria-label="Auditions Content">
           <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
             {/* Header / Intro section */}
             <div className="mb-6">
-              <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-2">
-                Season 2027 / 2028
-              </p>
               <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
                 Auditions & Applications
               </h1>

@@ -12,6 +12,11 @@ const PublicContributions = ({ renderBody }) => {
     return item ? item.body : "No matching id found";
   };
 
+  const getYearLabel = (id) => {
+    const item = data.find((item) => item.id === id);
+    return item ? item.year : "";
+  };
+
   return (
     <>
       <SEO
@@ -22,25 +27,26 @@ const PublicContributions = ({ renderBody }) => {
         ogType="website"
       />
 
-      <div className="container-xxl py-5">
-        <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-5xl mx-auto">
-          <p className="text-gray-300 text-base sm:text-lg leading-relaxed text-justify mb-8">
-            On this administrative transparency page you will find all public
-            contributions received in recent years. To view the desired year,
-            simply select it in the box below. For administrative reasons the
-            text is given in Italian.
+      <section className="container-xxl py-5" aria-label="Public Contributions">
+        <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto space-y-6">
+          <p className="text-gray-300 text-base leading-relaxed text-justify mb-2">
+            On this administrative transparency page you will find official records of all public
+            contributions received in recent years. To view the desired year, simply select it below.
+            For administrative and legal compliance in Italy, records are published in Italian.
           </p>
-          <div className="row justify-content-center">
-            <SelectData data={data} setYear={setYear} />
 
+          <SelectData data={data} year={year} setYear={setYear} />
+
+          <div className="pt-6 border-t border-white/10">
             <OutputData
               renderBody={renderBody}
               getIdBody={getIdBody}
               year={year}
+              yearLabel={getYearLabel(year)}
             />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

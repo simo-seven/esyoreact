@@ -61,13 +61,10 @@ const MusiciansArea = () => {
         ogType="website"
       />
 
-      <section className="container-xxl py-5 bckblack" aria-label="Musician's Area">
+      <section className="container-xxl py-5" aria-label="Musician's Area">
         <div className="container py-4 sm:py-5 px-4 sm:px-lg-5 max-w-4xl mx-auto">
           {/* Header */}
           <div className="mb-6">
-            <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-2">
-              Accepted Members Portal
-            </p>
             <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
               Musician's Area
             </h1>
@@ -84,9 +81,6 @@ const MusiciansArea = () => {
               <div className="mb-3">
                 <FontAwesomeIcon icon={faLock} className="text-[#f68642] text-3xl" />
               </div>
-              <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-2 justify-content-center">
-                <span></span>Protected Section<span></span>
-              </p>
               <h2 className="text-white text-2xl sm:text-3xl font-bold mb-3">
                 Passcode Required
               </h2>
@@ -159,11 +153,8 @@ const MusiciansArea = () => {
 
               {/* Step 1 */}
               <section className="py-3" aria-label="Step 1">
-                <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-1">
-                  Step 1
-                </p>
                 <h2 className="text-white text-2xl sm:text-3xl font-bold mb-2">
-                  Download and Complete Documents
+                  <span className="text-[#f68642] me-2">Step 1:</span> Download and Complete Documents
                 </h2>
                 <p className="text-gray-300 text-base sm:text-lg mb-4 leading-relaxed">
                   Please download, complete, and sign all the following required documents:
@@ -177,11 +168,8 @@ const MusiciansArea = () => {
 
               {/* Step 2 */}
               <section className="py-3 text-center sm:text-start" aria-label="Step 2">
-                <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-1">
-                  Step 2
-                </p>
                 <h2 className="text-white text-2xl sm:text-3xl font-bold mb-2">
-                  Upload Signed Documents
+                  <span className="text-[#f68642] me-2">Step 2:</span> Upload Signed Documents
                 </h2>
                 <p className="text-gray-300 text-base sm:text-lg mb-4 leading-relaxed">
                   Once signed, submit your complete package via the official registration portal.
@@ -207,11 +195,8 @@ const MusiciansArea = () => {
 
               {/* Step 3 */}
               <section className="py-3 text-center sm:text-start" aria-label="Step 3">
-                <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-1">
-                  Step 3
-                </p>
                 <h2 className="text-white text-2xl sm:text-3xl font-bold mb-2">
-                  Proof of Payment
+                  <span className="text-[#f68642] me-2">Step 3:</span> Proof of Payment
                 </h2>
                 <p className="text-gray-300 text-base sm:text-lg mb-4 leading-relaxed">
                   Please upload your proof of bank transfer here. If you are paying in cash upon arrival in Sežana (Slovenia), you can skip this step.
@@ -232,11 +217,8 @@ const MusiciansArea = () => {
 
               {/* Step 4 */}
               <section className="py-3 text-center sm:text-start" aria-label="Step 4">
-                <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-1">
-                  Step 4
-                </p>
                 <h2 className="text-white text-2xl sm:text-3xl font-bold mb-2">
-                  Bring Original Documents
+                  <span className="text-[#f68642] me-2">Step 4:</span> Bring Original Documents
                 </h2>
                 <p className="text-gray-200 text-base sm:text-lg mb-2 leading-relaxed">
                   Do not forget to bring the physical, original signed documents with you on the concert tour!

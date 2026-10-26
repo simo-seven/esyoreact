@@ -26,9 +26,6 @@ const Instruments = ({ instruments }) => {
 
   return (
     <section className="py-4 border-t border-white/10" aria-label="Available Positions">
-      <p className="section-title text-[#f68642] uppercase tracking-wider text-sm font-semibold mb-2">
-        Open Positions
-      </p>
       <div className="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
         <div>
           <h2 className="text-white text-2xl sm:text-3xl font-bold mb-1">
